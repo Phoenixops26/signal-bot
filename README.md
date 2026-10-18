@@ -18,9 +18,7 @@ Go to github.com and sign up. The free plan is all you need.
 - Tick **Add a README file** → **Create repository**.
 
 ### 3. Upload the files
-- Unzip `signal-bot.zip` on your computer.
-- In your new repository click **Add file → Upload files**.
-- Drag in **everything inside** the unzipped folder: `bot`, `docs`, `tests`, `run.py` and `README.md`. Then click **Commit changes**.
+In your repository click **Add file → Upload files**. Drag in `run.py`, `index.html`, `simulate.py` and `README.md`, then click **Commit changes**. There are no folders to upload. The bot creates its own `data` and `docs` folders on the first run.
 
 ### 4. Add the hourly schedule (one file, by hand)
 Macs and Windows hide folders starting with a dot, so the schedule file usually doesn't upload. Add it like this:
@@ -36,17 +34,17 @@ Macs and Windows hide folders starting with a dot, so the schedule file usually 
 **Actions** tab → **Hourly signal run** → **Run workflow** → **Run workflow**. A green tick means it worked, after about 2 minutes. After that it runs by itself at 7 minutes past every hour.
 
 ### 7. Turn on the dashboard
-**Settings → Pages →** Source: **Deploy from a branch** → Branch: **main**, folder **/docs** → **Save**.
+**Settings → Pages →** Source: **Deploy from a branch** → Branch: **main**, folder **/ (root)** → **Save**.
 After a minute your dashboard is at `https://YOUR-USERNAME.github.io/signal-bot/`. Add it to your phone's home screen.
 
 ### Private option
-Make the repository **Private** and skip step 7. Instead, in Cloudflare go to **Workers & Pages → Create → Pages → Connect to Git**. Pick the repo, leave the build command empty and set the output folder to `docs`. Cloudflare can also put the dashboard behind a login (Zero Trust → Access).
+Make the repository **Private** and skip step 7. Instead, in Cloudflare go to **Workers & Pages → Create → Pages → Connect to Git**. Pick the repo, leave the build command empty and leave the output folder empty. Cloudflare can also put the dashboard behind a login (Zero Trust → Access).
 
 ---
 
 ## Changing how it trades
 
-Every setting is in **`bot/config.py`**, with a comment on each line. Edit it on GitHub with the pencil icon. Common ones:
+Every setting is in the **CONFIG** section at the top of **`run.py`**, with a comment on each line. Open `run.py` on GitHub and click the pencil icon to edit it. Common ones:
 
 | Setting | Default | Meaning |
 |---|---|---|
@@ -100,7 +98,7 @@ To reset the paper account, delete `data/state.json`.
 - **Whale selling is estimated from price and volume.** The bot flags heavy-volume dump bars and days when most volume is selling. It does not see on-chain wallets.
 - **Narrative lists are fixed.** New coins land in "Other" until you add them.
 - **GitHub's hourly schedule can run 5–20 minutes late** at busy times. That's fine for this strategy.
-- **The simulator (`tests/simulate.py`) uses fake prices.** It proves the rules work, not that the strategy makes money.
+- **The simulator (`simulate.py`) uses fake prices.** It proves the rules work, not that the strategy makes money.
 - Run it on paper for at least 2–3 months before trusting it. Before any real money goes near it, it would need real-order code, exchange API keys and a careful review. It deliberately has none of that.
 
 This is a mechanical scoring model, not financial advice.
@@ -108,15 +106,10 @@ This is a mechanical scoring model, not financial advice.
 ## Files
 
 ```
-run.py                     one hourly run (python run.py, or --mock for test data)
-bot/config.py              all settings
-bot/data.py                Coinbase public data + simulated test market
-bot/analysis.py            steps 1-6
-bot/portfolio.py           steps 7-8 (paper trades)
-bot/report.py              step 9 (dashboard JSON)
-docs/index.html            the dashboard
-docs/report.json           latest results (written every hour)
-data/state.json            paper account (written every hour)
-tests/simulate.py          hour-by-hour test over a simulated market
+run.py                         the whole bot: settings at the top, then steps 1-9
+index.html                     the dashboard
+simulate.py                    hour-by-hour test over a simulated market
+docs/report.json               latest results (created and updated every hour)
+data/state.json                paper account (created and updated every hour)
 .github/workflows/hourly.yml   the hourly schedule
 ```

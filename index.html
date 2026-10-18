@@ -168,7 +168,12 @@ function render(){
 async function load(){
   try{
     if(window.__REPORT__){R=window.__REPORT__;}
-    else{const res=await fetch("report.json?t="+Date.now(),{cache:"no-store"}); if(!res.ok)throw new Error(res.status); R=await res.json();}
+    else{
+      let res=null;
+      for(const u of ["docs/report.json","report.json"]){
+        try{const x=await fetch(u+"?t="+Date.now(),{cache:"no-store"}); if(x.ok){res=x;break;}}catch(e){}
+      }
+      if(!res)throw new Error("no report"); R=await res.json();}
     if(filter==="STRONG BUY"&&!R.signals_summary["STRONG BUY"])filter="BUY";
     render();
   }catch(e){$("#app").innerHTML='<h1>Altcoin Signal Desk</h1><p class="sub">No report yet. It appears after the first hourly run.</p>';}

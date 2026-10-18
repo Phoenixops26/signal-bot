@@ -1,21 +1,15 @@
 """
-Run the bot hour-by-hour over a simulated market to check every rule works.
+Test the bot hour-by-hour over a SIMULATED market (fake prices).
 
-    python tests/simulate.py --days 30
+    python simulate.py --days 30
 
-Uses fake prices only. Results say nothing about real-market profitability.
+Proves the rules work. Says nothing about real-market profitability.
 """
 import argparse
 import json
-import os
-import sys
 import time
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import run  # noqa: E402
-from bot import portfolio  # noqa: E402
-from bot.config import CONFIG as CFG  # noqa: E402
-from bot.data import HOUR, MockClient  # noqa: E402
+import run
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--days", type=int, default=30)
@@ -23,26 +17,26 @@ ap.add_argument("--start", type=int, default=1776000000)
 ap.add_argument("--out", default="sim_report.json")
 args = ap.parse_args()
 
+CFG = run.CFG
 run.QUIET = True
-start = args.start // HOUR * HOUR
-end = start + args.days * 24 * HOUR
+start = args.start // run.HOUR * run.HOUR
+end = start + args.days * 24 * run.HOUR
 tickers = sorted({t for m in CFG["narratives"].values() for t in m}
                  | set(CFG["benchmarks"]) | {f"ALT{i}" for i in range(15)})
-client = MockClient(tickers, now=start, horizon=end)
-state = portfolio.new_state(CFG, start)
+client = run.MockClient(tickers, now=start, horizon=end)
+state = run.new_state(CFG, start)
 all_actions = []
 t0 = time.time()
-for now in range(start, end + 1, HOUR):
+for now in range(start, end + 1, run.HOUR):
     client.now = now
     rep, actions = run.run_once(client, state, now)
     all_actions += actions
-    # Invariants - the rules must never be broken
-    eq = portfolio.equity(state)
+    eq = run.equity(state)
     assert state["cash"] >= -1e-6, f"negative cash at {now}"
     assert len(state["positions"]) <= CFG["max_open_positions"], "too many positions"
     if any(a["action"] == "BUY" for a in actions):
-        assert portfolio.exposure(state) <= eq * CFG["max_total_exposure_pct"] / 100 + 1, "exposure cap"
-        for n, v in portfolio.narrative_exposure(state).items():
+        assert run.exposure(state) <= eq * CFG["max_total_exposure_pct"] / 100 + 1, "exposure cap"
+        for n, v in run.narrative_exposure(state).items():
             assert v <= eq * CFG["max_narrative_exposure_pct"] / 100 + 1, f"narrative cap {n}"
         for a in actions:
             if a["action"] == "BUY":
@@ -51,14 +45,13 @@ for now in range(start, end + 1, HOUR):
 with open(args.out, "w") as fh:
     json.dump(rep, fh, indent=1)
 
-kinds = {}
+kinds, reasons = {}, {}
 for a in all_actions:
     kinds[a["action"]] = kinds.get(a["action"], 0) + 1
-reasons = {}
 for c in state["closed"]:
     reasons[c["exit_reason"]] = reasons.get(c["exit_reason"], 0) + 1
 p = rep["portfolio"]
-print(f"Simulated {args.days} days ({(end-start)//HOUR+1} hourly runs) in {time.time()-t0:.0f}s")
+print(f"Simulated {args.days} days ({(end-start)//run.HOUR+1} hourly runs) in {time.time()-t0:.0f}s")
 print("Actions:", kinds)
 print("Exit reasons:", reasons)
 print(f"Final ${p['portfolio_value']:,.2f}  all-time {p['pnl']['all_time']}  "
