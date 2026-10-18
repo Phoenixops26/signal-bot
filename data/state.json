@@ -1,0 +1,13 @@
+{
+ "cash": 10000.0,
+ "positions": {},
+ "closed": [],
+ "equity_history": [
+  {
+   "t": 1792358441,
+   "equity": 10000.0
+  }
+ ],
+ "created_at": 1792358441,
+ "last_run": 1792358441
+}
