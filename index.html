@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Altcoin Signal Desk</title>
+<style>
+:root{
+  --bg:#0d1117;--panel:#151b23;--line:#262f3b;--text:#e6edf3;--muted:#8b97a5;
+  --up:#3fb950;--down:#f85149;--warn:#d29922;--accent:#58a6ff;
+  --sb:#1f6f3f;--b:#2a5d3a;--h:#3a4250;--r:#6b4b16;--s:#6e2328;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:16px 16px 48px}
+h1{font-size:19px;margin:0}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:26px 0 10px;font-weight:600}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--h);letter-spacing:.04em}
+.badge.mock{background:var(--warn);color:#111}
+.badge.paper{background:var(--accent);color:#04121f}
+.sub{color:var(--muted);font-size:12px;margin-top:4px}
+.banner{margin-top:12px;padding:10px 12px;border-radius:8px;background:#3b2b05;border:1px solid var(--warn);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px}
+.k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.v{font-size:20px;font-weight:650;margin-top:2px;font-variant-numeric:tabular-nums}
+.up{color:var(--up)}.down{color:var(--down)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
+.chip.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.sig{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;white-space:nowrap}
+.sig.STRONG{background:var(--sb)}.sig.BUY{background:var(--b)}.sig.HOLD{background:var(--h)}
+.sig.REDUCE{background:var(--r)}.sig.SELL{background:var(--s)}
+.list{display:flex;flex-direction:column;gap:8px}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.row-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.t{font-weight:700;font-size:15px}
+.n{color:var(--muted);font-size:12px}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 10px;margin-top:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.levels span{color:var(--muted)}
+.bars{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:8px}
+.bar{height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.barlbl{font-size:10px;color:var(--muted);margin-top:2px}
+.why{font-size:12px;color:var(--warn);margin-top:6px}
+.nar{display:grid;grid-template-columns:1fr 46px;align-items:center;gap:4px 10px}
+.track{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin-top:3px}
+.track i{display:block;height:100%;border-radius:4px}
+svg{display:block;width:100%}
+.empty{color:var(--muted);font-size:13px;padding:6px 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:560px){.two{grid-template-columns:1fr}.v{font-size:18px}}
+.foot{color:var(--muted);font-size:11px;margin-top:30px}
+.more{margin-top:10px;width:100%;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:13px}
+</style>
+</head>
+<body>
+<main id="app"><p class="sub">Loading report…</p></main>
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const usd=(x,d=2)=>x==null?"—":(x<0?"-":"")+"$"+Math.abs(x).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});
+const px=x=>x==null?"—":"$"+(x>=1?x.toLocaleString(undefined,{maximumFractionDigits:x>=100?2:4}):Number(x).toPrecision(4));
+const pct=(x,s=true)=>x==null?"—":(s&&x>0?"+":"")+x.toFixed(2)+"%";
+const cls=x=>x>0?"up":x<0?"down":"";
+const sigCls=s=>s==="STRONG BUY"?"STRONG":s;
+let R=null,filter="STRONG BUY",shown=15;
+
+function kpi(k,v,c=""){return `<div class="card"><div class="k">${k}</div><div class="v ${c}">${v}</div></div>`}
+function pl(k,o){return kpi(k,`${usd(o.usd)}<div class="n ${cls(o.usd)}">${pct(o.pct)}</div>`,cls(o.usd))}
+
+function curve(points){
+  if(!points||points.length<2)return '<div class="empty">Equity curve appears after a few hourly runs.</div>';
+  const W=600,H=120,ys=points.map(p=>p.equity),mn=Math.min(...ys),mx=Math.max(...ys),rg=(mx-mn)||1;
+  const d=ys.map((y,i)=>`${i?"L":"M"}${(i/(ys.length-1)*W).toFixed(1)},${(H-6-(y-mn)/rg*(H-12)).toFixed(1)}`).join("");
+  const col=ys[ys.length-1]>=ys[0]?"var(--up)":"var(--down)";
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="height:120px"><path d="${d}" fill="none" stroke="${col}" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>
+  <div class="row-h n" style="margin-top:4px"><span>${usd(mn,0)} low</span><span>${points.length} hourly points</span><span>${usd(mx,0)} high</span></div>`;
+}
+
+function oppRow(o){
+  const s=o.scores,names=[["Trend",s.trend],["RS",s.relative_strength],["Narr",s.narrative],["Vol",s.volume_expansion],["Risk",s.risk_profile]];
+  return `<div class="row">
+   <div class="row-h"><div><span class="t">${esc(o.ticker)}</span> <span class="n">#${o.rank} · ${esc(o.narrative)}</span></div>
+   <span class="sig ${sigCls(o.signal)}">${esc(o.signal)} · ${o.confidence}</span></div>
+   <div class="levels"><div><span>Entry</span><br>${px(o.entry)}</div><div><span>Stop</span><br>${px(o.stop_loss)} <span>(-${o.stop_distance_pct}%)</span></div><div><span>R:R</span><br>${o.risk_reward}</div>
+   <div><span>Target 1</span><br>${px(o.target_1)}</div><div><span>Target 2</span><br>${px(o.target_2)}</div><div><span>24h / 7d</span><br><b class="${cls(o.market.change_24h_pct)}">${pct(o.market.change_24h_pct)}</b> / <b class="${cls(o.market.change_7d_pct)}">${pct(o.market.change_7d_pct)}</b></div></div>
+   <div class="bars">${names.map(([n,v])=>`<div><div class="bar"><i style="width:${v}%"></i></div><div class="barlbl">${n} ${Math.round(v)}</div></div>`).join("")}</div>
+   ${o.risk_filter.passed?"":`<div class="why">⚠ ${o.risk_filter.reasons.map(esc).join(" · ")}</div>`}
+  </div>`;
+}
+
+function posRow(p){
+  const tags=[p.stop_at_breakeven?"Stop at breakeven":null,p.target_1_hit?"T1 hit · trailing":null].filter(Boolean);
+  return `<div class="row"><div class="row-h"><div><span class="t">${esc(p.ticker)}</span> <span class="n">${esc(p.narrative)} · ${p.weight_pct}% of book</span></div>
+  <b class="${cls(p.total_pnl_usd)}">${usd(p.total_pnl_usd)} · ${p.r_multiple}R</b></div>
+  <div class="levels"><div><span>Entry</span><br>${px(p.entry)}</div><div><span>Now</span><br>${px(p.current_price)}</div><div><span>Value</span><br>${usd(p.value_usd)}</div>
+  <div><span>Stop</span><br>${px(p.stop_loss)}</div><div><span>Target 1</span><br>${px(p.target_1)}</div><div><span>Target 2</span><br>${px(p.target_2)}</div></div>
+  ${tags.length?`<div class="n" style="margin-top:6px">${tags.join(" · ")}</div>`:""}</div>`;
+}
+
+function perfList(arr){
+  if(!arr.length)return '<div class="empty">None yet.</div>';
+  return arr.map(x=>`<div class="row-h" style="padding:5px 0;border-bottom:1px solid var(--line)"><span><b>${esc(x.ticker)}</b> <span class="n">${x.status}</span></span><span class="${cls(x.pnl_usd)}">${usd(x.pnl_usd)} · ${x.r_multiple}R</span></div>`).join("");
+}
+
+function render(){
+  const r=R,p=r.portfolio,ex=r.execution;
+  const opps=r.opportunities.filter(o=>filter==="ALL"||o.signal===filter);
+  const narMax=100;
+  const updated=new Date(r.generated_at);
+  const ageMin=Math.round((Date.now()-updated)/60000);
+  $("#app").innerHTML=`
+  <div class="top"><div><h1>Altcoin Signal Desk</h1>
+   <div class="sub">Updated ${updated.toLocaleString()} ${ageMin>90&&r.mode!=="mock"?`<b class="down">(${ageMin} min ago — check the schedule)</b>`:""} · ${esc(r.data_source)}</div></div>
+   <span class="badge ${r.mode}">${r.mode==="mock"?"SIMULATED DATA":"PAPER TRADING"}</span></div>
+  ${r.mode==="mock"?'<div class="banner">These numbers come from a simulated test market, not Coinbase. They show how the dashboard works only.</div>':""}
+
+  <h2>Portfolio</h2>
+  <div class="grid">
+   ${kpi("Portfolio value",usd(p.portfolio_value))}
+   ${pl("Daily P/L",p.pnl.daily)}${pl("Weekly P/L",p.pnl.weekly)}${pl("Monthly P/L",p.pnl.monthly)}
+   ${kpi("Win rate",p.win_rate_pct==null?"—":p.win_rate_pct+"%")}
+   ${kpi("Closed trades",p.closed_trades+(p.avg_r_multiple!=null?`<div class="n">avg ${p.avg_r_multiple}R</div>`:""))}
+   ${kpi("Invested",p.exposure_pct+"%"+`<div class="n">${usd(p.cash,0)} cash</div>`)}
+   ${pl("Since start",p.pnl.all_time)}
+  </div>
+  <div class="card" style="margin-top:10px">${curve(r.equity_curve)}</div>
+
+  <h2>Open positions (${p.open_positions.length})</h2>
+  <div class="list">${p.open_positions.length?p.open_positions.map(posRow).join(""):'<div class="empty">No open positions. The bot only buys when confidence &gt; '+ex.rules.min_confidence+' and R:R &gt; '+ex.rules.min_risk_reward+'.</div>'}</div>
+
+  <h2>This hour</h2>
+  <div class="card">${ex.actions_this_run.length?ex.actions_this_run.map(a=>`<div class="row-h" style="padding:4px 0"><span><b>${esc(a.action)}</b> ${esc(a.ticker)}</span><span class="n">${px(a.price)} ${a.reason?"· "+esc(a.reason):""} ${a.pnl_usd!=null?`<b class="${cls(a.pnl_usd)}">${usd(a.pnl_usd)}</b>`:""}</span></div>`).join(""):'<div class="empty">No trades this hour.</div>'}
+  ${ex.strong_buys_not_taken.length?`<div class="n" style="margin-top:8px">Strong buys skipped: ${ex.strong_buys_not_taken.map(s=>esc(s.ticker)+" ("+esc(s.reason)+")").join(", ")}</div>`:""}</div>
+
+  <h2>Signals</h2>
+  <div class="chips">${["STRONG BUY","BUY","HOLD","REDUCE","SELL","ALL"].map(k=>`<button class="chip ${filter===k?"on":""}" data-f="${k}">${k} ${k==="ALL"?r.opportunities.length:r.signals_summary[k]}</button>`).join("")}</div>
+  <div class="list" style="margin-top:10px">${opps.length?opps.slice(0,shown).map(oppRow).join(""):'<div class="empty">No coins in this group right now.</div>'}</div>
+  ${opps.length>shown?`<button class="more" id="more">Show more (${opps.length-shown})</button>`:""}
+
+  <h2>Narrative strength</h2>
+  <div class="card nar">${r.narratives.map(n=>`<div><div class="row-h"><span>${esc(n.narrative)}</span><span class="n">${n.members.length} coins · 7d ${pct(n.avg_7d_return_pct)}</span></div>
+    <div class="track"><i style="width:${n.score/narMax*100}%;background:${n.score>=60?"var(--up)":n.score>=45?"var(--accent)":"var(--down)"}"></i></div></div><b style="text-align:right">${Math.round(n.score)}</b>`).join("")}</div>
+
+  <div class="two" style="margin-top:0">
+   <div><h2>Exposure by narrative</h2><div class="card">${p.exposure_by_narrative.length?p.exposure_by_narrative.map(e=>`<div class="row-h" style="padding:4px 0"><span>${esc(e.narrative)}</span><span>${e.pct_of_portfolio}% · ${usd(e.value_usd,0)}</span></div>`).join(""):'<div class="empty">Nothing invested.</div>'}</div></div>
+   <div><h2>Market</h2><div class="card">${Object.entries(r.market.benchmarks).map(([k,b])=>`<div class="row-h" style="padding:4px 0"><b>${k}</b><span>${px(b.price)} <span class="${cls(b.change_24h_pct)}">${pct(b.change_24h_pct)}</span> <span class="n">7d</span> <span class="${cls(b.change_7d_pct)}">${pct(b.change_7d_pct)}</span></span></div>`).join("")}
+    <div class="n" style="margin-top:6px">${r.market.breadth_pct_in_uptrend}% of ${r.market.universe_size} alts in an uptrend</div></div></div>
+  </div>
+
+  <div class="two">
+   <div><h2>Largest winners</h2><div class="card">${perfList(p.largest_winners)}</div></div>
+   <div><h2>Largest losers</h2><div class="card">${perfList(p.largest_losers)}</div></div>
+  </div>
+
+  <h2>Rejected by risk filter (${r.rejected.length})</h2>
+  <div class="card">${r.rejected.length?r.rejected.slice(0,25).map(x=>`<div style="padding:3px 0"><b>${esc(x.ticker)}</b> <span class="n">${x.reasons.map(esc).join(" · ")}</span></div>`).join(""):'<div class="empty">None.</div>'}</div>
+
+  <div class="foot">${esc(r.disclaimer)}</div>`;
+  document.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{filter=b.dataset.f;shown=15;render()});
+  const m=$("#more"); if(m) m.onclick=()=>{shown+=15;render()};
+}
+
+async function load(){
+  try{
+    if(window.__REPORT__){R=window.__REPORT__;}
+    else{const res=await fetch("report.json?t="+Date.now(),{cache:"no-store"}); if(!res.ok)throw new Error(res.status); R=await res.json();}
+    if(filter==="STRONG BUY"&&!R.signals_summary["STRONG BUY"])filter="BUY";
+    render();
+  }catch(e){$("#app").innerHTML='<h1>Altcoin Signal Desk</h1><p class="sub">No report yet. It appears after the first hourly run.</p>';}
+}
+load(); if(!window.__REPORT__) setInterval(load,5*60*1000);
+})();
+</script>
+</body>
+</html>
