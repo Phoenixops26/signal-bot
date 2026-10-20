@@ -1,6 +1,30 @@
 {
- "cash": 10000.0,
- "positions": {},
+ "cash": 9144.58742774232,
+ "positions": {
+  "WLD": {
+   "ticker": "WLD",
+   "narrative": "Other",
+   "opened_at": 1792537651,
+   "entry": 0.5883877999999999,
+   "qty": 1445.1535331113612,
+   "initial_qty": 1445.1535331113612,
+   "entry_fee": 5.101864248057725,
+   "stop": 0.5191910000000001,
+   "initial_stop": 0.5191910000000001,
+   "r": 0.06919679999999984,
+   "t1": 0.7250179999999998,
+   "t2": 0.8622359999999997,
+   "be_moved": false,
+   "t1_hit": false,
+   "highest": 0.5883877999999999,
+   "realized_pnl": 0.0,
+   "exits": [],
+   "last_bar_t": 1792533600,
+   "last_price": 0.5878,
+   "atr": 0.012089670438143133,
+   "confidence_at_entry": 81.0
+  }
+ },
  "closed": [],
  "equity_history": [
   {
@@ -46,8 +70,12 @@
   {
    "t": 1792523366,
    "equity": 10000.0
+  },
+  {
+   "t": 1792537651,
+   "equity": 9994.05
   }
  ],
  "created_at": 1792358441,
- "last_run": 1792523366
+ "last_run": 1792537651
 }
