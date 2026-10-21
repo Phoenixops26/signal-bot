@@ -1,5 +1,5 @@
 {
- "cash": 8039.053926491969,
+ "cash": 7207.894598061125,
  "positions": {
   "WLD": {
    "ticker": "WLD",
@@ -19,9 +19,9 @@
    "highest": 0.5976,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1792591200,
-   "last_price": 0.5747,
-   "atr": 0.010807289497201,
+   "last_bar_t": 1792605600,
+   "last_price": 0.57,
+   "atr": 0.009924555466543484,
    "confidence_at_entry": 81.0
   },
   "PEPE": {
@@ -42,10 +42,33 @@
    "highest": 4.79e-06,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1792591200,
+   "last_bar_t": 1792605600,
    "last_price": 4.68e-06,
-   "atr": 6.572631119261108e-08,
+   "atr": 6.610439573503252e-08,
    "confidence_at_entry": 80.6
+  },
+  "ENA": {
+   "ticker": "ENA",
+   "narrative": "DeFi",
+   "opened_at": 1792610174,
+   "entry": 0.21974952999999997,
+   "qty": 3759.7446317014897,
+   "initial_qty": 3759.7446317014897,
+   "entry_fee": 4.957212694418551,
+   "stop": 0.1931864,
+   "initial_stop": 0.1931864,
+   "r": 0.026563129999999963,
+   "t1": 0.24753,
+   "t2": 0.3249044,
+   "be_moved": false,
+   "t1_hit": false,
+   "highest": 0.21974952999999997,
+   "realized_pnl": 0.0,
+   "exits": [],
+   "last_bar_t": 1792605600,
+   "last_price": 0.21953,
+   "atr": 0.004752014711333759,
+   "confidence_at_entry": 81.0
   }
  },
  "closed": [],
@@ -109,8 +132,12 @@
   {
    "t": 1792595093,
    "equity": 9993.85
+  },
+  {
+   "t": 1792610174,
+   "equity": 9981.28
   }
  ],
  "created_at": 1792358441,
- "last_run": 1792595093
+ "last_run": 1792610174
 }
