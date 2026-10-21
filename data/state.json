@@ -16,12 +16,12 @@
    "t2": 0.8622359999999997,
    "be_moved": false,
    "t1_hit": false,
-   "highest": 0.5883877999999999,
+   "highest": 0.5942,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1792533600,
-   "last_price": 0.5878,
-   "atr": 0.012089670438143133,
+   "last_bar_t": 1792551600,
+   "last_price": 0.5942,
+   "atr": 0.011576743314106474,
    "confidence_at_entry": 81.0
   }
  },
@@ -74,8 +74,12 @@
   {
    "t": 1792537651,
    "equity": 9994.05
+  },
+  {
+   "t": 1792557073,
+   "equity": 10003.3
   }
  ],
  "created_at": 1792358441,
- "last_run": 1792537651
+ "last_run": 1792557073
 }
