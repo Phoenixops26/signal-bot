@@ -19,9 +19,9 @@
    "highest": 0.5976,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1792724400,
-   "last_price": 0.5488,
-   "atr": 0.01146011475148598,
+   "last_bar_t": 1792742400,
+   "last_price": 0.5396,
+   "atr": 0.011090996608490387,
    "confidence_at_entry": 81.0
   },
   "PEPE": {
@@ -39,12 +39,12 @@
    "t2": 6.213600000000003e-06,
    "be_moved": false,
    "t1_hit": false,
-   "highest": 4.79e-06,
+   "highest": 4.96e-06,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1792724400,
-   "last_price": 4.5e-06,
-   "atr": 5.2976858522510716e-08,
+   "last_bar_t": 1792742400,
+   "last_price": 4.92e-06,
+   "atr": 7.616935524277753e-08,
    "confidence_at_entry": 80.6
   }
  },
@@ -154,8 +154,12 @@
   {
    "t": 1792730115,
    "equity": 9819.41
+  },
+  {
+   "t": 1792749388,
+   "equity": 9907.01
   }
  ],
  "created_at": 1792358441,
- "last_run": 1792730115
+ "last_run": 1792749388
 }
