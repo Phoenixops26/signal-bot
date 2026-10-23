@@ -1,38 +1,6 @@
 {
- "cash": 8322.848742275044,
+ "cash": 8701.198654265194,
  "positions": {
-  "WLD": {
-   "ticker": "WLD",
-   "narrative": "Other",
-   "opened_at": 1792537651,
-   "entry": 0.5883877999999999,
-   "qty": 722.5767665556806,
-   "initial_qty": 1445.1535331113612,
-   "entry_fee": 5.101864248057725,
-   "stop": 0.5883877999999999,
-   "initial_stop": 0.5191910000000001,
-   "r": 0.06919679999999984,
-   "t1": 0.7250179999999998,
-   "t2": 0.8622359999999997,
-   "be_moved": false,
-   "t1_hit": false,
-   "highest": 0.5976,
-   "realized_pnl": -50.145649509803995,
-   "exits": [
-    {
-     "t": 1792782329,
-     "qty": 722.5767665556806,
-     "price": 0.5256738,
-     "reason": "REDUCE signal (half)",
-     "pnl": -50.15
-    }
-   ],
-   "last_bar_t": 1792778400,
-   "last_price": 0.5262,
-   "atr": 0.008874619805112855,
-   "confidence_at_entry": 81.0,
-   "reduced": true
-  },
   "PEPE": {
    "ticker": "PEPE",
    "narrative": "Meme",
@@ -51,9 +19,9 @@
    "highest": 5.11e-06,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1792778400,
-   "last_price": 4.72e-06,
-   "atr": 9.057692811584652e-08,
+   "last_bar_t": 1792789200,
+   "last_price": 4.65e-06,
+   "atr": 8.567865720609979e-08,
    "confidence_at_entry": 80.6
   }
  },
@@ -68,6 +36,18 @@
    "pnl_usd": -93.77,
    "pnl_pct": -11.35,
    "r_multiple": -0.94,
+   "exit_reason": "Stop loss"
+  },
+  {
+   "ticker": "WLD",
+   "narrative": "Other",
+   "opened_at": 1792537651,
+   "closed_at": 1792793020,
+   "entry": 0.5883877999999999,
+   "initial_qty": 1445.1535331113612,
+   "pnl_usd": -99.5,
+   "pnl_pct": -11.7,
+   "r_multiple": -1.0,
    "exit_reason": "Stop loss"
   }
  ],
@@ -175,8 +155,12 @@
   {
    "t": 1792782329,
    "equity": 9836.94
+  },
+  {
+   "t": 1792793020,
+   "equity": 9818.26
   }
  ],
  "created_at": 1792358441,
- "last_run": 1792782329
+ "last_run": 1792793020
 }
