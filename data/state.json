@@ -1,30 +1,6 @@
 {
- "cash": 8701.198654265194,
- "positions": {
-  "PEPE": {
-   "ticker": "PEPE",
-   "narrative": "Meme",
-   "opened_at": 1792576888,
-   "entry": 4.57457e-06,
-   "qty": 240228013.1417564,
-   "initial_qty": 240228013.1417564,
-   "entry_fee": 6.593639172467307,
-   "stop": 4.57457e-06,
-   "initial_stop": 4.1591e-06,
-   "r": 4.154700000000001e-07,
-   "t1": 5.3918000000000015e-06,
-   "t2": 6.213600000000003e-06,
-   "be_moved": true,
-   "t1_hit": false,
-   "highest": 5.11e-06,
-   "realized_pnl": 0.0,
-   "exits": [],
-   "last_bar_t": 1792789200,
-   "last_price": 4.65e-06,
-   "atr": 8.567865720609979e-08,
-   "confidence_at_entry": 80.6
-  }
- },
+ "cash": 9792.452530947705,
+ "positions": {},
  "closed": [
   {
    "ticker": "ENA",
@@ -49,6 +25,18 @@
    "pnl_pct": -11.7,
    "r_multiple": -1.0,
    "exit_reason": "Stop loss"
+  },
+  {
+   "ticker": "PEPE",
+   "narrative": "Meme",
+   "opened_at": 1792576888,
+   "closed_at": 1792802007,
+   "entry": 4.57457e-06,
+   "initial_qty": 240228013.1417564,
+   "pnl_usd": -14.28,
+   "pnl_pct": -1.3,
+   "r_multiple": -0.14,
+   "exit_reason": "Breakeven stop"
   }
  ],
  "equity_history": [
@@ -159,8 +147,12 @@
   {
    "t": 1792793020,
    "equity": 9818.26
+  },
+  {
+   "t": 1792802007,
+   "equity": 9792.45
   }
  ],
  "created_at": 1792358441,
- "last_run": 1792793020
+ "last_run": 1792802007
 }
