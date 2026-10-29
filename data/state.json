@@ -1,6 +1,30 @@
 {
- "cash": 9792.452530947705,
- "positions": {},
+ "cash": 8810.15164556105,
+ "positions": {
+  "PEPE": {
+   "ticker": "PEPE",
+   "narrative": "Meme",
+   "opened_at": 1793234853,
+   "entry": 5.065059999999999e-06,
+   "qty": 192779993.12835115,
+   "initial_qty": 192779993.12835115,
+   "entry_fee": 5.858653391968116,
+   "stop": 4.5571e-06,
+   "initial_stop": 4.5571e-06,
+   "r": 5.079599999999989e-07,
+   "t1": 6.0658e-06,
+   "t2": 7.071599999999999e-06,
+   "be_moved": false,
+   "t1_hit": false,
+   "highest": 5.065059999999999e-06,
+   "realized_pnl": 0.0,
+   "exits": [],
+   "last_bar_t": 1793228400,
+   "last_price": 5.06e-06,
+   "atr": 1.1910398164156244e-07,
+   "confidence_at_entry": 81.4
+  }
+ },
  "closed": [
   {
    "ticker": "ENA",
@@ -251,8 +275,12 @@
   {
    "t": 1793221052,
    "equity": 9792.45
+  },
+  {
+   "t": 1793234853,
+   "equity": 9785.62
   }
  ],
  "created_at": 1792358441,
- "last_run": 1793221052
+ "last_run": 1793234853
 }
