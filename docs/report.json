@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T05:22:52Z",
+ "generated_at": "2026-10-31T12:12:02Z",
  "mode": "paper",
  "data_source": "Coinbase Exchange public market data",
  "disclaimer": "Paper trading only. Signals are mechanical outputs of a scoring model, not financial advice. No real orders are placed.",
@@ -8,34 +8,34 @@
   "universe_size": 99,
   "benchmarks": {
    "BTC": {
-    "price": 77096.2,
-    "change_24h_pct": -1.64,
-    "change_7d_pct": -4.41
+    "price": 77469.8,
+    "change_24h_pct": 0.2,
+    "change_7d_pct": -3.97
    },
    "ETH": {
-    "price": 2237.56,
-    "change_24h_pct": 0.13,
-    "change_7d_pct": -5.78
+    "price": 2244.1,
+    "change_24h_pct": 0.58,
+    "change_7d_pct": -5.16
    },
    "SOL": {
-    "price": 95.94,
-    "change_24h_pct": -1.93,
-    "change_7d_pct": -6.13
+    "price": 95.74,
+    "change_24h_pct": -1.0,
+    "change_7d_pct": -5.64
    }
   },
-  "breadth_pct_in_uptrend": 16.2
+  "breadth_pct_in_uptrend": 21.2
  },
  "narratives": [
   {
    "narrative": "Gaming",
-   "score": 74.4,
+   "score": 74.6,
    "members": [
     "BEAM"
    ],
-   "momentum": 96.9,
+   "momentum": 98.0,
    "breadth": 100.0,
    "volume": 100.0,
-   "avg_7d_return_pct": 49.14
+   "avg_7d_return_pct": 54.87
   },
   {
    "narrative": "Other",
@@ -53,6 +53,7 @@
     "CHIP",
     "CRO",
     "DASH",
+    "DIMO",
     "DOOD",
     "DRV",
     "FLR",
@@ -67,15 +68,16 @@
     "MEGA",
     "MEZO",
     "MON",
-    "NEON",
     "ORCA",
     "PAXG",
     "PUMP",
     "PYTH",
-    "RLC",
+    "RAD",
+    "RE",
     "RSR",
     "SENT",
     "SPK",
+    "STX",
     "UP",
     "USELESS",
     "VVV",
@@ -87,14 +89,14 @@
     "ZEC",
     "ZRO"
    ],
-   "momentum": 51.0,
-   "breadth": 24.4,
-   "volume": 57.0,
-   "avg_7d_return_pct": -2.18
+   "momentum": 52.1,
+   "breadth": 31.9,
+   "volume": 54.5,
+   "avg_7d_return_pct": 2.32
   },
   {
    "narrative": "Meme",
-   "score": 45.4,
+   "score": 41.2,
    "members": [
     "BONK",
     "DOGE",
@@ -104,14 +106,28 @@
     "TRUMP",
     "WIF"
    ],
-   "momentum": 58.0,
+   "momentum": 56.0,
    "breadth": 14.3,
-   "volume": 59.7,
-   "avg_7d_return_pct": -4.65
+   "volume": 48.4,
+   "avg_7d_return_pct": -2.61
+  },
+  {
+   "narrative": "Real World Assets",
+   "score": 39.5,
+   "members": [
+    "LINK",
+    "ONDO",
+    "PLUME",
+    "SYRUP"
+   ],
+   "momentum": 55.1,
+   "breadth": 0.0,
+   "volume": 58.3,
+   "avg_7d_return_pct": -4.24
   },
   {
    "narrative": "Layer 2",
-   "score": 42.0,
+   "score": 37.6,
    "members": [
     "ARB",
     "OP",
@@ -119,14 +135,14 @@
     "STRK",
     "ZORA"
    ],
-   "momentum": 54.7,
+   "momentum": 51.0,
    "breadth": 0.0,
-   "volume": 67.0,
-   "avg_7d_return_pct": -5.54
+   "volume": 57.3,
+   "avg_7d_return_pct": -4.83
   },
   {
    "narrative": "Layer 1",
-   "score": 41.1,
+   "score": 37.3,
    "members": [
     "ADA",
     "ALGO",
@@ -150,29 +166,26 @@
     "XLM",
     "XRP"
    ],
-   "momentum": 50.4,
+   "momentum": 46.3,
    "breadth": 14.3,
-   "volume": 55.3,
-   "avg_7d_return_pct": -6.21
+   "volume": 48.4,
+   "avg_7d_return_pct": -5.02
   },
   {
-   "narrative": "Real World Assets",
-   "score": 38.3,
+   "narrative": "DePIN",
+   "score": 35.1,
    "members": [
-    "CFG",
-    "LINK",
-    "ONDO",
-    "PLUME",
-    "SYRUP"
+    "FIL",
+    "RENDER"
    ],
-   "momentum": 48.2,
+   "momentum": 33.7,
    "breadth": 0.0,
-   "volume": 63.5,
-   "avg_7d_return_pct": -7.63
+   "volume": 22.7,
+   "avg_7d_return_pct": -8.11
   },
   {
    "narrative": "DeFi",
-   "score": 32.3,
+   "score": 33.0,
    "members": [
     "AAVE",
     "AERO",
@@ -184,153 +197,140 @@
     "RAY",
     "UNI"
    ],
-   "momentum": 39.1,
-   "breadth": 0.0,
-   "volume": 55.4,
-   "avg_7d_return_pct": -10.07
+   "momentum": 44.4,
+   "breadth": 11.1,
+   "volume": 39.7,
+   "avg_7d_return_pct": -7.06
   },
   {
    "narrative": "Artificial Intelligence",
-   "score": 31.8,
+   "score": 26.3,
    "members": [
     "FET",
     "GRT",
     "TAO"
    ],
-   "momentum": 38.1,
+   "momentum": 32.7,
    "breadth": 0.0,
-   "volume": 55.3,
-   "avg_7d_return_pct": -9.73
-  },
-  {
-   "narrative": "DePIN",
-   "score": 21.3,
-   "members": [
-    "FIL",
-    "GRASS",
-    "RENDER"
-   ],
-   "momentum": 37.8,
-   "breadth": 0.0,
-   "volume": 20.7,
-   "avg_7d_return_pct": -9.62
+   "volume": 44.2,
+   "avg_7d_return_pct": -8.53
   }
  ],
  "signals_summary": {
   "STRONG BUY": 0,
-  "BUY": 3,
-  "HOLD": 32,
-  "REDUCE": 44,
-  "SELL": 20
+  "BUY": 4,
+  "HOLD": 33,
+  "REDUCE": 41,
+  "SELL": 21
  },
  "signals_by_type": {
   "STRONG BUY": [],
   "BUY": [
    "HYPE",
    "PEPE",
-   "XLM"
+   "ZEC",
+   "QNT"
   ],
   "HOLD": [
    "BEAM",
+   "DIMO",
    "BCH",
-   "SPK",
-   "XPL",
-   "WET",
-   "HFT",
    "GWEI",
-   "CAP",
+   "WET",
+   "RAD",
+   "HFT",
    "MEZO",
-   "OP",
-   "ZEC",
+   "XPL",
+   "STX",
    "ZRO",
    "DOOD",
-   "POL",
    "LINK",
-   "BLUR",
+   "XLM",
    "UNI",
-   "QNT",
-   "FLR",
-   "BNKR",
+   "CAP",
+   "AMP",
    "BNB",
+   "OP",
+   "SPK",
+   "POL",
    "MDT",
    "ONDO",
-   "PAXG",
-   "PYTH",
+   "FLR",
+   "AAVE",
+   "BLUR",
+   "BNKR",
+   "ENA",
    "ASTER",
-   "PLUME",
-   "TON",
    "APR",
-   "AVAX",
-   "MEGA",
-   "GTC"
+   "PENDLE",
+   "NEAR",
+   "PAXG"
   ],
   "REDUCE": [
-   "ENA",
+   "WIF",
+   "VVV",
+   "GTC",
+   "ZAMA",
+   "GROVE",
    "XRP",
-   "NEAR",
    "DOGE",
+   "PLUME",
+   "TON",
+   "RAY",
+   "AVAX",
+   "TRUMP",
+   "SENT",
+   "MORPHO",
+   "BIRB",
+   "ORCA",
+   "BAT",
+   "MEGA",
+   "PUMP",
    "ARB",
+   "SUI",
+   "LTC",
+   "RE",
+   "PYTH",
+   "RSR",
    "CHIP",
    "CRO",
-   "RAY",
-   "PENDLE",
-   "GROVE",
-   "RSR",
-   "MORPHO",
-   "WIF",
-   "SENT",
-   "LTC",
-   "ORCA",
-   "TRUMP",
-   "BIRB",
-   "BONK",
-   "VVV",
-   "ZORA",
-   "AAVE",
-   "PENGU",
-   "DRV",
-   "PUMP",
-   "ADA",
-   "ICP",
-   "SUI",
-   "RLC",
-   "ATOM",
-   "TAO",
-   "INJ",
-   "ZAMA",
-   "ALGO",
    "HBAR",
-   "AMP",
-   "GRT",
-   "SEI",
-   "CFG",
-   "BAT",
    "AERO",
-   "XCN",
-   "CVX",
-   "DOT"
-  ],
-  "SELL": [
-   "RENDER",
    "TIA",
-   "DASH",
    "STRK",
-   "JASMY",
-   "FET",
-   "APT",
-   "MON",
-   "VET",
+   "TAO",
+   "ADA",
+   "INJ",
+   "ICP",
+   "CVX",
+   "GRT",
    "FARTCOIN",
    "SYRUP",
-   "LIGHTER",
-   "NEON",
-   "GRASS",
-   "CRV",
+   "SEI",
+   "BONK"
+  ],
+  "SELL": [
+   "DRV",
+   "RENDER",
    "IRYS",
-   "WLD",
+   "XCN",
+   "DOT",
+   "VET",
+   "ALGO",
    "FIL",
-   "UP",
-   "USELESS"
+   "ATOM",
+   "PENGU",
+   "APT",
+   "ZORA",
+   "DASH",
+   "FET",
+   "MON",
+   "LIGHTER",
+   "WLD",
+   "USELESS",
+   "CRV",
+   "JASMY",
+   "UP"
   ]
  },
  "opportunities": [
@@ -339,86 +339,87 @@
    "ticker": "BEAM",
    "narrative": "Gaming",
    "signal": "HOLD",
-   "confidence": 84.3,
-   "entry": 0.004776,
-   "stop_loss": 0.00420288,
-   "target_1": 0.00592224,
-   "target_2": 0.00706848,
+   "confidence": 84.0,
+   "entry": 0.004981,
+   "stop_loss": 0.00438328,
+   "target_1": 0.00617644,
+   "target_2": 0.00737188,
    "risk_reward": 3.0,
    "stop_distance_pct": 12.0,
    "scores": {
     "trend": 100.0,
-    "relative_strength": 96.9,
-    "narrative": 74.4,
+    "relative_strength": 95.9,
+    "narrative": 74.6,
     "volume_expansion": 100.0,
     "risk_profile": 1.4,
-    "composite": 84.3
+    "composite": 84.0
    },
    "relative_strength_pct": {
-    "vs_BTC": 42.46,
-    "vs_ETH": 42.57,
-    "vs_SOL": 43.61,
+    "vs_BTC": 38.02,
+    "vs_ETH": 38.58,
+    "vs_SOL": 39.5,
     "vs_sector": 0.0
    },
    "market": {
-    "price": 0.004776,
-    "change_24h_pct": 24.18,
-    "change_7d_pct": 49.14,
-    "change_30d_pct": 134.03,
-    "volume_24h_usd": 4401839,
-    "volume_vs_7d_avg": 17.04,
-    "volatility_atr_1h_pct": 6.75,
-    "spread_pct": 0.483
+    "price": 0.004981,
+    "change_24h_pct": 6.97,
+    "change_7d_pct": 54.87,
+    "change_30d_pct": 142.05,
+    "volume_24h_usd": 3577370,
+    "volume_vs_7d_avg": 8.36,
+    "volatility_atr_1h_pct": 6.14,
+    "spread_pct": 0.52
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,401,839 24h volume",
-     "Wide spread: 0.48%",
-     "Abnormal selling: 5 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $3,577,370 24h volume",
+     "Wide spread: 0.52%",
+     "Abnormal selling: 7 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
    "rank": 2,
-   "ticker": "BCH",
-   "narrative": "Layer 1",
+   "ticker": "DIMO",
+   "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 76.4,
-   "entry": 289.22,
-   "stop_loss": 276.869,
-   "target_1": 304.43,
-   "target_2": 338.625,
-   "risk_reward": 2.62,
-   "stop_distance_pct": 4.27,
+   "confidence": 81.4,
+   "entry": 0.02171,
+   "stop_loss": 0.0191048,
+   "target_1": 0.02498,
+   "target_2": 0.0321308,
+   "risk_reward": 2.63,
+   "stop_distance_pct": 12.0,
    "scores": {
     "trend": 100.0,
-    "relative_strength": 84.7,
-    "narrative": 41.1,
-    "volume_expansion": 62.8,
-    "risk_profile": 76.3,
-    "composite": 76.4
+    "relative_strength": 98.0,
+    "narrative": 50.0,
+    "volume_expansion": 100.0,
+    "risk_profile": 19.0,
+    "composite": 81.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 6.71,
-    "vs_ETH": 6.82,
-    "vs_SOL": 7.86,
-    "vs_sector": 7.7
+    "vs_BTC": 31.46,
+    "vs_ETH": 32.02,
+    "vs_SOL": 32.94,
+    "vs_sector": 30.71
    },
    "market": {
-    "price": 289.22,
-    "change_24h_pct": 2.04,
-    "change_7d_pct": 4.31,
-    "change_30d_pct": -6.5,
-    "volume_24h_usd": 3999004,
-    "volume_vs_7d_avg": 1.31,
-    "volatility_atr_1h_pct": 1.4,
-    "spread_pct": 0.059
+    "price": 0.02171,
+    "change_24h_pct": 34.71,
+    "change_7d_pct": 25.45,
+    "change_30d_pct": 9.0,
+    "volume_24h_usd": 458819,
+    "volume_vs_7d_avg": 3.16,
+    "volatility_atr_1h_pct": 5.3,
+    "spread_pct": 0.138
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $3,999,004 24h volume"
+     "Low liquidity: $458,819 24h volume",
+     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
@@ -427,36 +428,36 @@
    "ticker": "HYPE",
    "narrative": "Layer 1",
    "signal": "BUY",
-   "confidence": 75.9,
-   "entry": 88.36,
-   "stop_loss": 85.6056,
-   "target_1": 93.8689,
-   "target_2": 99.3777,
+   "confidence": 74.9,
+   "entry": 87.77,
+   "stop_loss": 85.1707,
+   "target_1": 92.9687,
+   "target_2": 98.1673,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.12,
+   "stop_distance_pct": 2.96,
    "scores": {
     "trend": 85.0,
-    "relative_strength": 89.8,
-    "narrative": 41.1,
-    "volume_expansion": 85.1,
-    "risk_profile": 69.2,
-    "composite": 75.9
+    "relative_strength": 91.8,
+    "narrative": 37.3,
+    "volume_expansion": 88.1,
+    "risk_profile": 57.4,
+    "composite": 74.9
    },
    "relative_strength_pct": {
-    "vs_BTC": 10.65,
-    "vs_ETH": 10.76,
-    "vs_SOL": 11.8,
-    "vs_sector": 11.64
+    "vs_BTC": 10.23,
+    "vs_ETH": 10.79,
+    "vs_SOL": 11.71,
+    "vs_sector": 11.4
    },
    "market": {
-    "price": 88.36,
-    "change_24h_pct": -4.22,
-    "change_7d_pct": 15.05,
-    "change_30d_pct": 0.86,
-    "volume_24h_usd": 79316736,
-    "volume_vs_7d_avg": 2.08,
-    "volatility_atr_1h_pct": 1.56,
-    "spread_pct": 0.023
+    "price": 87.77,
+    "change_24h_pct": -3.85,
+    "change_7d_pct": 15.78,
+    "change_30d_pct": 0.17,
+    "volume_24h_usd": 89938945,
+    "volume_vs_7d_avg": 2.21,
+    "volatility_atr_1h_pct": 1.48,
+    "spread_pct": 0.011
    },
    "risk_filter": {
     "passed": true,
@@ -465,87 +466,88 @@
   },
   {
    "rank": 4,
-   "ticker": "SPK",
-   "narrative": "Other",
+   "ticker": "BCH",
+   "narrative": "Layer 1",
    "signal": "HOLD",
-   "confidence": 74.2,
-   "entry": 0.02023,
-   "stop_loss": 0.0178024,
-   "target_1": 0.0250852,
-   "target_2": 0.0299404,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 12.0,
+   "confidence": 74.5,
+   "entry": 290.7,
+   "stop_loss": 280.998,
+   "target_1": 304.43,
+   "target_2": 329.508,
+   "risk_reward": 2.71,
+   "stop_distance_pct": 3.34,
    "scores": {
-    "trend": 75.0,
-    "relative_strength": 92.9,
-    "narrative": 50.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 34.4,
-    "composite": 74.2
+    "trend": 100.0,
+    "relative_strength": 82.7,
+    "narrative": 37.3,
+    "volume_expansion": 58.6,
+    "risk_profile": 75.6,
+    "composite": 74.5
    },
    "relative_strength_pct": {
-    "vs_BTC": 15.64,
-    "vs_ETH": 15.75,
-    "vs_SOL": 16.79,
-    "vs_sector": 16.07
+    "vs_BTC": 6.04,
+    "vs_ETH": 6.6,
+    "vs_SOL": 7.52,
+    "vs_sector": 7.21
    },
    "market": {
-    "price": 0.02023,
-    "change_24h_pct": 18.89,
-    "change_7d_pct": 7.96,
-    "change_30d_pct": -14.13,
-    "volume_24h_usd": 758324,
-    "volume_vs_7d_avg": 3.27,
-    "volatility_atr_1h_pct": 2.46,
-    "spread_pct": 0.099
+    "price": 290.7,
+    "change_24h_pct": 2.62,
+    "change_7d_pct": 4.48,
+    "change_30d_pct": -6.01,
+    "volume_24h_usd": 3697672,
+    "volume_vs_7d_avg": 1.2,
+    "volatility_atr_1h_pct": 1.11,
+    "spread_pct": 0.052
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $758,324 24h volume"
+     "Low liquidity: $3,697,672 24h volume"
     ]
    }
   },
   {
    "rank": 5,
-   "ticker": "XPL",
+   "ticker": "GWEI",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 72.4,
-   "entry": 0.08079,
-   "stop_loss": 0.0744459,
-   "target_1": 0.0934782,
-   "target_2": 0.106166,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 7.85,
+   "confidence": 73.6,
+   "entry": 0.021935,
+   "stop_loss": 0.0193458,
+   "target_1": 0.025039,
+   "target_2": 0.0322919,
+   "risk_reward": 2.6,
+   "stop_distance_pct": 11.8,
    "scores": {
     "trend": 75.0,
-    "relative_strength": 88.3,
+    "relative_strength": 90.8,
     "narrative": 50.0,
-    "volume_expansion": 82.5,
-    "risk_profile": 55.0,
-    "composite": 72.4
+    "volume_expansion": 100.0,
+    "risk_profile": 34.0,
+    "composite": 73.6
    },
    "relative_strength_pct": {
-    "vs_BTC": 9.52,
-    "vs_ETH": 9.63,
-    "vs_SOL": 10.67,
-    "vs_sector": 9.95
+    "vs_BTC": 9.71,
+    "vs_ETH": 10.27,
+    "vs_SOL": 11.19,
+    "vs_sector": 8.96
    },
    "market": {
-    "price": 0.08079,
-    "change_24h_pct": 5.47,
-    "change_7d_pct": 6.71,
-    "change_30d_pct": -16.01,
-    "volume_24h_usd": 1119297,
-    "volume_vs_7d_avg": 1.97,
-    "volatility_atr_1h_pct": 1.73,
-    "spread_pct": 0.05
+    "price": 0.021935,
+    "change_24h_pct": 11.14,
+    "change_7d_pct": 4.92,
+    "change_30d_pct": 2.94,
+    "volume_24h_usd": 547172,
+    "volume_vs_7d_avg": 4.82,
+    "volatility_atr_1h_pct": 3.59,
+    "spread_pct": 0.046
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,119,297 24h volume"
+     "Low liquidity: $547,172 24h volume",
+     "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
@@ -555,216 +557,215 @@
    "narrative": "Other",
    "signal": "HOLD",
    "confidence": 71.9,
-   "entry": 0.0615,
-   "stop_loss": 0.05412,
-   "target_1": 0.07626,
-   "target_2": 0.09102,
+   "entry": 0.0636,
+   "stop_loss": 0.055968,
+   "target_1": 0.078864,
+   "target_2": 0.094128,
    "risk_reward": 3.0,
    "stop_distance_pct": 12.0,
    "scores": {
     "trend": 75.0,
-    "relative_strength": 93.9,
+    "relative_strength": 94.9,
     "narrative": 50.0,
     "volume_expansion": 100.0,
-    "risk_profile": 9.3,
+    "risk_profile": 7.1,
     "composite": 71.9
    },
    "relative_strength_pct": {
-    "vs_BTC": 19.47,
-    "vs_ETH": 19.59,
-    "vs_SOL": 20.62,
-    "vs_sector": 19.9
+    "vs_BTC": 20.54,
+    "vs_ETH": 21.1,
+    "vs_SOL": 22.02,
+    "vs_sector": 19.79
    },
    "market": {
-    "price": 0.0615,
-    "change_24h_pct": 18.96,
-    "change_7d_pct": 14.31,
-    "change_30d_pct": -5.82,
-    "volume_24h_usd": 555248,
-    "volume_vs_7d_avg": 3.36,
-    "volatility_atr_1h_pct": 3.39,
-    "spread_pct": 0.491
+    "price": 0.0636,
+    "change_24h_pct": 23.27,
+    "change_7d_pct": 14.87,
+    "change_30d_pct": -1.68,
+    "volume_24h_usd": 684363,
+    "volume_vs_7d_avg": 3.91,
+    "volatility_atr_1h_pct": 3.65,
+    "spread_pct": 0.472
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $555,248 24h volume",
-     "Wide spread: 0.49%",
+     "Low liquidity: $684,363 24h volume",
+     "Wide spread: 0.47%",
      "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
    "rank": 7,
-   "ticker": "HFT",
+   "ticker": "RAD",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 71.8,
-   "entry": 0.00644,
-   "stop_loss": 0.0056672,
-   "target_1": 0.0079856,
-   "target_2": 0.0095312,
+   "confidence": 71.4,
+   "entry": 0.273,
+   "stop_loss": 0.24024,
+   "target_1": 0.33852,
+   "target_2": 0.40404,
    "risk_reward": 3.0,
    "stop_distance_pct": 12.0,
    "scores": {
-    "trend": 75.0,
-    "relative_strength": 95.9,
+    "trend": 80.0,
+    "relative_strength": 87.8,
     "narrative": 50.0,
     "volume_expansion": 100.0,
-    "risk_profile": 3.6,
-    "composite": 71.8
+    "risk_profile": 5.0,
+    "composite": 71.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 29.86,
-    "vs_ETH": 29.98,
-    "vs_SOL": 31.01,
-    "vs_sector": 30.29
+    "vs_BTC": 9.37,
+    "vs_ETH": 9.93,
+    "vs_SOL": 10.85,
+    "vs_sector": 8.62
    },
    "market": {
-    "price": 0.00644,
-    "change_24h_pct": 37.23,
-    "change_7d_pct": 19.44,
-    "change_30d_pct": 4.55,
-    "volume_24h_usd": 432451,
-    "volume_vs_7d_avg": 6.8,
-    "volatility_atr_1h_pct": 5.69,
-    "spread_pct": 1.233
+    "price": 0.273,
+    "change_24h_pct": 21.43,
+    "change_7d_pct": -2.51,
+    "change_30d_pct": 5.41,
+    "volume_24h_usd": 565067,
+    "volume_vs_7d_avg": 6.92,
+    "volatility_atr_1h_pct": 4.22,
+    "spread_pct": 0.735
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $432,451 24h volume",
-     "Wide spread: 1.23%",
-     "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
-    ]
-   }
-  },
-  {
-   "rank": 8,
-   "ticker": "GWEI",
-   "narrative": "Other",
-   "signal": "HOLD",
-   "confidence": 71.3,
-   "entry": 0.021845,
-   "stop_loss": 0.0192236,
-   "target_1": 0.025039,
-   "target_2": 0.0323306,
-   "risk_reward": 2.61,
-   "stop_distance_pct": 12.0,
-   "scores": {
-    "trend": 75.0,
-    "relative_strength": 91.8,
-    "narrative": 50.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 8.3,
-    "composite": 71.3
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 14.45,
-    "vs_ETH": 14.56,
-    "vs_SOL": 15.6,
-    "vs_sector": 14.88
-   },
-   "market": {
-    "price": 0.021845,
-    "change_24h_pct": 22.57,
-    "change_7d_pct": 3.53,
-    "change_30d_pct": 2.85,
-    "volume_24h_usd": 491835,
-    "volume_vs_7d_avg": 4.41,
-    "volatility_atr_1h_pct": 3.65,
-    "spread_pct": 0.288
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $491,835 24h volume",
+     "Low liquidity: $565,067 24h volume",
+     "Wide spread: 0.74%",
      "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
-   "rank": 9,
-   "ticker": "CAP",
-   "narrative": "Other",
-   "signal": "HOLD",
-   "confidence": 70.7,
-   "entry": 0.08643,
-   "stop_loss": 0.0762866,
-   "target_1": 0.106717,
-   "target_2": 0.127003,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 11.74,
-   "scores": {
-    "trend": 100.0,
-    "relative_strength": 94.9,
-    "narrative": 50.0,
-    "volume_expansion": 29.6,
-    "risk_profile": 25.2,
-    "composite": 70.7
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 19.97,
-    "vs_ETH": 20.09,
-    "vs_SOL": 21.12,
-    "vs_sector": 20.4
-   },
-   "market": {
-    "price": 0.08643,
-    "change_24h_pct": 4.04,
-    "change_7d_pct": 25.09,
-    "change_30d_pct": 23.87,
-    "volume_24h_usd": 957732,
-    "volume_vs_7d_avg": 0.65,
-    "volatility_atr_1h_pct": 2.88,
-    "spread_pct": 0.162
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $957,732 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 10,
+   "rank": 8,
    "ticker": "PEPE",
    "narrative": "Meme",
    "signal": "BUY",
-   "confidence": 69.1,
-   "entry": 4.81e-06,
-   "stop_loss": 4.49723e-06,
-   "target_1": 5.43555e-06,
-   "target_2": 6.06109e-06,
+   "confidence": 71.4,
+   "entry": 5.01e-06,
+   "stop_loss": 4.74234e-06,
+   "target_1": 5.54532e-06,
+   "target_2": 6.08063e-06,
    "risk_reward": 3.0,
-   "stop_distance_pct": 6.5,
+   "stop_distance_pct": 5.34,
    "scores": {
-    "trend": 85.0,
-    "relative_strength": 80.6,
-    "narrative": 45.4,
-    "volume_expansion": 82.6,
-    "risk_profile": 19.9,
-    "composite": 69.1
+    "trend": 100.0,
+    "relative_strength": 86.7,
+    "narrative": 41.2,
+    "volume_expansion": 59.9,
+    "risk_profile": 25.1,
+    "composite": 71.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 6.02,
-    "vs_ETH": 6.13,
-    "vs_SOL": 7.17,
-    "vs_sector": 5.24
+    "vs_BTC": 8.71,
+    "vs_ETH": 9.26,
+    "vs_SOL": 10.19,
+    "vs_sector": 9.7
    },
    "market": {
-    "price": 4.81e-06,
-    "change_24h_pct": -2.83,
-    "change_7d_pct": 6.42,
-    "change_30d_pct": 9.03,
-    "volume_24h_usd": 18469608,
-    "volume_vs_7d_avg": 1.97,
-    "volatility_atr_1h_pct": 3.25,
-    "spread_pct": 0.208
+    "price": 5.01e-06,
+    "change_24h_pct": -4.74,
+    "change_7d_pct": 13.83,
+    "change_30d_pct": 12.87,
+    "volume_24h_usd": 12630084,
+    "volume_vs_7d_avg": 1.23,
+    "volatility_atr_1h_pct": 2.67,
+    "spread_pct": 0.199
    },
    "risk_filter": {
     "passed": true,
     "reasons": []
+   }
+  },
+  {
+   "rank": 9,
+   "ticker": "ZEC",
+   "narrative": "Other",
+   "signal": "BUY",
+   "confidence": 71.3,
+   "entry": 1280.85,
+   "stop_loss": 1200.56,
+   "target_1": 1396.67,
+   "target_2": 1602.02,
+   "risk_reward": 2.72,
+   "stop_distance_pct": 6.27,
+   "scores": {
+    "trend": 80.0,
+    "relative_strength": 89.8,
+    "narrative": 50.0,
+    "volume_expansion": 62.0,
+    "risk_profile": 55.9,
+    "composite": 71.3
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 9.69,
+    "vs_ETH": 10.25,
+    "vs_SOL": 11.17,
+    "vs_sector": 8.94
+   },
+   "market": {
+    "price": 1280.85,
+    "change_24h_pct": 2.76,
+    "change_7d_pct": 10.47,
+    "change_30d_pct": -4.06,
+    "volume_24h_usd": 119094254,
+    "volume_vs_7d_avg": 1.28,
+    "volatility_atr_1h_pct": 1.47,
+    "spread_pct": 0.041
+   },
+   "risk_filter": {
+    "passed": true,
+    "reasons": []
+   }
+  },
+  {
+   "rank": 10,
+   "ticker": "HFT",
+   "narrative": "Other",
+   "signal": "HOLD",
+   "confidence": 70.8,
+   "entry": 0.00565,
+   "stop_loss": 0.004972,
+   "target_1": 0.00679,
+   "target_2": 0.008362,
+   "risk_reward": 2.84,
+   "stop_distance_pct": 12.0,
+   "scores": {
+    "trend": 75.0,
+    "relative_strength": 92.9,
+    "narrative": 50.0,
+    "volume_expansion": 100.0,
+    "risk_profile": 0.7,
+    "composite": 70.8
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 11.97,
+    "vs_ETH": 12.53,
+    "vs_SOL": 13.45,
+    "vs_sector": 11.22
+   },
+   "market": {
+    "price": 0.00565,
+    "change_24h_pct": 15.29,
+    "change_7d_pct": 5.91,
+    "change_30d_pct": -6.82,
+    "volume_24h_usd": 650486,
+    "volume_vs_7d_avg": 11.47,
+    "volatility_atr_1h_pct": 6.98,
+    "spread_pct": 1.928
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $650,486 24h volume",
+     "Wide spread: 1.93%",
+     "Abnormal selling: 4 heavy-volume dump bar(s) in 24h"
+    ]
    }
   },
   {
@@ -772,165 +773,167 @@
    "ticker": "MEZO",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 67.8,
-   "entry": 0.00642,
-   "stop_loss": 0.0056496,
-   "target_1": 0.0079608,
-   "target_2": 0.0095016,
+   "confidence": 69.9,
+   "entry": 0.008679,
+   "stop_loss": 0.00763752,
+   "target_1": 0.010762,
+   "target_2": 0.0128449,
    "risk_reward": 3.0,
    "stop_distance_pct": 12.0,
    "scores": {
     "trend": 75.0,
     "relative_strength": 100.0,
     "narrative": 50.0,
-    "volume_expansion": 68.7,
+    "volume_expansion": 82.5,
     "risk_profile": 0.0,
-    "composite": 67.8
+    "composite": 69.9
    },
    "relative_strength_pct": {
-    "vs_BTC": 95.17,
-    "vs_ETH": 95.28,
-    "vs_SOL": 96.32,
-    "vs_sector": 95.6
+    "vs_BTC": 151.66,
+    "vs_ETH": 152.22,
+    "vs_SOL": 153.14,
+    "vs_sector": 150.91
    },
    "market": {
-    "price": 0.00642,
-    "change_24h_pct": 71.43,
-    "change_7d_pct": 105.49,
-    "change_30d_pct": 54.29,
-    "volume_24h_usd": 1706974,
-    "volume_vs_7d_avg": 1.48,
-    "volatility_atr_1h_pct": 9.07,
-    "spread_pct": 0.593
+    "price": 0.008679,
+    "change_24h_pct": 92.47,
+    "change_7d_pct": 187.28,
+    "change_30d_pct": 101.21,
+    "volume_24h_usd": 2761142,
+    "volume_vs_7d_avg": 1.97,
+    "volatility_atr_1h_pct": 9.99,
+    "spread_pct": 1.042
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,706,974 24h volume",
-     "Wide spread: 0.59%",
-     "Abnormal selling: 4 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $2,761,142 24h volume",
+     "Wide spread: 1.04%",
+     "Abnormal selling: 6 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
    "rank": 12,
-   "ticker": "XLM",
-   "narrative": "Layer 1",
-   "signal": "BUY",
-   "confidence": 65.2,
-   "entry": 0.168712,
-   "stop_loss": 0.163054,
-   "target_1": 0.180029,
-   "target_2": 0.191345,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.35,
-   "scores": {
-    "trend": 55.0,
-    "relative_strength": 74.5,
-    "narrative": 41.1,
-    "volume_expansion": 88.7,
-    "risk_profile": 85.4,
-    "composite": 65.2
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 2.64,
-    "vs_ETH": 2.75,
-    "vs_SOL": 3.79,
-    "vs_sector": 3.63
-   },
-   "market": {
-    "price": 0.168712,
-    "change_24h_pct": 1.43,
-    "change_7d_pct": -2.06,
-    "change_30d_pct": -22.99,
-    "volume_24h_usd": 11174080,
-    "volume_vs_7d_avg": 2.24,
-    "volatility_atr_1h_pct": 1.09,
-    "spread_pct": 0.06
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 13,
-   "ticker": "OP",
-   "narrative": "Layer 2",
+   "ticker": "XPL",
+   "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 64.8,
-   "entry": 0.11391,
-   "stop_loss": 0.101241,
-   "target_1": 0.13586,
-   "target_2": 0.164585,
-   "risk_reward": 2.87,
-   "stop_distance_pct": 11.12,
+   "confidence": 69.7,
+   "entry": 0.0805,
+   "stop_loss": 0.0757394,
+   "target_1": 0.08662,
+   "target_2": 0.0995424,
+   "risk_reward": 2.64,
+   "stop_distance_pct": 5.91,
    "scores": {
-    "trend": 55.0,
+    "trend": 75.0,
     "relative_strength": 85.7,
-    "narrative": 42.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 34.8,
-    "composite": 64.8
+    "narrative": 50.0,
+    "volume_expansion": 72.5,
+    "risk_profile": 49.0,
+    "composite": 69.7
    },
    "relative_strength_pct": {
-    "vs_BTC": 7.84,
-    "vs_ETH": 7.95,
-    "vs_SOL": 8.99,
-    "vs_sector": 6.54
+    "vs_BTC": 8.63,
+    "vs_ETH": 9.19,
+    "vs_SOL": 10.11,
+    "vs_sector": 7.88
    },
    "market": {
-    "price": 0.11391,
-    "change_24h_pct": 11.95,
-    "change_7d_pct": -0.41,
-    "change_30d_pct": -10.89,
-    "volume_24h_usd": 4309394,
-    "volume_vs_7d_avg": 5.13,
-    "volatility_atr_1h_pct": 2.52,
-    "spread_pct": 0.088
+    "price": 0.0805,
+    "change_24h_pct": 4.08,
+    "change_7d_pct": 7.82,
+    "change_30d_pct": -16.31,
+    "volume_24h_usd": 964932,
+    "volume_vs_7d_avg": 1.6,
+    "volatility_atr_1h_pct": 1.51,
+    "spread_pct": 0.075
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,309,394 24h volume"
+     "Low liquidity: $964,932 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 13,
+   "ticker": "STX",
+   "narrative": "Other",
+   "signal": "HOLD",
+   "confidence": 68.3,
+   "entry": 0.3124,
+   "stop_loss": 0.275515,
+   "target_1": 0.3846,
+   "target_2": 0.459938,
+   "risk_reward": 2.98,
+   "stop_distance_pct": 11.81,
+   "scores": {
+    "trend": 80.0,
+    "relative_strength": 84.7,
+    "narrative": 50.0,
+    "volume_expansion": 52.9,
+    "risk_profile": 51.5,
+    "composite": 68.3
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 8.49,
+    "vs_ETH": 9.05,
+    "vs_SOL": 9.97,
+    "vs_sector": 7.74
+   },
+   "market": {
+    "price": 0.3124,
+    "change_24h_pct": 11.12,
+    "change_7d_pct": 2.9,
+    "change_30d_pct": -16.35,
+    "volume_24h_usd": 641008,
+    "volume_vs_7d_avg": 1.06,
+    "volatility_atr_1h_pct": 1.48,
+    "spread_pct": 0.064
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $641,008 24h volume"
     ]
    }
   },
   {
    "rank": 14,
-   "ticker": "ZEC",
-   "narrative": "Other",
-   "signal": "HOLD",
-   "confidence": 64.6,
-   "entry": 1256.38,
-   "stop_loss": 1200.56,
-   "target_1": 1368.03,
-   "target_2": 1479.67,
+   "ticker": "QNT",
+   "narrative": "Layer 1",
+   "signal": "BUY",
+   "confidence": 67.9,
+   "entry": 197.12,
+   "stop_loss": 185.279,
+   "target_1": 220.802,
+   "target_2": 244.484,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.44,
+   "stop_distance_pct": 6.01,
    "scores": {
-    "trend": 60.0,
-    "relative_strength": 86.7,
-    "narrative": 50.0,
-    "volume_expansion": 63.8,
-    "risk_profile": 53.6,
-    "composite": 64.6
+    "trend": 100.0,
+    "relative_strength": 88.8,
+    "narrative": 37.3,
+    "volume_expansion": 24.1,
+    "risk_profile": 46.7,
+    "composite": 67.9
    },
    "relative_strength_pct": {
-    "vs_BTC": 7.67,
-    "vs_ETH": 7.78,
-    "vs_SOL": 8.82,
-    "vs_sector": 8.09
+    "vs_BTC": 8.99,
+    "vs_ETH": 9.54,
+    "vs_SOL": 10.46,
+    "vs_sector": 10.15
    },
    "market": {
-    "price": 1256.38,
-    "change_24h_pct": -0.65,
-    "change_7d_pct": 7.7,
-    "change_30d_pct": -5.81,
-    "volume_24h_usd": 120285488,
-    "volume_vs_7d_avg": 1.33,
-    "volatility_atr_1h_pct": 1.84,
-    "spread_pct": 0.021
+    "price": 197.12,
+    "change_24h_pct": 2.65,
+    "change_7d_pct": 9.36,
+    "change_30d_pct": -19.66,
+    "volume_24h_usd": 7117309,
+    "volume_vs_7d_avg": 0.58,
+    "volatility_atr_1h_pct": 1.55,
+    "spread_pct": 0.076
    },
    "risk_filter": {
     "passed": true,
@@ -942,41 +945,41 @@
    "ticker": "ZRO",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 62.2,
-   "entry": 1.6894,
-   "stop_loss": 1.60801,
-   "target_1": 1.85218,
-   "target_2": 2.01496,
+   "confidence": 67.6,
+   "entry": 1.7304,
+   "stop_loss": 1.64245,
+   "target_1": 1.90631,
+   "target_2": 2.08221,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.82,
+   "stop_distance_pct": 5.08,
    "scores": {
-    "trend": 65.0,
-    "relative_strength": 75.5,
+    "trend": 80.0,
+    "relative_strength": 79.6,
     "narrative": 50.0,
-    "volume_expansion": 70.9,
-    "risk_profile": 32.1,
-    "composite": 62.2
+    "volume_expansion": 65.6,
+    "risk_profile": 39.0,
+    "composite": 67.6
    },
    "relative_strength_pct": {
-    "vs_BTC": 3.09,
-    "vs_ETH": 3.2,
-    "vs_SOL": 4.24,
-    "vs_sector": 3.52
+    "vs_BTC": 4.83,
+    "vs_ETH": 5.39,
+    "vs_SOL": 6.31,
+    "vs_sector": 4.08
    },
    "market": {
-    "price": 1.6894,
-    "change_24h_pct": 0.78,
-    "change_7d_pct": -0.87,
-    "change_30d_pct": -6.21,
-    "volume_24h_usd": 4039879,
-    "volume_vs_7d_avg": 1.55,
-    "volatility_atr_1h_pct": 2.41,
-    "spread_pct": 0.136
+    "price": 1.7304,
+    "change_24h_pct": 1.63,
+    "change_7d_pct": 3.12,
+    "change_30d_pct": -3.93,
+    "volume_24h_usd": 3759616,
+    "volume_vs_7d_avg": 1.38,
+    "volatility_atr_1h_pct": 2.07,
+    "spread_pct": 0.081
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,039,879 24h volume"
+     "Low liquidity: $3,759,616 24h volume"
     ]
    }
   },
@@ -985,122 +988,120 @@
    "ticker": "DOOD",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 61.3,
-   "entry": 0.001919,
-   "stop_loss": 0.00177388,
-   "target_1": 0.00220925,
-   "target_2": 0.00249949,
+   "confidence": 67.5,
+   "entry": 0.001979,
+   "stop_loss": 0.00186116,
+   "target_1": 0.00221468,
+   "target_2": 0.00245035,
    "risk_reward": 3.0,
-   "stop_distance_pct": 7.56,
+   "stop_distance_pct": 5.95,
    "scores": {
-    "trend": 85.0,
-    "relative_strength": 90.8,
+    "trend": 100.0,
+    "relative_strength": 93.9,
     "narrative": 50.0,
-    "volume_expansion": 14.0,
-    "risk_profile": 10.4,
-    "composite": 61.3
+    "volume_expansion": 7.5,
+    "risk_profile": 29.1,
+    "composite": 67.5
    },
    "relative_strength_pct": {
-    "vs_BTC": 14.43,
-    "vs_ETH": 14.54,
-    "vs_SOL": 15.58,
-    "vs_sector": 14.86
+    "vs_BTC": 19.65,
+    "vs_ETH": 20.2,
+    "vs_SOL": 21.13,
+    "vs_sector": 18.9
    },
    "market": {
-    "price": 0.001919,
-    "change_24h_pct": -1.54,
-    "change_7d_pct": 19.56,
-    "change_30d_pct": 6.43,
-    "volume_24h_usd": 779069,
-    "volume_vs_7d_avg": 0.47,
-    "volatility_atr_1h_pct": 3.78,
-    "spread_pct": 0.26
+    "price": 0.001979,
+    "change_24h_pct": 0.3,
+    "change_7d_pct": 28.7,
+    "change_30d_pct": 10.21,
+    "volume_24h_usd": 700289,
+    "volume_vs_7d_avg": 0.41,
+    "volatility_atr_1h_pct": 2.98,
+    "spread_pct": 0.152
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $779,069 24h volume"
+     "Low liquidity: $700,289 24h volume"
     ]
    }
   },
   {
    "rank": 17,
-   "ticker": "POL",
-   "narrative": "Layer 2",
+   "ticker": "LINK",
+   "narrative": "Real World Assets",
    "signal": "HOLD",
-   "confidence": 59.1,
-   "entry": 0.09204,
-   "stop_loss": 0.0876794,
-   "target_1": 0.09742,
-   "target_2": 0.109482,
-   "risk_reward": 2.62,
-   "stop_distance_pct": 4.74,
+   "confidence": 63.4,
+   "entry": 11.494,
+   "stop_loss": 10.8176,
+   "target_1": 12.798,
+   "target_2": 14.1994,
+   "risk_reward": 2.96,
+   "stop_distance_pct": 5.88,
    "scores": {
-    "trend": 40.0,
-    "relative_strength": 81.6,
-    "narrative": 42.0,
-    "volume_expansion": 73.1,
-    "risk_profile": 72.8,
-    "composite": 59.1
+    "trend": 55.0,
+    "relative_strength": 72.4,
+    "narrative": 39.5,
+    "volume_expansion": 88.5,
+    "risk_profile": 76.0,
+    "composite": 63.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 6.16,
-    "vs_ETH": 6.27,
-    "vs_SOL": 7.31,
-    "vs_sector": 4.86
+    "vs_BTC": 3.27,
+    "vs_ETH": 3.83,
+    "vs_SOL": 4.75,
+    "vs_sector": 0.96
    },
    "market": {
-    "price": 0.09204,
-    "change_24h_pct": 4.42,
-    "change_7d_pct": 1.81,
-    "change_30d_pct": -14.6,
-    "volume_24h_usd": 846658,
-    "volume_vs_7d_avg": 1.62,
-    "volatility_atr_1h_pct": 1.43,
-    "spread_pct": 0.065
+    "price": 11.494,
+    "change_24h_pct": 3.9,
+    "change_7d_pct": -0.99,
+    "change_30d_pct": -20.05,
+    "volume_24h_usd": 17436320,
+    "volume_vs_7d_avg": 2.23,
+    "volatility_atr_1h_pct": 1.13,
+    "spread_pct": 0.026
    },
    "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $846,658 24h volume"
-    ]
+    "passed": true,
+    "reasons": []
    }
   },
   {
    "rank": 18,
-   "ticker": "LINK",
-   "narrative": "Real World Assets",
+   "ticker": "XLM",
+   "narrative": "Layer 1",
    "signal": "HOLD",
-   "confidence": 58.9,
-   "entry": 11.401,
-   "stop_loss": 10.8176,
-   "target_1": 12.5677,
-   "target_2": 13.7344,
+   "confidence": 62.7,
+   "entry": 0.168888,
+   "stop_loss": 0.164175,
+   "target_1": 0.178314,
+   "target_2": 0.18774,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.12,
+   "stop_distance_pct": 2.79,
    "scores": {
-    "trend": 35.0,
-    "relative_strength": 73.5,
-    "narrative": 38.3,
-    "volume_expansion": 94.9,
-    "risk_profile": 81.8,
-    "composite": 58.9
+    "trend": 55.0,
+    "relative_strength": 69.4,
+    "narrative": 37.3,
+    "volume_expansion": 81.3,
+    "risk_profile": 92.3,
+    "composite": 62.7
    },
    "relative_strength_pct": {
-    "vs_BTC": 2.74,
-    "vs_ETH": 2.85,
-    "vs_SOL": 3.89,
-    "vs_sector": 1.0
+    "vs_BTC": 2.12,
+    "vs_ETH": 2.67,
+    "vs_SOL": 3.59,
+    "vs_sector": 3.28
    },
    "market": {
-    "price": 11.401,
-    "change_24h_pct": 3.41,
-    "change_7d_pct": -3.21,
-    "change_30d_pct": -20.68,
-    "volume_24h_usd": 19003954,
-    "volume_vs_7d_avg": 2.55,
-    "volatility_atr_1h_pct": 1.36,
-    "spread_pct": 0.018
+    "price": 0.168888,
+    "change_24h_pct": 0.72,
+    "change_7d_pct": -0.8,
+    "change_30d_pct": -22.81,
+    "volume_24h_usd": 9822390,
+    "volume_vs_7d_avg": 1.92,
+    "volatility_atr_1h_pct": 0.82,
+    "spread_pct": 0.012
    },
    "risk_filter": {
     "passed": true,
@@ -1109,643 +1110,600 @@
   },
   {
    "rank": 19,
-   "ticker": "BLUR",
-   "narrative": "Other",
+   "ticker": "UNI",
+   "narrative": "DeFi",
    "signal": "HOLD",
-   "confidence": 58.8,
-   "entry": 0.00859,
-   "stop_loss": 0.0075592,
-   "target_1": 0.010297,
-   "target_2": 0.0127132,
-   "risk_reward": 2.83,
-   "stop_distance_pct": 12.0,
+   "confidence": 62.4,
+   "entry": 6.9203,
+   "stop_loss": 6.72848,
+   "target_1": 7.30394,
+   "target_2": 7.68758,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.77,
    "scores": {
-    "trend": 40.0,
-    "relative_strength": 88.3,
-    "narrative": 50.0,
-    "volume_expansion": 95.1,
-    "risk_profile": 5.0,
-    "composite": 58.8
+    "trend": 65.0,
+    "relative_strength": 75.5,
+    "narrative": 33.0,
+    "volume_expansion": 77.0,
+    "risk_profile": 59.1,
+    "composite": 62.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 9.52,
-    "vs_ETH": 9.63,
-    "vs_SOL": 10.67,
-    "vs_sector": 9.95
+    "vs_BTC": 3.22,
+    "vs_ETH": 3.78,
+    "vs_SOL": 4.7,
+    "vs_sector": 3.35
    },
    "market": {
-    "price": 0.00859,
-    "change_24h_pct": 8.56,
-    "change_7d_pct": 4.65,
-    "change_30d_pct": -57.11,
-    "volume_24h_usd": 430662,
-    "volume_vs_7d_avg": 2.55,
-    "volatility_atr_1h_pct": 4.82,
-    "spread_pct": 0.723
+    "price": 6.9203,
+    "change_24h_pct": -0.09,
+    "change_7d_pct": 1.58,
+    "change_30d_pct": -22.85,
+    "volume_24h_usd": 11490777,
+    "volume_vs_7d_avg": 1.76,
+    "volatility_atr_1h_pct": 1.39,
+    "spread_pct": 0.038
+   },
+   "risk_filter": {
+    "passed": true,
+    "reasons": []
+   }
+  },
+  {
+   "rank": 20,
+   "ticker": "CAP",
+   "narrative": "Other",
+   "signal": "HOLD",
+   "confidence": 61.9,
+   "entry": 0.08088,
+   "stop_loss": 0.0760551,
+   "target_1": 0.0905299,
+   "target_2": 0.10018,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 5.97,
+   "scores": {
+    "trend": 85.0,
+    "relative_strength": 83.7,
+    "narrative": 50.0,
+    "volume_expansion": 26.7,
+    "risk_profile": 15.2,
+    "composite": 61.9
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 8.04,
+    "vs_ETH": 8.6,
+    "vs_SOL": 9.52,
+    "vs_sector": 7.29
+   },
+   "market": {
+    "price": 0.08088,
+    "change_24h_pct": -0.89,
+    "change_7d_pct": 10.15,
+    "change_30d_pct": 16.23,
+    "volume_24h_usd": 850365,
+    "volume_vs_7d_avg": 0.62,
+    "volatility_atr_1h_pct": 2.98,
+    "spread_pct": 0.284
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $430,662 24h volume",
-     "Wide spread: 0.72%",
+     "Low liquidity: $850,365 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 21,
+   "ticker": "AMP",
+   "narrative": "Other",
+   "signal": "HOLD",
+   "confidence": 60.8,
+   "entry": 0.0007076,
+   "stop_loss": 0.000622688,
+   "target_1": 0.000877424,
+   "target_2": 0.00104725,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 12.0,
+   "scores": {
+    "trend": 60.0,
+    "relative_strength": 63.3,
+    "narrative": 50.0,
+    "volume_expansion": 89.8,
+    "risk_profile": 35.0,
+    "composite": 60.8
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 1.38,
+    "vs_ETH": 1.93,
+    "vs_SOL": 2.85,
+    "vs_sector": 0.62
+   },
+   "market": {
+    "price": 0.0007076,
+    "change_24h_pct": 9.51,
+    "change_7d_pct": -7.89,
+    "change_30d_pct": 10.6,
+    "volume_24h_usd": 901263,
+    "volume_vs_7d_avg": 2.29,
+    "volatility_atr_1h_pct": 3.6,
+    "spread_pct": 0.028
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $901,263 24h volume",
      "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
-   "rank": 20,
-   "ticker": "UNI",
-   "narrative": "DeFi",
-   "signal": "HOLD",
-   "confidence": 58.7,
-   "entry": 6.912,
-   "stop_loss": 6.61108,
-   "target_1": 7.51384,
-   "target_2": 8.11569,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 4.35,
-   "scores": {
-    "trend": 45.0,
-    "relative_strength": 79.6,
-    "narrative": 32.3,
-    "volume_expansion": 89.3,
-    "risk_profile": 54.5,
-    "composite": 58.7
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 4.27,
-    "vs_ETH": 4.38,
-    "vs_SOL": 5.42,
-    "vs_sector": 5.12
-   },
-   "market": {
-    "price": 6.912,
-    "change_24h_pct": 2.74,
-    "change_7d_pct": -0.21,
-    "change_30d_pct": -22.99,
-    "volume_24h_usd": 13981603,
-    "volume_vs_7d_avg": 2.26,
-    "volatility_atr_1h_pct": 1.78,
-    "spread_pct": 0.033
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 21,
-   "ticker": "QNT",
-   "narrative": "Layer 1",
-   "signal": "HOLD",
-   "confidence": 57.5,
-   "entry": 192.47,
-   "stop_loss": 185.279,
-   "target_1": 206.852,
-   "target_2": 221.234,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.74,
-   "scores": {
-    "trend": 60.0,
-    "relative_strength": 83.7,
-    "narrative": 41.1,
-    "volume_expansion": 35.6,
-    "risk_profile": 50.4,
-    "composite": 57.5
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 6.58,
-    "vs_ETH": 6.69,
-    "vs_SOL": 7.73,
-    "vs_sector": 7.57
-   },
-   "market": {
-    "price": 192.47,
-    "change_24h_pct": -0.4,
-    "change_7d_pct": 5.73,
-    "change_30d_pct": -21.4,
-    "volume_24h_usd": 8712671,
-    "volume_vs_7d_avg": 0.74,
-    "volatility_atr_1h_pct": 1.78,
-    "spread_pct": 0.068
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
    "rank": 22,
-   "ticker": "FLR",
+   "ticker": "BNB",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 55.7,
-   "entry": 0.006068,
-   "stop_loss": 0.0058715,
-   "target_1": 0.00646101,
-   "target_2": 0.00685402,
+   "confidence": 60.4,
+   "entry": 704.0,
+   "stop_loss": 684.928,
+   "target_1": 742.144,
+   "target_2": 780.287,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.24,
+   "stop_distance_pct": 2.71,
    "scores": {
-    "trend": 15.0,
-    "relative_strength": 78.6,
+    "trend": 40.0,
+    "relative_strength": 56.1,
     "narrative": 50.0,
-    "volume_expansion": 82.8,
-    "risk_profile": 91.0,
-    "composite": 55.7
+    "volume_expansion": 100.0,
+    "risk_profile": 94.2,
+    "composite": 60.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 4.22,
-    "vs_ETH": 4.34,
-    "vs_SOL": 5.37,
-    "vs_sector": 4.65
+    "vs_BTC": 0.29,
+    "vs_ETH": 0.84,
+    "vs_SOL": 1.76,
+    "vs_sector": -0.47
    },
    "market": {
-    "price": 0.006068,
-    "change_24h_pct": 1.93,
-    "change_7d_pct": 0.25,
-    "change_30d_pct": -17.8,
-    "volume_24h_usd": 613652,
-    "volume_vs_7d_avg": 1.98,
-    "volatility_atr_1h_pct": 0.79,
-    "spread_pct": 0.082
+    "price": 704.0,
+    "change_24h_pct": 0.56,
+    "change_7d_pct": -3.74,
+    "change_30d_pct": -8.75,
+    "volume_24h_usd": 7517625,
+    "volume_vs_7d_avg": 4.4,
+    "volatility_atr_1h_pct": 0.61,
+    "spread_pct": 0.051
    },
    "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $613,652 24h volume"
-    ]
+    "passed": true,
+    "reasons": []
    }
   },
   {
    "rank": 23,
-   "ticker": "BNKR",
-   "narrative": "Other",
+   "ticker": "OP",
+   "narrative": "Layer 2",
    "signal": "HOLD",
-   "confidence": 55.1,
-   "entry": 0.0002899,
-   "stop_loss": 0.000258203,
-   "target_1": 0.000353295,
-   "target_2": 0.00041669,
+   "confidence": 59.1,
+   "entry": 0.11229,
+   "stop_loss": 0.103878,
+   "target_1": 0.129114,
+   "target_2": 0.145938,
    "risk_reward": 3.0,
-   "stop_distance_pct": 10.93,
+   "stop_distance_pct": 7.49,
    "scores": {
-    "trend": 55.0,
-    "relative_strength": 54.1,
-    "narrative": 50.0,
-    "volume_expansion": 87.9,
-    "risk_profile": 19.3,
-    "composite": 55.1
+    "trend": 40.0,
+    "relative_strength": 81.6,
+    "narrative": 37.6,
+    "volume_expansion": 100.0,
+    "risk_profile": 41.6,
+    "composite": 59.1
    },
    "relative_strength_pct": {
-    "vs_BTC": -0.17,
-    "vs_ETH": -0.06,
-    "vs_SOL": 0.98,
-    "vs_sector": 0.26
+    "vs_BTC": 4.96,
+    "vs_ETH": 5.51,
+    "vs_SOL": 6.43,
+    "vs_sector": 6.38
    },
    "market": {
-    "price": 0.0002899,
-    "change_24h_pct": 8.62,
-    "change_7d_pct": -11.53,
-    "change_30d_pct": -30.18,
-    "volume_24h_usd": 562816,
-    "volume_vs_7d_avg": 2.2,
-    "volatility_atr_1h_pct": 2.23,
-    "spread_pct": 0.312
+    "price": 0.11229,
+    "change_24h_pct": 5.79,
+    "change_7d_pct": 0.56,
+    "change_30d_pct": -12.15,
+    "volume_24h_usd": 4225960,
+    "volume_vs_7d_avg": 4.94,
+    "volatility_atr_1h_pct": 1.99,
+    "spread_pct": 0.062
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $562,816 24h volume",
-     "Wide spread: 0.31%"
+     "Low liquidity: $4,225,960 24h volume"
     ]
    }
   },
   {
    "rank": 24,
-   "ticker": "BNB",
+   "ticker": "SPK",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 54.4,
-   "entry": 701.8,
-   "stop_loss": 684.928,
-   "target_1": 735.544,
-   "target_2": 769.287,
+   "confidence": 57.6,
+   "entry": 0.01816,
+   "stop_loss": 0.0169349,
+   "target_1": 0.0206102,
+   "target_2": 0.0230604,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.4,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 51.0,
-    "narrative": 50.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 91.6,
-    "composite": 54.4
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.36,
-    "vs_ETH": -0.25,
-    "vs_SOL": 0.79,
-    "vs_sector": 0.07
-   },
-   "market": {
-    "price": 701.8,
-    "change_24h_pct": -1.84,
-    "change_7d_pct": -4.89,
-    "change_30d_pct": -9.03,
-    "volume_24h_usd": 7058435,
-    "volume_vs_7d_avg": 4.19,
-    "volatility_atr_1h_pct": 0.8,
-    "spread_pct": 0.07
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 25,
-   "ticker": "MDT",
-   "narrative": "Other",
-   "signal": "HOLD",
-   "confidence": 54.4,
-   "entry": 0.0061,
-   "stop_loss": 0.00543706,
-   "target_1": 0.00742587,
-   "target_2": 0.00875174,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 10.87,
+   "stop_distance_pct": 6.75,
    "scores": {
     "trend": 40.0,
-    "relative_strength": 77.6,
+    "relative_strength": 70.4,
     "narrative": 50.0,
-    "volume_expansion": 84.0,
-    "risk_profile": 4.3,
-    "composite": 54.4
+    "volume_expansion": 100.0,
+    "risk_profile": 29.7,
+    "composite": 57.6
    },
    "relative_strength_pct": {
-    "vs_BTC": 3.74,
-    "vs_ETH": 3.86,
-    "vs_SOL": 4.89,
-    "vs_sector": 4.17
+    "vs_BTC": 2.69,
+    "vs_ETH": 3.25,
+    "vs_SOL": 4.17,
+    "vs_sector": 1.94
    },
    "market": {
-    "price": 0.0061,
-    "change_24h_pct": 6.1,
-    "change_7d_pct": -3.33,
-    "change_30d_pct": -11.48,
-    "volume_24h_usd": 440158,
-    "volume_vs_7d_avg": 2.03,
-    "volatility_atr_1h_pct": 5.43,
-    "spread_pct": 0.988
+    "price": 0.01816,
+    "change_24h_pct": 4.44,
+    "change_7d_pct": -2.32,
+    "change_30d_pct": -23.36,
+    "volume_24h_usd": 973339,
+    "volume_vs_7d_avg": 4.8,
+    "volatility_atr_1h_pct": 3.3,
+    "spread_pct": 0.11
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $440,158 24h volume",
-     "Wide spread: 0.99%",
-     "Abnormal selling: 3 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $973,339 24h volume",
+     "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
+    ]
+   }
+  },
+  {
+   "rank": 25,
+   "ticker": "POL",
+   "narrative": "Layer 2",
+   "signal": "HOLD",
+   "confidence": 56.2,
+   "entry": 0.09162,
+   "stop_loss": 0.0896132,
+   "target_1": 0.0956337,
+   "target_2": 0.0996473,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.19,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 77.6,
+    "narrative": 37.6,
+    "volume_expansion": 64.9,
+    "risk_profile": 75.2,
+    "composite": 56.2
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 3.06,
+    "vs_ETH": 3.61,
+    "vs_SOL": 4.54,
+    "vs_sector": 4.48
+   },
+   "market": {
+    "price": 0.09162,
+    "change_24h_pct": -0.35,
+    "change_7d_pct": 1.48,
+    "change_30d_pct": -14.99,
+    "volume_24h_usd": 720116,
+    "volume_vs_7d_avg": 1.36,
+    "volatility_atr_1h_pct": 1.1,
+    "spread_pct": 0.076
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $720,116 24h volume"
     ]
    }
   },
   {
    "rank": 26,
-   "ticker": "ONDO",
-   "narrative": "Real World Assets",
+   "ticker": "MDT",
+   "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 52.8,
-   "entry": 0.40752,
-   "stop_loss": 0.383423,
-   "target_1": 0.455713,
-   "target_2": 0.503907,
+   "confidence": 56.1,
+   "entry": 0.00601,
+   "stop_loss": 0.00548907,
+   "target_1": 0.00705186,
+   "target_2": 0.00809372,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.91,
+   "stop_distance_pct": 8.67,
    "scores": {
-    "trend": 35.0,
+    "trend": 40.0,
     "relative_strength": 76.5,
-    "narrative": 38.3,
-    "volume_expansion": 60.4,
-    "risk_profile": 64.4,
-    "composite": 52.8
+    "narrative": 50.0,
+    "volume_expansion": 88.1,
+    "risk_profile": 17.6,
+    "composite": 56.1
    },
    "relative_strength_pct": {
-    "vs_BTC": 4.25,
-    "vs_ETH": 4.37,
-    "vs_SOL": 5.4,
-    "vs_sector": 2.52
+    "vs_BTC": 3.55,
+    "vs_ETH": 4.1,
+    "vs_SOL": 5.02,
+    "vs_sector": 2.79
    },
    "market": {
-    "price": 0.40752,
-    "change_24h_pct": 4.52,
-    "change_7d_pct": -1.43,
-    "change_30d_pct": -18.01,
-    "volume_24h_usd": 4712443,
-    "volume_vs_7d_avg": 1.24,
-    "volatility_atr_1h_pct": 1.61,
-    "spread_pct": 0.042
+    "price": 0.00601,
+    "change_24h_pct": 5.07,
+    "change_7d_pct": -1.31,
+    "change_30d_pct": -12.65,
+    "volume_24h_usd": 482417,
+    "volume_vs_7d_avg": 2.21,
+    "volatility_atr_1h_pct": 4.33,
+    "spread_pct": 0.167
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,712,443 24h volume"
+     "Low liquidity: $482,417 24h volume",
+     "Abnormal selling: 4 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
    "rank": 27,
-   "ticker": "PAXG",
-   "narrative": "Other",
+   "ticker": "ONDO",
+   "narrative": "Real World Assets",
    "signal": "HOLD",
-   "confidence": 49.6,
-   "entry": 3892.88,
-   "stop_loss": 3834.49,
-   "target_1": 4009.67,
-   "target_2": 4126.45,
+   "confidence": 53.2,
+   "entry": 0.40665,
+   "stop_loss": 0.383911,
+   "target_1": 0.452128,
+   "target_2": 0.497607,
    "risk_reward": 3.0,
-   "stop_distance_pct": 1.5,
+   "stop_distance_pct": 5.59,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 60.2,
-    "narrative": 50.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 95.9,
-    "composite": 49.6
+    "trend": 40.0,
+    "relative_strength": 74.5,
+    "narrative": 39.5,
+    "volume_expansion": 57.3,
+    "risk_profile": 61.3,
+    "composite": 53.2
    },
    "relative_strength_pct": {
-    "vs_BTC": 0.67,
-    "vs_ETH": 0.78,
-    "vs_SOL": 1.82,
-    "vs_sector": 1.1
+    "vs_BTC": 3.53,
+    "vs_ETH": 4.09,
+    "vs_SOL": 5.01,
+    "vs_sector": 1.22
    },
    "market": {
-    "price": 3892.88,
-    "change_24h_pct": -2.51,
-    "change_7d_pct": -2.71,
-    "change_30d_pct": -7.11,
-    "volume_24h_usd": 4765237,
-    "volume_vs_7d_avg": 2.92,
-    "volatility_atr_1h_pct": 0.3,
-    "spread_pct": 0.041
+    "price": 0.40665,
+    "change_24h_pct": 3.96,
+    "change_7d_pct": -0.6,
+    "change_30d_pct": -18.1,
+    "volume_24h_usd": 4388676,
+    "volume_vs_7d_avg": 1.16,
+    "volatility_atr_1h_pct": 1.34,
+    "spread_pct": 0.052
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,765,237 24h volume",
-     "Abnormal selling: 81% of 24h volume on red bars"
+     "Low liquidity: $4,388,676 24h volume"
     ]
    }
   },
   {
    "rank": 28,
-   "ticker": "PYTH",
+   "ticker": "FLR",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 48.1,
-   "entry": 0.06424,
-   "stop_loss": 0.0593418,
-   "target_1": 0.0740364,
-   "target_2": 0.0838328,
+   "confidence": 52.6,
+   "entry": 0.006024,
+   "stop_loss": 0.0058715,
+   "target_1": 0.00632901,
+   "target_2": 0.00663402,
    "risk_reward": 3.0,
-   "stop_distance_pct": 7.62,
+   "stop_distance_pct": 2.53,
    "scores": {
-    "trend": 40.0,
-    "relative_strength": 56.1,
+    "trend": 15.0,
+    "relative_strength": 68.4,
     "narrative": 50.0,
-    "volume_expansion": 62.4,
-    "risk_profile": 26.8,
-    "composite": 48.1
+    "volume_expansion": 82.7,
+    "risk_profile": 86.5,
+    "composite": 52.6
    },
    "relative_strength_pct": {
-    "vs_BTC": -0.13,
-    "vs_ETH": -0.02,
-    "vs_SOL": 1.02,
-    "vs_sector": 0.3
+    "vs_BTC": 2.47,
+    "vs_ETH": 3.03,
+    "vs_SOL": 3.95,
+    "vs_sector": 1.72
    },
    "market": {
-    "price": 0.06424,
-    "change_24h_pct": 5.93,
-    "change_7d_pct": -9.68,
-    "change_30d_pct": -13.66,
-    "volume_24h_usd": 927131,
-    "volume_vs_7d_avg": 1.29,
-    "volatility_atr_1h_pct": 2.25,
-    "spread_pct": 0.218
+    "price": 0.006024,
+    "change_24h_pct": 1.01,
+    "change_7d_pct": -0.4,
+    "change_30d_pct": -18.51,
+    "volume_24h_usd": 601761,
+    "volume_vs_7d_avg": 1.97,
+    "volatility_atr_1h_pct": 0.68,
+    "spread_pct": 0.1
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $927,131 24h volume",
-     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $601,761 24h volume"
     ]
    }
   },
   {
    "rank": 29,
-   "ticker": "ASTER",
-   "narrative": "Other",
+   "ticker": "AAVE",
+   "narrative": "DeFi",
    "signal": "HOLD",
-   "confidence": 48.0,
-   "entry": 0.6839,
-   "stop_loss": 0.66864,
-   "target_1": 0.71442,
-   "target_2": 0.74494,
+   "confidence": 52.1,
+   "entry": 133.7,
+   "stop_loss": 122.216,
+   "target_1": 156.668,
+   "target_2": 179.637,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.23,
+   "stop_distance_pct": 8.59,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 68.4,
-    "narrative": 50.0,
-    "volume_expansion": 77.2,
-    "risk_profile": 93.5,
-    "composite": 48.0
+    "trend": 55.0,
+    "relative_strength": 67.3,
+    "narrative": 33.0,
+    "volume_expansion": 40.9,
+    "risk_profile": 60.5,
+    "composite": 52.1
    },
    "relative_strength_pct": {
-    "vs_BTC": 1.62,
-    "vs_ETH": 1.73,
-    "vs_SOL": 2.77,
-    "vs_sector": 2.05
+    "vs_BTC": 2.03,
+    "vs_ETH": 2.59,
+    "vs_SOL": 3.51,
+    "vs_sector": 2.16
    },
    "market": {
-    "price": 0.6839,
-    "change_24h_pct": -0.93,
-    "change_7d_pct": -2.19,
-    "change_30d_pct": -7.62,
-    "volume_24h_usd": 595281,
-    "volume_vs_7d_avg": 1.76,
-    "volatility_atr_1h_pct": 0.88,
-    "spread_pct": 0.029
+    "price": 133.7,
+    "change_24h_pct": 6.22,
+    "change_7d_pct": -4.6,
+    "change_30d_pct": -22.18,
+    "volume_24h_usd": 3281532,
+    "volume_vs_7d_avg": 0.83,
+    "volatility_atr_1h_pct": 1.34,
+    "spread_pct": 0.052
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $595,281 24h volume"
+     "Low liquidity: $3,281,532 24h volume"
     ]
    }
   },
   {
    "rank": 30,
-   "ticker": "PLUME",
-   "narrative": "Real World Assets",
+   "ticker": "BLUR",
+   "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 47.8,
-   "entry": 0.01507,
-   "stop_loss": 0.0142384,
-   "target_1": 0.0167331,
-   "target_2": 0.0183962,
+   "confidence": 51.6,
+   "entry": 0.008214,
+   "stop_loss": 0.0075408,
+   "target_1": 0.0095604,
+   "target_2": 0.0109068,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.52,
+   "stop_distance_pct": 8.2,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 67.3,
-    "narrative": 38.3,
-    "volume_expansion": 57.5,
-    "risk_profile": 71.9,
-    "composite": 47.8
+    "trend": 40.0,
+    "relative_strength": 60.2,
+    "narrative": 50.0,
+    "volume_expansion": 93.2,
+    "risk_profile": 5.7,
+    "composite": 51.6
    },
    "relative_strength_pct": {
-    "vs_BTC": 1.99,
-    "vs_ETH": 2.1,
-    "vs_SOL": 3.14,
-    "vs_sector": 0.25
+    "vs_BTC": 0.84,
+    "vs_ETH": 1.39,
+    "vs_SOL": 2.31,
+    "vs_sector": 0.08
    },
    "market": {
-    "price": 0.01507,
-    "change_24h_pct": 5.15,
-    "change_7d_pct": -5.63,
-    "change_30d_pct": -17.99,
-    "volume_24h_usd": 646039,
-    "volume_vs_7d_avg": 1.17,
-    "volatility_atr_1h_pct": 1.45,
-    "spread_pct": 0.066
+    "price": 0.008214,
+    "change_24h_pct": -1.82,
+    "change_7d_pct": -1.24,
+    "change_30d_pct": -59.76,
+    "volume_24h_usd": 428481,
+    "volume_vs_7d_avg": 2.46,
+    "volatility_atr_1h_pct": 4.1,
+    "spread_pct": 0.341
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $646,039 24h volume"
+     "Low liquidity: $428,481 24h volume",
+     "Wide spread: 0.34%",
+     "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
    "rank": 31,
-   "ticker": "TON",
-   "narrative": "Layer 1",
+   "ticker": "BNKR",
+   "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 47.3,
-   "entry": 1.1855,
-   "stop_loss": 1.1346,
-   "target_1": 1.2873,
-   "target_2": 1.38911,
+   "confidence": 50.4,
+   "entry": 0.0002859,
+   "stop_loss": 0.000268152,
+   "target_1": 0.000321395,
+   "target_2": 0.00035689,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.29,
+   "stop_distance_pct": 6.21,
    "scores": {
-    "trend": 15.0,
-    "relative_strength": 63.3,
-    "narrative": 41.1,
-    "volume_expansion": 66.5,
-    "risk_profile": 88.3,
-    "composite": 47.3
+    "trend": 55.0,
+    "relative_strength": 41.8,
+    "narrative": 50.0,
+    "volume_expansion": 77.5,
+    "risk_profile": 18.6,
+    "composite": 50.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 0.83,
-    "vs_ETH": 0.94,
-    "vs_SOL": 1.98,
-    "vs_sector": 1.82
+    "vs_BTC": -0.84,
+    "vs_ETH": -0.28,
+    "vs_SOL": 0.64,
+    "vs_sector": -1.59
    },
    "market": {
-    "price": 1.1855,
-    "change_24h_pct": 1.48,
-    "change_7d_pct": -5.11,
-    "change_30d_pct": -24.71,
-    "volume_24h_usd": 612762,
-    "volume_vs_7d_avg": 1.41,
-    "volatility_atr_1h_pct": 0.98,
-    "spread_pct": 0.067
+    "price": 0.0002859,
+    "change_24h_pct": 7.02,
+    "change_7d_pct": -9.92,
+    "change_30d_pct": -30.23,
+    "volume_24h_usd": 469191,
+    "volume_vs_7d_avg": 1.77,
+    "volatility_atr_1h_pct": 1.96,
+    "spread_pct": 1.53
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $612,762 24h volume"
+     "Low liquidity: $469,191 24h volume",
+     "Wide spread: 1.53%"
     ]
    }
   },
   {
    "rank": 32,
-   "ticker": "APR",
-   "narrative": "Other",
+   "ticker": "ENA",
+   "narrative": "DeFi",
    "signal": "HOLD",
-   "confidence": 47.3,
-   "entry": 0.0514,
-   "stop_loss": 0.0466651,
-   "target_1": 0.0608698,
-   "target_2": 0.0703396,
+   "confidence": 49.4,
+   "entry": 0.19058,
+   "stop_loss": 0.180881,
+   "target_1": 0.209978,
+   "target_2": 0.229376,
    "risk_reward": 3.0,
-   "stop_distance_pct": 9.21,
+   "stop_distance_pct": 5.09,
    "scores": {
     "trend": 40.0,
-    "relative_strength": 99.0,
-    "narrative": 50.0,
-    "volume_expansion": 0.0,
-    "risk_profile": 5.7,
-    "composite": 47.3
+    "relative_strength": 78.6,
+    "narrative": 33.0,
+    "volume_expansion": 43.5,
+    "risk_profile": 46.1,
+    "composite": 49.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 59.82,
-    "vs_ETH": 59.93,
-    "vs_SOL": 60.97,
-    "vs_sector": 60.25
+    "vs_BTC": 3.39,
+    "vs_ETH": 3.95,
+    "vs_SOL": 4.87,
+    "vs_sector": 3.52
    },
    "market": {
-    "price": 0.0514,
-    "change_24h_pct": -7.55,
-    "change_7d_pct": 99.22,
-    "change_30d_pct": -61.12,
-    "volume_24h_usd": 750150,
-    "volume_vs_7d_avg": 0.32,
-    "volatility_atr_1h_pct": 4.61,
-    "spread_pct": 0.584
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $750,150 24h volume",
-     "Wide spread: 0.58%"
-    ]
-   }
-  },
-  {
-   "rank": 33,
-   "ticker": "AVAX",
-   "narrative": "Layer 1",
-   "signal": "HOLD",
-   "confidence": 47.1,
-   "entry": 8.489,
-   "stop_loss": 8.06846,
-   "target_1": 9.33009,
-   "target_2": 10.1712,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 4.95,
-   "scores": {
-    "trend": 15.0,
-    "relative_strength": 53.1,
-    "narrative": 41.1,
-    "volume_expansion": 83.7,
-    "risk_profile": 85.5,
-    "composite": 47.1
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.34,
-    "vs_ETH": -0.23,
-    "vs_SOL": 0.81,
-    "vs_sector": 0.65
-   },
-   "market": {
-    "price": 8.489,
-    "change_24h_pct": -0.56,
-    "change_7d_pct": -5.7,
-    "change_30d_pct": -22.64,
-    "volume_24h_usd": 7086312,
-    "volume_vs_7d_avg": 2.02,
-    "volatility_atr_1h_pct": 1.22,
-    "spread_pct": 0.024
+    "price": 0.19058,
+    "change_24h_pct": 0.94,
+    "change_7d_pct": 1.18,
+    "change_30d_pct": -21.46,
+    "volume_24h_usd": 7651614,
+    "volume_vs_7d_avg": 0.87,
+    "volatility_atr_1h_pct": 1.9,
+    "spread_pct": 0.031
    },
    "risk_filter": {
     "passed": true,
@@ -1753,126 +1711,169 @@
    }
   },
   {
-   "rank": 34,
-   "ticker": "MEGA",
+   "rank": 33,
+   "ticker": "ASTER",
    "narrative": "Other",
    "signal": "HOLD",
-   "confidence": 46.6,
-   "entry": 0.04419,
-   "stop_loss": 0.0426631,
-   "target_1": 0.0472438,
-   "target_2": 0.0502977,
-   "risk_reward": 3.0,
+   "confidence": 49.1,
+   "entry": 0.6926,
+   "stop_loss": 0.66864,
+   "target_1": 0.7312,
+   "target_2": 0.78844,
+   "risk_reward": 2.81,
    "stop_distance_pct": 3.46,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 64.3,
+    "trend": 15.0,
+    "relative_strength": 73.5,
     "narrative": 50.0,
-    "volume_expansion": 52.0,
-    "risk_profile": 52.4,
-    "composite": 46.6
+    "volume_expansion": 49.1,
+    "risk_profile": 88.5,
+    "composite": 49.1
    },
    "relative_strength_pct": {
-    "vs_BTC": 1.06,
-    "vs_ETH": 1.17,
-    "vs_SOL": 2.21,
-    "vs_sector": 1.49
+    "vs_BTC": 3.01,
+    "vs_ETH": 3.56,
+    "vs_SOL": 4.49,
+    "vs_sector": 2.26
    },
    "market": {
-    "price": 0.04419,
-    "change_24h_pct": -4.8,
-    "change_7d_pct": -0.54,
-    "change_30d_pct": -11.88,
-    "volume_24h_usd": 523426,
-    "volume_vs_7d_avg": 1.04,
-    "volatility_atr_1h_pct": 1.73,
-    "spread_pct": 0.09
+    "price": 0.6926,
+    "change_24h_pct": 1.73,
+    "change_7d_pct": 0.01,
+    "change_30d_pct": -6.41,
+    "volume_24h_usd": 369329,
+    "volume_vs_7d_avg": 0.98,
+    "volatility_atr_1h_pct": 0.68,
+    "spread_pct": 0.087
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $523,426 24h volume"
+     "Low liquidity: $369,329 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 34,
+   "ticker": "APR",
+   "narrative": "Other",
+   "signal": "HOLD",
+   "confidence": 48.5,
+   "entry": 0.053,
+   "stop_loss": 0.0487605,
+   "target_1": 0.061479,
+   "target_2": 0.0699579,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 8.0,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 99.0,
+    "narrative": 50.0,
+    "volume_expansion": 0.0,
+    "risk_profile": 17.5,
+    "composite": 48.5
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 61.78,
+    "vs_ETH": 62.34,
+    "vs_SOL": 63.26,
+    "vs_sector": 61.03
+   },
+   "market": {
+    "price": 0.053,
+    "change_24h_pct": -7.65,
+    "change_7d_pct": 104.23,
+    "change_30d_pct": -59.68,
+    "volume_24h_usd": 577456,
+    "volume_vs_7d_avg": 0.23,
+    "volatility_atr_1h_pct": 4.0,
+    "spread_pct": 0.189
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $577,456 24h volume"
     ]
    }
   },
   {
    "rank": 35,
-   "ticker": "GTC",
-   "narrative": "Other",
+   "ticker": "PENDLE",
+   "narrative": "DeFi",
    "signal": "HOLD",
-   "confidence": 45.8,
-   "entry": 0.2273,
-   "stop_loss": 0.200024,
-   "target_1": 0.281852,
-   "target_2": 0.336404,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 12.0,
+   "confidence": 47.7,
+   "entry": 1.8659,
+   "stop_loss": 1.66961,
+   "target_1": 2.2219,
+   "target_2": 2.65106,
+   "risk_reward": 2.91,
+   "stop_distance_pct": 10.52,
    "scores": {
-    "trend": 40.0,
-    "relative_strength": 70.4,
-    "narrative": 50.0,
-    "volume_expansion": 24.3,
-    "risk_profile": 25.3,
-    "composite": 45.8
+    "trend": 35.0,
+    "relative_strength": 71.4,
+    "narrative": 33.0,
+    "volume_expansion": 45.2,
+    "risk_profile": 59.1,
+    "composite": 47.7
    },
    "relative_strength_pct": {
-    "vs_BTC": 1.86,
-    "vs_ETH": 1.97,
-    "vs_SOL": 3.01,
-    "vs_sector": 2.29
+    "vs_BTC": 2.64,
+    "vs_ETH": 3.2,
+    "vs_SOL": 4.12,
+    "vs_sector": 2.77
    },
    "market": {
-    "price": 0.2273,
-    "change_24h_pct": 15.95,
-    "change_7d_pct": -13.04,
-    "change_30d_pct": 57.28,
-    "volume_24h_usd": 876036,
-    "volume_vs_7d_avg": 0.59,
-    "volatility_atr_1h_pct": 3.47,
-    "spread_pct": 0.132
+    "price": 1.8659,
+    "change_24h_pct": 9.82,
+    "change_7d_pct": -5.99,
+    "change_30d_pct": -21.38,
+    "volume_24h_usd": 547326,
+    "volume_vs_7d_avg": 0.91,
+    "volatility_atr_1h_pct": 1.29,
+    "spread_pct": 0.123
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $876,036 24h volume"
+     "Low liquidity: $547,326 24h volume"
     ]
    }
   },
   {
    "rank": 36,
-   "ticker": "ENA",
-   "narrative": "DeFi",
-   "signal": "REDUCE",
-   "confidence": 44.5,
-   "entry": 0.18914,
-   "stop_loss": 0.180343,
-   "target_1": 0.206733,
-   "target_2": 0.224327,
+   "ticker": "NEAR",
+   "narrative": "Layer 1",
+   "signal": "HOLD",
+   "confidence": 47.3,
+   "entry": 4.3254,
+   "stop_loss": 4.18895,
+   "target_1": 4.5983,
+   "target_2": 4.8712,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.65,
+   "stop_distance_pct": 3.15,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 71.4,
-    "narrative": 32.3,
-    "volume_expansion": 55.7,
-    "risk_profile": 43.1,
-    "composite": 44.5
+    "trend": 40.0,
+    "relative_strength": 64.3,
+    "narrative": 37.3,
+    "volume_expansion": 42.2,
+    "risk_profile": 54.2,
+    "composite": 47.3
    },
    "relative_strength_pct": {
-    "vs_BTC": 2.03,
-    "vs_ETH": 2.14,
-    "vs_SOL": 3.18,
-    "vs_sector": 2.89
+    "vs_BTC": 0.94,
+    "vs_ETH": 1.5,
+    "vs_SOL": 2.42,
+    "vs_sector": 2.1
    },
    "market": {
-    "price": 0.18914,
-    "change_24h_pct": 1.93,
-    "change_7d_pct": -3.41,
-    "change_30d_pct": -22.06,
-    "volume_24h_usd": 9479578,
-    "volume_vs_7d_avg": 1.13,
-    "volatility_atr_1h_pct": 2.33,
-    "spread_pct": 0.048
+    "price": 4.3254,
+    "change_24h_pct": 1.05,
+    "change_7d_pct": -2.97,
+    "change_30d_pct": -10.05,
+    "volume_24h_usd": 29252737,
+    "volume_vs_7d_avg": 0.85,
+    "volatility_atr_1h_pct": 1.45,
+    "spread_pct": 0.065
    },
    "risk_filter": {
     "passed": true,
@@ -1881,1026 +1882,943 @@
   },
   {
    "rank": 37,
-   "ticker": "XRP",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 44.2,
-   "entry": 1.2437,
-   "stop_loss": 1.21997,
-   "target_1": 1.29116,
-   "target_2": 1.33862,
+   "ticker": "PAXG",
+   "narrative": "Other",
+   "signal": "HOLD",
+   "confidence": 45.4,
+   "entry": 3894.38,
+   "stop_loss": 3835.96,
+   "target_1": 4011.21,
+   "target_2": 4128.04,
    "risk_reward": 3.0,
-   "stop_distance_pct": 1.91,
+   "stop_distance_pct": 1.5,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 65.3,
-    "narrative": 41.1,
-    "volume_expansion": 67.5,
-    "risk_profile": 95.5,
-    "composite": 44.2
+    "relative_strength": 55.1,
+    "narrative": 50.0,
+    "volume_expansion": 78.7,
+    "risk_profile": 98.1,
+    "composite": 45.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 0.96,
-    "vs_ETH": 1.07,
-    "vs_SOL": 2.11,
-    "vs_sector": 1.95
+    "vs_BTC": 0.11,
+    "vs_ETH": 0.67,
+    "vs_SOL": 1.59,
+    "vs_sector": -0.64
    },
    "market": {
-    "price": 1.2437,
-    "change_24h_pct": -0.85,
-    "change_7d_pct": -3.34,
-    "change_30d_pct": -16.7,
-    "volume_24h_usd": 102919179,
-    "volume_vs_7d_avg": 1.44,
-    "volatility_atr_1h_pct": 0.84,
-    "spread_pct": 0.016
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 38,
-   "ticker": "NEAR",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 43.9,
-   "entry": 4.2875,
-   "stop_loss": 4.13634,
-   "target_1": 4.58981,
-   "target_2": 4.89213,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.53,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 57.1,
-    "narrative": 41.1,
-    "volume_expansion": 57.0,
-    "risk_profile": 53.5,
-    "composite": 43.9
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.09,
-    "vs_ETH": 0.02,
-    "vs_SOL": 1.06,
-    "vs_sector": 0.9
-   },
-   "market": {
-    "price": 4.2875,
-    "change_24h_pct": 2.36,
-    "change_7d_pct": -7.24,
-    "change_30d_pct": -10.97,
-    "volume_24h_usd": 38106769,
-    "volume_vs_7d_avg": 1.16,
-    "volatility_atr_1h_pct": 1.76,
-    "spread_pct": 0.058
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 39,
-   "ticker": "DOGE",
-   "narrative": "Meme",
-   "signal": "REDUCE",
-   "confidence": 43.4,
-   "entry": 0.07514,
-   "stop_loss": 0.0738026,
-   "target_1": 0.0778147,
-   "target_2": 0.0804894,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 1.78,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 58.2,
-    "narrative": 45.4,
-    "volume_expansion": 70.4,
-    "risk_profile": 91.7,
-    "composite": 43.4
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 0.52,
-    "vs_ETH": 0.64,
-    "vs_SOL": 1.67,
-    "vs_sector": -0.26
-   },
-   "market": {
-    "price": 0.07514,
-    "change_24h_pct": -1.01,
-    "change_7d_pct": -3.96,
-    "change_30d_pct": -20.24,
-    "volume_24h_usd": 8033205,
-    "volume_vs_7d_avg": 1.53,
-    "volatility_atr_1h_pct": 0.89,
-    "spread_pct": 0.04
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 40,
-   "ticker": "ARB",
-   "narrative": "Layer 2",
-   "signal": "REDUCE",
-   "confidence": 43.0,
-   "entry": 0.16095,
-   "stop_loss": 0.155949,
-   "target_1": 0.170953,
-   "target_2": 0.180955,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.11,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 42.9,
-    "narrative": 42.0,
-    "volume_expansion": 68.1,
-    "risk_profile": 61.6,
-    "composite": 43.0
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.66,
-    "vs_ETH": -0.55,
-    "vs_SOL": 0.49,
-    "vs_sector": -1.96
-   },
-   "market": {
-    "price": 0.16095,
-    "change_24h_pct": -1.49,
-    "change_7d_pct": -5.61,
-    "change_30d_pct": -19.44,
-    "volume_24h_usd": 1670326,
-    "volume_vs_7d_avg": 1.46,
-    "volatility_atr_1h_pct": 1.55,
-    "spread_pct": 0.106
+    "price": 3894.38,
+    "change_24h_pct": -1.52,
+    "change_7d_pct": -2.64,
+    "change_30d_pct": -7.09,
+    "volume_24h_usd": 3171790,
+    "volume_vs_7d_avg": 1.82,
+    "volatility_atr_1h_pct": 0.2,
+    "spread_pct": 0.019
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,670,326 24h volume"
+     "Low liquidity: $3,171,790 24h volume",
+     "Abnormal selling: 82% of 24h volume on red bars"
+    ]
+   }
+  },
+  {
+   "rank": 38,
+   "ticker": "WIF",
+   "narrative": "Meme",
+   "signal": "REDUCE",
+   "confidence": 43.5,
+   "entry": 0.17514,
+   "stop_loss": 0.169936,
+   "target_1": 0.185548,
+   "target_2": 0.195956,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.97,
+   "scores": {
+    "trend": 15.0,
+    "relative_strength": 52.0,
+    "narrative": 41.2,
+    "volume_expansion": 72.6,
+    "risk_profile": 68.7,
+    "composite": 43.5
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -0.54,
+    "vs_ETH": 0.02,
+    "vs_SOL": 0.94,
+    "vs_sector": 0.45
+   },
+   "market": {
+    "price": 0.17514,
+    "change_24h_pct": 0.42,
+    "change_7d_pct": -5.02,
+    "change_30d_pct": -29.65,
+    "volume_24h_usd": 597215,
+    "volume_vs_7d_avg": 1.6,
+    "volatility_atr_1h_pct": 1.14,
+    "spread_pct": 0.091
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $597,215 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 39,
+   "ticker": "VVV",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 43.4,
+   "entry": 22.5002,
+   "stop_loss": 21.683,
+   "target_1": 24.1345,
+   "target_2": 25.7688,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 3.63,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 39.8,
+    "narrative": 50.0,
+    "volume_expansion": 38.8,
+    "risk_profile": 56.0,
+    "composite": 43.4
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -1.2,
+    "vs_ETH": -0.64,
+    "vs_SOL": 0.28,
+    "vs_sector": -1.95
+   },
+   "market": {
+    "price": 22.5002,
+    "change_24h_pct": 1.06,
+    "change_7d_pct": -6.55,
+    "change_30d_pct": -14.08,
+    "volume_24h_usd": 3465793,
+    "volume_vs_7d_avg": 0.79,
+    "volatility_atr_1h_pct": 1.4,
+    "spread_pct": 0.061
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $3,465,793 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 40,
+   "ticker": "GTC",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 41.9,
+   "entry": 0.2335,
+   "stop_loss": 0.20548,
+   "target_1": 0.28954,
+   "target_2": 0.34558,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 12.0,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 65.3,
+    "narrative": 50.0,
+    "volume_expansion": 14.2,
+    "risk_profile": 14.2,
+    "composite": 41.9
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 1.81,
+    "vs_ETH": 2.37,
+    "vs_SOL": 3.29,
+    "vs_sector": 1.06
+   },
+   "market": {
+    "price": 0.2335,
+    "change_24h_pct": 12.61,
+    "change_7d_pct": -9.23,
+    "change_30d_pct": 61.58,
+    "volume_24h_usd": 692858,
+    "volume_vs_7d_avg": 0.48,
+    "volatility_atr_1h_pct": 3.3,
+    "spread_pct": 0.258
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $692,858 24h volume"
     ]
    }
   },
   {
    "rank": 41,
-   "ticker": "CHIP",
+   "ticker": "ZAMA",
    "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 42.6,
-   "entry": 0.04358,
-   "stop_loss": 0.0415214,
-   "target_1": 0.0476973,
-   "target_2": 0.0518146,
+   "confidence": 41.6,
+   "entry": 0.0647,
+   "stop_loss": 0.0591229,
+   "target_1": 0.0758542,
+   "target_2": 0.0870084,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.72,
+   "stop_distance_pct": 8.62,
    "scores": {
     "trend": 25.0,
-    "relative_strength": 82.7,
+    "relative_strength": 32.7,
     "narrative": 50.0,
-    "volume_expansion": 6.5,
-    "risk_profile": 34.4,
-    "composite": 42.6
+    "volume_expansion": 94.1,
+    "risk_profile": 18.1,
+    "composite": 41.6
    },
    "relative_strength_pct": {
-    "vs_BTC": 5.9,
-    "vs_ETH": 6.01,
-    "vs_SOL": 7.05,
-    "vs_sector": 6.33
+    "vs_BTC": -1.99,
+    "vs_ETH": -1.43,
+    "vs_SOL": -0.51,
+    "vs_sector": -2.74
    },
    "market": {
-    "price": 0.04358,
-    "change_24h_pct": 3.98,
-    "change_7d_pct": 1.68,
-    "change_30d_pct": 2.35,
-    "volume_24h_usd": 564711,
-    "volume_vs_7d_avg": 0.4,
-    "volatility_atr_1h_pct": 1.85,
-    "spread_pct": 0.206
+    "price": 0.0647,
+    "change_24h_pct": -0.77,
+    "change_7d_pct": -6.65,
+    "change_30d_pct": -15.69,
+    "volume_24h_usd": 870786,
+    "volume_vs_7d_avg": 2.51,
+    "volatility_atr_1h_pct": 3.03,
+    "spread_pct": 0.247
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $564,711 24h volume"
+     "Low liquidity: $870,786 24h volume",
+     "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
    "rank": 42,
-   "ticker": "CRO",
+   "ticker": "GROVE",
    "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 42.0,
-   "entry": 0.05132,
-   "stop_loss": 0.0502674,
-   "target_1": 0.0534252,
-   "target_2": 0.0555304,
+   "confidence": 41.5,
+   "entry": 0.00698,
+   "stop_loss": 0.00622224,
+   "target_1": 0.00849551,
+   "target_2": 0.010011,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.05,
+   "stop_distance_pct": 10.86,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 48.0,
+    "trend": 20.0,
+    "relative_strength": 96.9,
     "narrative": 50.0,
-    "volume_expansion": 77.2,
-    "risk_profile": 84.2,
-    "composite": 42.0
+    "volume_expansion": 6.3,
+    "risk_profile": 3.5,
+    "composite": 41.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -0.62,
-    "vs_ETH": -0.51,
-    "vs_SOL": 0.53,
-    "vs_sector": -0.19
+    "vs_BTC": 29.67,
+    "vs_ETH": 30.22,
+    "vs_SOL": 31.15,
+    "vs_sector": 28.92
    },
    "market": {
-    "price": 0.05132,
-    "change_24h_pct": 0.02,
-    "change_7d_pct": -6.55,
-    "change_30d_pct": -25.31,
-    "volume_24h_usd": 537065,
-    "volume_vs_7d_avg": 1.76,
-    "volatility_atr_1h_pct": 0.84,
-    "spread_pct": 0.136
+    "price": 0.00698,
+    "change_24h_pct": -5.16,
+    "change_7d_pct": 49.04,
+    "change_30d_pct": -9.0,
+    "volume_24h_usd": 924366,
+    "volume_vs_7d_avg": 0.4,
+    "volatility_atr_1h_pct": 5.43,
+    "spread_pct": 0.286
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $537,065 24h volume"
+     "Low liquidity: $924,366 24h volume"
     ]
    }
   },
   {
    "rank": 43,
-   "ticker": "RAY",
-   "narrative": "DeFi",
+   "ticker": "XRP",
+   "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 41.6,
-   "entry": 1.6373,
-   "stop_loss": 1.56295,
-   "target_1": 1.78601,
-   "target_2": 1.93472,
+   "confidence": 41.5,
+   "entry": 1.2473,
+   "stop_loss": 1.21997,
+   "target_1": 1.30196,
+   "target_2": 1.35662,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.54,
+   "stop_distance_pct": 2.19,
    "scores": {
-    "trend": 40.0,
-    "relative_strength": 30.6,
-    "narrative": 32.3,
-    "volume_expansion": 53.0,
-    "risk_profile": 75.1,
-    "composite": 41.6
+    "trend": 0.0,
+    "relative_strength": 62.2,
+    "narrative": 37.3,
+    "volume_expansion": 58.2,
+    "risk_profile": 97.8,
+    "composite": 41.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -2.94,
-    "vs_ETH": -2.83,
-    "vs_SOL": -1.79,
-    "vs_sector": -2.09
+    "vs_BTC": 0.61,
+    "vs_ETH": 1.17,
+    "vs_SOL": 2.09,
+    "vs_sector": 1.77
    },
    "market": {
-    "price": 1.6373,
-    "change_24h_pct": -0.32,
-    "change_7d_pct": -10.19,
-    "change_30d_pct": -12.51,
-    "volume_24h_usd": 735093,
-    "volume_vs_7d_avg": 1.06,
-    "volatility_atr_1h_pct": 1.21,
-    "spread_pct": 0.134
+    "price": 1.2473,
+    "change_24h_pct": 0.0,
+    "change_7d_pct": -2.83,
+    "change_30d_pct": -16.51,
+    "volume_24h_usd": 87431308,
+    "volume_vs_7d_avg": 1.19,
+    "volatility_atr_1h_pct": 0.62,
+    "spread_pct": 0.008
    },
    "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $735,093 24h volume"
-    ]
+    "passed": true,
+    "reasons": []
    }
   },
   {
    "rank": 44,
-   "ticker": "PENDLE",
-   "narrative": "DeFi",
+   "ticker": "DOGE",
+   "narrative": "Meme",
    "signal": "REDUCE",
-   "confidence": 41.0,
-   "entry": 1.8409,
-   "stop_loss": 1.66961,
-   "target_1": 2.18348,
-   "target_2": 2.52606,
+   "confidence": 41.4,
+   "entry": 0.07518,
+   "stop_loss": 0.0740479,
+   "target_1": 0.0774442,
+   "target_2": 0.0797084,
    "risk_reward": 3.0,
-   "stop_distance_pct": 9.3,
+   "stop_distance_pct": 1.51,
    "scores": {
-    "trend": 15.0,
-    "relative_strength": 66.3,
-    "narrative": 32.3,
-    "volume_expansion": 52.9,
-    "risk_profile": 55.6,
-    "composite": 41.0
+    "trend": 0.0,
+    "relative_strength": 58.2,
+    "narrative": 41.2,
+    "volume_expansion": 60.8,
+    "risk_profile": 95.2,
+    "composite": 41.4
    },
    "relative_strength_pct": {
-    "vs_BTC": 1.26,
-    "vs_ETH": 1.37,
-    "vs_SOL": 2.41,
-    "vs_sector": 2.11
+    "vs_BTC": 0.18,
+    "vs_ETH": 0.74,
+    "vs_SOL": 1.66,
+    "vs_sector": 1.17
    },
    "market": {
-    "price": 1.8409,
-    "change_24h_pct": 7.63,
-    "change_7d_pct": -8.5,
-    "change_30d_pct": -22.16,
-    "volume_24h_usd": 632702,
-    "volume_vs_7d_avg": 1.06,
-    "volatility_atr_1h_pct": 1.55,
-    "spread_pct": 0.179
+    "price": 0.07518,
+    "change_24h_pct": -0.86,
+    "change_7d_pct": -2.97,
+    "change_30d_pct": -20.31,
+    "volume_24h_usd": 6685452,
+    "volume_vs_7d_avg": 1.25,
+    "volatility_atr_1h_pct": 0.65,
+    "spread_pct": 0.027
    },
    "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $632,702 24h volume"
-    ]
+    "passed": true,
+    "reasons": []
    }
   },
   {
    "rank": 45,
-   "ticker": "GROVE",
-   "narrative": "Other",
+   "ticker": "PLUME",
+   "narrative": "Real World Assets",
    "signal": "REDUCE",
-   "confidence": 40.8,
-   "entry": 0.0073,
-   "stop_loss": 0.00644066,
-   "target_1": 0.00901868,
-   "target_2": 0.0107374,
+   "confidence": 41.3,
+   "entry": 0.01493,
+   "stop_loss": 0.0145928,
+   "target_1": 0.0156044,
+   "target_2": 0.0162789,
    "risk_reward": 3.0,
-   "stop_distance_pct": 11.77,
+   "stop_distance_pct": 2.26,
    "scores": {
-    "trend": 20.0,
-    "relative_strength": 98.0,
-    "narrative": 50.0,
-    "volume_expansion": 0.0,
-    "risk_profile": 2.9,
-    "composite": 40.8
+    "trend": 25.0,
+    "relative_strength": 46.9,
+    "narrative": 39.5,
+    "volume_expansion": 45.7,
+    "risk_profile": 72.6,
+    "composite": 41.3
    },
    "relative_strength_pct": {
-    "vs_BTC": 36.32,
-    "vs_ETH": 36.44,
-    "vs_SOL": 37.47,
-    "vs_sector": 36.75
+    "vs_BTC": -0.02,
+    "vs_ETH": 0.54,
+    "vs_SOL": 1.46,
+    "vs_sector": -2.33
    },
    "market": {
-    "price": 0.0073,
-    "change_24h_pct": -3.44,
-    "change_7d_pct": 57.33,
-    "change_30d_pct": -4.3,
-    "volume_24h_usd": 781383,
-    "volume_vs_7d_avg": 0.33,
-    "volatility_atr_1h_pct": 5.89,
-    "spread_pct": 0.546
+    "price": 0.01493,
+    "change_24h_pct": 0.54,
+    "change_7d_pct": -4.23,
+    "change_30d_pct": -18.8,
+    "volume_24h_usd": 518087,
+    "volume_vs_7d_avg": 0.91,
+    "volatility_atr_1h_pct": 1.13,
+    "spread_pct": 0.067
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $781,383 24h volume",
-     "Wide spread: 0.55%",
-     "Abnormal selling: 73% of 24h volume on red bars"
+     "Low liquidity: $518,087 24h volume"
     ]
    }
   },
   {
    "rank": 46,
-   "ticker": "RSR",
-   "narrative": "Other",
+   "ticker": "TON",
+   "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 40.3,
-   "entry": 0.001395,
-   "stop_loss": 0.00127559,
-   "target_1": 0.00163382,
-   "target_2": 0.00187264,
+   "confidence": 41.1,
+   "entry": 1.1825,
+   "stop_loss": 1.1346,
+   "target_1": 1.2783,
+   "target_2": 1.37411,
    "risk_reward": 3.0,
-   "stop_distance_pct": 8.56,
+   "stop_distance_pct": 4.05,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 18.4,
-    "narrative": 50.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 32.1,
-    "composite": 40.3
+    "trend": 15.0,
+    "relative_strength": 50.0,
+    "narrative": 37.3,
+    "volume_expansion": 56.5,
+    "risk_profile": 81.5,
+    "composite": 41.1
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.75,
-    "vs_ETH": -4.63,
-    "vs_SOL": -3.6,
-    "vs_sector": -4.32
+    "vs_BTC": -0.77,
+    "vs_ETH": -0.21,
+    "vs_SOL": 0.71,
+    "vs_sector": 0.39
    },
    "market": {
-    "price": 0.001395,
-    "change_24h_pct": 6.66,
-    "change_7d_pct": -17.86,
-    "change_30d_pct": -16.87,
-    "volume_24h_usd": 524894,
-    "volume_vs_7d_avg": 4.05,
-    "volatility_atr_1h_pct": 2.37,
-    "spread_pct": 0.144
+    "price": 1.1825,
+    "change_24h_pct": 1.11,
+    "change_7d_pct": -5.87,
+    "change_30d_pct": -24.92,
+    "volume_24h_usd": 512499,
+    "volume_vs_7d_avg": 1.15,
+    "volatility_atr_1h_pct": 0.86,
+    "spread_pct": 0.085
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $524,894 24h volume"
+     "Low liquidity: $512,499 24h volume"
     ]
    }
   },
   {
    "rank": 47,
-   "ticker": "MORPHO",
+   "ticker": "RAY",
    "narrative": "DeFi",
    "signal": "REDUCE",
    "confidence": 40.3,
-   "entry": 2.0973,
-   "stop_loss": 1.97846,
-   "target_1": 2.33498,
-   "target_2": 2.57267,
+   "entry": 1.6548,
+   "stop_loss": 1.56295,
+   "target_1": 1.83851,
+   "target_2": 2.02222,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.67,
+   "stop_distance_pct": 5.55,
    "scores": {
-    "trend": 15.0,
-    "relative_strength": 72.4,
-    "narrative": 32.3,
-    "volume_expansion": 30.1,
-    "risk_profile": 66.7,
+    "trend": 40.0,
+    "relative_strength": 45.9,
+    "narrative": 33.0,
+    "volume_expansion": 19.4,
+    "risk_profile": 73.2,
     "composite": 40.3
    },
    "relative_strength_pct": {
-    "vs_BTC": 2.07,
-    "vs_ETH": 2.18,
-    "vs_SOL": 3.22,
-    "vs_sector": 2.92
+    "vs_BTC": -0.9,
+    "vs_ETH": -0.34,
+    "vs_SOL": 0.58,
+    "vs_sector": -0.77
    },
    "market": {
-    "price": 2.0973,
-    "change_24h_pct": 5.18,
-    "change_7d_pct": -5.52,
-    "change_30d_pct": -18.58,
-    "volume_24h_usd": 620110,
-    "volume_vs_7d_avg": 0.66,
-    "volatility_atr_1h_pct": 1.42,
-    "spread_pct": 0.133
+    "price": 1.6548,
+    "change_24h_pct": 3.91,
+    "change_7d_pct": -7.95,
+    "change_30d_pct": -11.5,
+    "volume_24h_usd": 396194,
+    "volume_vs_7d_avg": 0.53,
+    "volatility_atr_1h_pct": 0.97,
+    "spread_pct": 0.139
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $620,110 24h volume"
+     "Low liquidity: $396,194 24h volume"
     ]
    }
   },
   {
    "rank": 48,
-   "ticker": "WIF",
-   "narrative": "Meme",
+   "ticker": "AVAX",
+   "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 38.9,
-   "entry": 0.17468,
-   "stop_loss": 0.168593,
-   "target_1": 0.186854,
-   "target_2": 0.199029,
+   "confidence": 39.9,
+   "entry": 8.433,
+   "stop_loss": 8.12716,
+   "target_1": 9.04468,
+   "target_2": 9.65636,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.48,
+   "stop_distance_pct": 3.63,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 50.0,
-    "narrative": 45.4,
-    "volume_expansion": 76.4,
-    "risk_profile": 58.6,
-    "composite": 38.9
+    "relative_strength": 57.1,
+    "narrative": 37.3,
+    "volume_expansion": 63.9,
+    "risk_profile": 85.5,
+    "composite": 39.9
    },
    "relative_strength_pct": {
-    "vs_BTC": -0.12,
-    "vs_ETH": -0.0,
-    "vs_SOL": 1.03,
-    "vs_sector": -0.9
+    "vs_BTC": -0.0,
+    "vs_ETH": 0.55,
+    "vs_SOL": 1.48,
+    "vs_sector": 1.16
    },
    "market": {
-    "price": 0.17468,
-    "change_24h_pct": 2.32,
-    "change_7d_pct": -7.25,
-    "change_30d_pct": -29.91,
-    "volume_24h_usd": 646520,
-    "volume_vs_7d_avg": 1.73,
-    "volatility_atr_1h_pct": 1.64,
-    "spread_pct": 0.086
+    "price": 8.433,
+    "change_24h_pct": 2.29,
+    "change_7d_pct": -5.38,
+    "change_30d_pct": -23.2,
+    "volume_24h_usd": 4968358,
+    "volume_vs_7d_avg": 1.33,
+    "volatility_atr_1h_pct": 0.95,
+    "spread_pct": 0.024
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $646,520 24h volume"
+     "Low liquidity: $4,968,358 24h volume"
     ]
    }
   },
   {
    "rank": 49,
-   "ticker": "SENT",
-   "narrative": "Other",
+   "ticker": "TRUMP",
+   "narrative": "Meme",
    "signal": "REDUCE",
-   "confidence": 38.8,
-   "entry": 0.01868,
-   "stop_loss": 0.0174025,
-   "target_1": 0.0212349,
-   "target_2": 0.0237898,
+   "confidence": 39.5,
+   "entry": 1.5776,
+   "stop_loss": 1.52613,
+   "target_1": 1.68054,
+   "target_2": 1.78348,
    "risk_reward": 3.0,
-   "stop_distance_pct": 6.84,
+   "stop_distance_pct": 3.26,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 7.1,
-    "narrative": 50.0,
-    "volume_expansion": 100.0,
-    "risk_profile": 45.3,
-    "composite": 38.8
+    "trend": 0.0,
+    "relative_strength": 48.0,
+    "narrative": 41.2,
+    "volume_expansion": 76.2,
+    "risk_profile": 78.1,
+    "composite": 39.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -7.66,
-    "vs_ETH": -7.55,
-    "vs_SOL": -6.51,
-    "vs_sector": -7.23
+    "vs_BTC": -0.84,
+    "vs_ETH": -0.28,
+    "vs_SOL": 0.64,
+    "vs_sector": 0.15
    },
    "market": {
-    "price": 0.01868,
-    "change_24h_pct": -2.51,
-    "change_7d_pct": -16.61,
-    "change_30d_pct": -14.23,
-    "volume_24h_usd": 1141813,
-    "volume_vs_7d_avg": 3.7,
-    "volatility_atr_1h_pct": 2.11,
-    "spread_pct": 0.054
+    "price": 1.5776,
+    "change_24h_pct": 1.29,
+    "change_7d_pct": -6.1,
+    "change_30d_pct": -23.23,
+    "volume_24h_usd": 1323436,
+    "volume_vs_7d_avg": 1.73,
+    "volatility_atr_1h_pct": 1.11,
+    "spread_pct": 0.019
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,141,813 24h volume",
-     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $1,323,436 24h volume"
     ]
    }
   },
   {
    "rank": 50,
-   "ticker": "LTC",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 38.6,
-   "entry": 55.153,
-   "stop_loss": 54.0417,
-   "target_1": 57.3757,
-   "target_2": 59.5984,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 2.02,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 61.2,
-    "narrative": 41.1,
-    "volume_expansion": 39.9,
-    "risk_profile": 91.0,
-    "composite": 38.6
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 0.74,
-    "vs_ETH": 0.85,
-    "vs_SOL": 1.89,
-    "vs_sector": 1.73
-   },
-   "market": {
-    "price": 55.153,
-    "change_24h_pct": -1.68,
-    "change_7d_pct": -3.16,
-    "change_30d_pct": -19.09,
-    "volume_24h_usd": 5613436,
-    "volume_vs_7d_avg": 0.81,
-    "volatility_atr_1h_pct": 1.01,
-    "spread_pct": 0.033
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 51,
-   "ticker": "ORCA",
+   "ticker": "SENT",
    "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 38.5,
-   "entry": 1.5158,
-   "stop_loss": 1.47077,
-   "target_1": 1.60587,
-   "target_2": 1.69593,
+   "confidence": 39.3,
+   "entry": 0.01905,
+   "stop_loss": 0.0181687,
+   "target_1": 0.0208126,
+   "target_2": 0.0225752,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.97,
+   "stop_distance_pct": 4.63,
    "scores": {
     "trend": 25.0,
-    "relative_strength": 13.3,
+    "relative_strength": 20.4,
     "narrative": 50.0,
-    "volume_expansion": 84.3,
-    "risk_profile": 50.1,
-    "composite": 38.5
+    "volume_expansion": 94.7,
+    "risk_profile": 25.2,
+    "composite": 39.3
    },
    "relative_strength_pct": {
-    "vs_BTC": -6.42,
-    "vs_ETH": -6.3,
-    "vs_SOL": -5.27,
-    "vs_sector": -5.99
+    "vs_BTC": -3.95,
+    "vs_ETH": -3.4,
+    "vs_SOL": -2.48,
+    "vs_sector": -4.71
    },
    "market": {
-    "price": 1.5158,
-    "change_24h_pct": -5.97,
-    "change_7d_pct": -12.22,
-    "change_30d_pct": -10.84,
-    "volume_24h_usd": 837896,
-    "volume_vs_7d_avg": 2.04,
-    "volatility_atr_1h_pct": 1.49,
-    "spread_pct": 0.27
+    "price": 0.01905,
+    "change_24h_pct": 3.78,
+    "change_7d_pct": -12.95,
+    "change_30d_pct": -12.53,
+    "volume_24h_usd": 904300,
+    "volume_vs_7d_avg": 2.54,
+    "volatility_atr_1h_pct": 1.61,
+    "spread_pct": 0.263
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $837,896 24h volume"
+     "Low liquidity: $904,300 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 51,
+   "ticker": "MORPHO",
+   "narrative": "DeFi",
+   "signal": "REDUCE",
+   "confidence": 39.2,
+   "entry": 2.1668,
+   "stop_loss": 2.02323,
+   "target_1": 2.45393,
+   "target_2": 2.74107,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 6.63,
+   "scores": {
+    "trend": 15.0,
+    "relative_strength": 80.6,
+    "narrative": 33.0,
+    "volume_expansion": 8.2,
+    "risk_profile": 67.6,
+    "composite": 39.2
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 5.08,
+    "vs_ETH": 5.63,
+    "vs_SOL": 6.55,
+    "vs_sector": 5.21
+   },
+   "market": {
+    "price": 2.1668,
+    "change_24h_pct": 6.19,
+    "change_7d_pct": 0.49,
+    "change_30d_pct": -16.35,
+    "volume_24h_usd": 412734,
+    "volume_vs_7d_avg": 0.42,
+    "volatility_atr_1h_pct": 1.23,
+    "spread_pct": 0.06
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $412,734 24h volume"
     ]
    }
   },
   {
    "rank": 52,
-   "ticker": "TRUMP",
-   "narrative": "Meme",
-   "signal": "REDUCE",
-   "confidence": 38.2,
-   "entry": 1.5746,
-   "stop_loss": 1.52334,
-   "target_1": 1.67711,
-   "target_2": 1.77962,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.26,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 45.9,
-    "narrative": 45.4,
-    "volume_expansion": 75.3,
-    "risk_profile": 63.3,
-    "composite": 38.2
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.53,
-    "vs_ETH": -0.41,
-    "vs_SOL": 0.62,
-    "vs_sector": -1.3
-   },
-   "market": {
-    "price": 1.5746,
-    "change_24h_pct": 1.67,
-    "change_7d_pct": -7.5,
-    "change_30d_pct": -23.58,
-    "volume_24h_usd": 1322989,
-    "volume_vs_7d_avg": 1.69,
-    "volatility_atr_1h_pct": 1.55,
-    "spread_pct": 0.095
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $1,322,989 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 53,
    "ticker": "BIRB",
    "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 37.9,
-   "entry": 0.08518,
-   "stop_loss": 0.0749584,
-   "target_1": 0.105623,
-   "target_2": 0.126066,
+   "confidence": 39.2,
+   "entry": 0.0865,
+   "stop_loss": 0.07612,
+   "target_1": 0.10726,
+   "target_2": 0.12802,
    "risk_reward": 3.0,
    "stop_distance_pct": 12.0,
    "scores": {
     "trend": 85.0,
-    "relative_strength": 2.0,
+    "relative_strength": 7.1,
     "narrative": 50.0,
-    "volume_expansion": 11.4,
-    "risk_profile": 2.1,
-    "composite": 37.9
+    "volume_expansion": 10.5,
+    "risk_profile": 3.6,
+    "composite": 39.2
    },
    "relative_strength_pct": {
-    "vs_BTC": -18.47,
-    "vs_ETH": -18.36,
-    "vs_SOL": -17.32,
-    "vs_sector": -18.04
+    "vs_BTC": -7.74,
+    "vs_ETH": -7.19,
+    "vs_SOL": -6.27,
+    "vs_sector": -8.5
    },
    "market": {
-    "price": 0.08518,
-    "change_24h_pct": 14.73,
-    "change_7d_pct": -46.11,
-    "change_30d_pct": 33.6,
-    "volume_24h_usd": 1453164,
-    "volume_vs_7d_avg": 0.45,
-    "volatility_atr_1h_pct": 6.07,
-    "spread_pct": 0.599
+    "price": 0.0865,
+    "change_24h_pct": 16.94,
+    "change_7d_pct": -28.04,
+    "change_30d_pct": 35.62,
+    "volume_24h_usd": 1381471,
+    "volume_vs_7d_avg": 0.44,
+    "volatility_atr_1h_pct": 5.25,
+    "spread_pct": 0.44
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,453,164 24h volume",
-     "Wide spread: 0.60%",
+     "Low liquidity: $1,381,471 24h volume",
+     "Wide spread: 0.44%",
      "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
     ]
    }
   },
   {
-   "rank": 54,
-   "ticker": "BONK",
-   "narrative": "Meme",
+   "rank": 53,
+   "ticker": "ORCA",
+   "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 37.5,
-   "entry": 2.96e-06,
-   "stop_loss": 2.85565e-06,
-   "target_1": 3.1687e-06,
-   "target_2": 3.3774e-06,
+   "confidence": 39.1,
+   "entry": 1.5145,
+   "stop_loss": 1.47548,
+   "target_1": 1.59253,
+   "target_2": 1.67057,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.53,
+   "stop_distance_pct": 2.58,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 69.4,
-    "narrative": 45.4,
-    "volume_expansion": 49.8,
-    "risk_profile": 36.4,
-    "composite": 37.5
+    "trend": 25.0,
+    "relative_strength": 8.2,
+    "narrative": 50.0,
+    "volume_expansion": 91.7,
+    "risk_profile": 58.3,
+    "composite": 39.1
    },
    "relative_strength_pct": {
-    "vs_BTC": 1.98,
-    "vs_ETH": 2.09,
-    "vs_SOL": 3.13,
-    "vs_sector": 1.2
+    "vs_BTC": -7.17,
+    "vs_ETH": -6.61,
+    "vs_SOL": -5.69,
+    "vs_sector": -7.92
    },
    "market": {
-    "price": 2.96e-06,
-    "change_24h_pct": 2.07,
-    "change_7d_pct": -3.58,
-    "change_30d_pct": -21.28,
-    "volume_24h_usd": 1486115,
-    "volume_vs_7d_avg": 1.0,
-    "volatility_atr_1h_pct": 1.66,
-    "spread_pct": 0.338
+    "price": 1.5145,
+    "change_24h_pct": -8.03,
+    "change_7d_pct": -10.44,
+    "change_30d_pct": -11.19,
+    "volume_24h_usd": 990953,
+    "volume_vs_7d_avg": 2.38,
+    "volatility_atr_1h_pct": 1.29,
+    "spread_pct": 0.139
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,486,115 24h volume",
-     "Wide spread: 0.34%"
+     "Low liquidity: $990,953 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 54,
+   "ticker": "BAT",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 39.1,
+   "entry": 0.13286,
+   "stop_loss": 0.126922,
+   "target_1": 0.144736,
+   "target_2": 0.156611,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 4.47,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 10.2,
+    "narrative": 50.0,
+    "volume_expansion": 55.4,
+    "risk_profile": 62.5,
+    "composite": 39.1
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -6.48,
+    "vs_ETH": -5.92,
+    "vs_SOL": -5.0,
+    "vs_sector": -7.23
+   },
+   "market": {
+    "price": 0.13286,
+    "change_24h_pct": 3.19,
+    "change_7d_pct": -16.76,
+    "change_30d_pct": 48.68,
+    "volume_24h_usd": 571173,
+    "volume_vs_7d_avg": 1.12,
+    "volatility_atr_1h_pct": 1.3,
+    "spread_pct": 0.075
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $571,173 24h volume"
     ]
    }
   },
   {
    "rank": 55,
-   "ticker": "VVV",
+   "ticker": "MEGA",
    "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 36.7,
-   "entry": 22.2205,
-   "stop_loss": 21.5107,
-   "target_1": 23.6402,
-   "target_2": 25.0599,
+   "confidence": 39.0,
+   "entry": 0.04415,
+   "stop_loss": 0.0429919,
+   "target_1": 0.0464662,
+   "target_2": 0.0487824,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.19,
+   "stop_distance_pct": 2.62,
    "scores": {
     "trend": 25.0,
-    "relative_strength": 23.5,
+    "relative_strength": 35.7,
     "narrative": 50.0,
-    "volume_expansion": 49.1,
-    "risk_profile": 59.3,
-    "composite": 36.7
+    "volume_expansion": 47.1,
+    "risk_profile": 55.0,
+    "composite": 39.0
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.06,
-    "vs_ETH": -3.95,
-    "vs_SOL": -2.91,
-    "vs_sector": -3.63
+    "vs_BTC": -1.64,
+    "vs_ETH": -1.09,
+    "vs_SOL": -0.17,
+    "vs_sector": -2.4
    },
    "market": {
-    "price": 22.2205,
-    "change_24h_pct": -3.35,
-    "change_7d_pct": -10.03,
-    "change_30d_pct": -15.26,
-    "volume_24h_usd": 4175530,
-    "volume_vs_7d_avg": 0.98,
-    "volatility_atr_1h_pct": 1.6,
-    "spread_pct": 0.107
+    "price": 0.04415,
+    "change_24h_pct": -5.36,
+    "change_7d_pct": -3.01,
+    "change_30d_pct": -11.96,
+    "volume_24h_usd": 472425,
+    "volume_vs_7d_avg": 0.94,
+    "volatility_atr_1h_pct": 1.31,
+    "spread_pct": 0.136
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,175,530 24h volume"
+     "Low liquidity: $472,425 24h volume"
     ]
    }
   },
   {
    "rank": 56,
-   "ticker": "ZORA",
-   "narrative": "Layer 2",
+   "ticker": "PUMP",
+   "narrative": "Other",
    "signal": "REDUCE",
-   "confidence": 36.4,
-   "entry": 0.006218,
-   "stop_loss": 0.00585856,
-   "target_1": 0.00693688,
-   "target_2": 0.00765576,
+   "confidence": 38.8,
+   "entry": 0.004111,
+   "stop_loss": 0.00388548,
+   "target_1": 0.00456205,
+   "target_2": 0.0050131,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.78,
+   "stop_distance_pct": 5.49,
    "scores": {
     "trend": 15.0,
-    "relative_strength": 33.7,
-    "narrative": 42.0,
-    "volume_expansion": 72.7,
-    "risk_profile": 41.8,
-    "composite": 36.4
+    "relative_strength": 61.2,
+    "narrative": 50.0,
+    "volume_expansion": 31.3,
+    "risk_profile": 42.8,
+    "composite": 38.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.92,
-    "vs_ETH": -1.81,
-    "vs_SOL": -0.77,
-    "vs_sector": -3.23
+    "vs_BTC": 1.05,
+    "vs_ETH": 1.6,
+    "vs_SOL": 2.52,
+    "vs_sector": 0.29
    },
    "market": {
-    "price": 0.006218,
-    "change_24h_pct": 3.42,
-    "change_7d_pct": -10.99,
-    "change_30d_pct": -21.19,
-    "volume_24h_usd": 1265616,
-    "volume_vs_7d_avg": 1.61,
-    "volatility_atr_1h_pct": 2.04,
-    "spread_pct": 0.097
+    "price": 0.004111,
+    "change_24h_pct": 0.86,
+    "change_7d_pct": -2.68,
+    "change_30d_pct": -29.24,
+    "volume_24h_usd": 4294006,
+    "volume_vs_7d_avg": 0.68,
+    "volatility_atr_1h_pct": 1.54,
+    "spread_pct": 0.122
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,265,616 24h volume"
+     "Low liquidity: $4,294,006 24h volume"
     ]
    }
   },
   {
    "rank": 57,
-   "ticker": "AAVE",
-   "narrative": "DeFi",
+   "ticker": "ARB",
+   "narrative": "Layer 2",
    "signal": "REDUCE",
-   "confidence": 35.8,
-   "entry": 129.36,
-   "stop_loss": 122.216,
-   "target_1": 143.648,
-   "target_2": 157.937,
+   "confidence": 38.5,
+   "entry": 0.16074,
+   "stop_loss": 0.156874,
+   "target_1": 0.168471,
+   "target_2": 0.176202,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.52,
+   "stop_distance_pct": 2.4,
    "scores": {
-    "trend": 15.0,
-    "relative_strength": 41.8,
-    "narrative": 32.3,
-    "volume_expansion": 48.6,
-    "risk_profile": 71.0,
-    "composite": 35.8
+    "trend": 25.0,
+    "relative_strength": 36.7,
+    "narrative": 37.6,
+    "volume_expansion": 49.9,
+    "risk_profile": 68.2,
+    "composite": 38.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.24,
-    "vs_ETH": -1.13,
-    "vs_SOL": -0.09,
-    "vs_sector": -0.39
+    "vs_BTC": -2.07,
+    "vs_ETH": -1.51,
+    "vs_SOL": -0.59,
+    "vs_sector": -0.65
    },
    "market": {
-    "price": 129.36,
-    "change_24h_pct": 2.8,
-    "change_7d_pct": -9.44,
-    "change_30d_pct": -24.52,
-    "volume_24h_usd": 3680362,
-    "volume_vs_7d_avg": 0.97,
-    "volatility_atr_1h_pct": 1.49,
-    "spread_pct": 0.054
+    "price": 0.16074,
+    "change_24h_pct": -2.27,
+    "change_7d_pct": -5.78,
+    "change_30d_pct": -19.39,
+    "volume_24h_usd": 1210078,
+    "volume_vs_7d_avg": 1.0,
+    "volatility_atr_1h_pct": 1.2,
+    "spread_pct": 0.068
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $3,680,362 24h volume"
+     "Low liquidity: $1,210,078 24h volume",
+     "Abnormal selling: 73% of 24h volume on red bars"
     ]
    }
   },
   {
    "rank": 58,
-   "ticker": "PENGU",
-   "narrative": "Meme",
+   "ticker": "SUI",
+   "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 35.7,
-   "entry": 0.007269,
-   "stop_loss": 0.00702072,
-   "target_1": 0.00776556,
-   "target_2": 0.00826212,
+   "confidence": 38.2,
+   "entry": 0.8958,
+   "stop_loss": 0.869928,
+   "target_1": 0.947543,
+   "target_2": 0.999286,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.42,
+   "stop_distance_pct": 2.89,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 59.2,
-    "narrative": 45.4,
-    "volume_expansion": 39.4,
-    "risk_profile": 59.6,
-    "composite": 35.7
+    "trend": 15.0,
+    "relative_strength": 54.1,
+    "narrative": 37.3,
+    "volume_expansion": 29.4,
+    "risk_profile": 83.5,
+    "composite": 38.2
    },
    "relative_strength_pct": {
-    "vs_BTC": 0.77,
-    "vs_ETH": 0.88,
-    "vs_SOL": 1.92,
-    "vs_sector": -0.01
+    "vs_BTC": -0.49,
+    "vs_ETH": 0.07,
+    "vs_SOL": 0.99,
+    "vs_sector": 0.68
    },
    "market": {
-    "price": 0.007269,
-    "change_24h_pct": 1.56,
-    "change_7d_pct": -5.26,
-    "change_30d_pct": -22.97,
-    "volume_24h_usd": 1342976,
-    "volume_vs_7d_avg": 0.8,
-    "volatility_atr_1h_pct": 1.63,
-    "spread_pct": 0.083
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $1,342,976 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 59,
-   "ticker": "DRV",
-   "narrative": "Other",
-   "signal": "REDUCE",
-   "confidence": 35.7,
-   "entry": 0.32746,
-   "stop_loss": 0.320777,
-   "target_1": 0.340825,
-   "target_2": 0.35419,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 2.04,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 14.3,
-    "narrative": 50.0,
-    "volume_expansion": 36.8,
-    "risk_profile": 90.8,
-    "composite": 35.7
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -5.57,
-    "vs_ETH": -5.46,
-    "vs_SOL": -4.42,
-    "vs_sector": -5.14
-   },
-   "market": {
-    "price": 0.32746,
-    "change_24h_pct": -0.15,
-    "change_7d_pct": -14.7,
-    "change_30d_pct": -17.03,
-    "volume_24h_usd": 653150,
-    "volume_vs_7d_avg": 0.76,
-    "volatility_atr_1h_pct": 1.02,
-    "spread_pct": 0.028
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $653,150 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 60,
-   "ticker": "PUMP",
-   "narrative": "Other",
-   "signal": "REDUCE",
-   "confidence": 35.3,
-   "entry": 0.00408,
-   "stop_loss": 0.00388548,
-   "target_1": 0.00446905,
-   "target_2": 0.0048581,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 4.77,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 62.2,
-    "narrative": 50.0,
-    "volume_expansion": 38.7,
-    "risk_profile": 39.6,
-    "composite": 35.3
-   },
-   "relative_strength_pct": {
-    "vs_BTC": 0.9,
-    "vs_ETH": 1.01,
-    "vs_SOL": 2.05,
-    "vs_sector": 1.33
-   },
-   "market": {
-    "price": 0.00408,
-    "change_24h_pct": -0.37,
-    "change_7d_pct": -3.76,
-    "change_30d_pct": -29.78,
-    "volume_24h_usd": 5003306,
-    "volume_vs_7d_avg": 0.79,
-    "volatility_atr_1h_pct": 1.94,
-    "spread_pct": 0.147
+    "price": 0.8958,
+    "change_24h_pct": 1.15,
+    "change_7d_pct": -5.42,
+    "change_30d_pct": -23.87,
+    "volume_24h_usd": 10029611,
+    "volume_vs_7d_avg": 0.65,
+    "volatility_atr_1h_pct": 1.01,
+    "spread_pct": 0.022
    },
    "risk_filter": {
     "passed": true,
@@ -2908,39 +2826,512 @@
    }
   },
   {
+   "rank": 59,
+   "ticker": "LTC",
+   "narrative": "Layer 1",
+   "signal": "REDUCE",
+   "confidence": 38.0,
+   "entry": 54.826,
+   "stop_loss": 53.9417,
+   "target_1": 56.5947,
+   "target_2": 58.3634,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 1.61,
+   "scores": {
+    "trend": 0.0,
+    "relative_strength": 59.2,
+    "narrative": 37.3,
+    "volume_expansion": 43.0,
+    "risk_profile": 92.4,
+    "composite": 38.0
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 0.15,
+    "vs_ETH": 0.71,
+    "vs_SOL": 1.63,
+    "vs_sector": 1.31
+   },
+   "market": {
+    "price": 54.826,
+    "change_24h_pct": -1.21,
+    "change_7d_pct": -2.79,
+    "change_30d_pct": -19.51,
+    "volume_24h_usd": 5930893,
+    "volume_vs_7d_avg": 0.86,
+    "volatility_atr_1h_pct": 0.81,
+    "spread_pct": 0.026
+   },
+   "risk_filter": {
+    "passed": true,
+    "reasons": []
+   }
+  },
+  {
+   "rank": 60,
+   "ticker": "RE",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 37.7,
+   "entry": 0.3494,
+   "stop_loss": 0.317803,
+   "target_1": 0.4006,
+   "target_2": 0.475788,
+   "risk_reward": 2.81,
+   "stop_distance_pct": 9.04,
+   "scores": {
+    "trend": 20.0,
+    "relative_strength": 14.3,
+    "narrative": 50.0,
+    "volume_expansion": 100.0,
+    "risk_profile": 31.4,
+    "composite": 37.7
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -4.98,
+    "vs_ETH": -4.42,
+    "vs_SOL": -3.5,
+    "vs_sector": -5.73
+   },
+   "market": {
+    "price": 0.3494,
+    "change_24h_pct": -5.47,
+    "change_7d_pct": -8.5,
+    "change_30d_pct": -32.25,
+    "volume_24h_usd": 721377,
+    "volume_vs_7d_avg": 4.08,
+    "volatility_atr_1h_pct": 2.31,
+    "spread_pct": 0.143
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $721,377 24h volume",
+     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+    ]
+   }
+  },
+  {
    "rank": 61,
+   "ticker": "PYTH",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 37.7,
+   "entry": 0.06387,
+   "stop_loss": 0.0593418,
+   "target_1": 0.0729264,
+   "target_2": 0.0819828,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 7.09,
+   "scores": {
+    "trend": 25.0,
+    "relative_strength": 44.9,
+    "narrative": 50.0,
+    "volume_expansion": 38.3,
+    "risk_profile": 31.9,
+    "composite": 37.7
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -0.7,
+    "vs_ETH": -0.14,
+    "vs_SOL": 0.78,
+    "vs_sector": -1.45
+   },
+   "market": {
+    "price": 0.06387,
+    "change_24h_pct": 4.97,
+    "change_7d_pct": -8.32,
+    "change_30d_pct": -14.05,
+    "volume_24h_usd": 572516,
+    "volume_vs_7d_avg": 0.78,
+    "volatility_atr_1h_pct": 1.77,
+    "spread_pct": 0.188
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $572,516 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 62,
+   "ticker": "RSR",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 37.1,
+   "entry": 0.001427,
+   "stop_loss": 0.0013306,
+   "target_1": 0.0016198,
+   "target_2": 0.00181259,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 6.76,
+   "scores": {
+    "trend": 25.0,
+    "relative_strength": 11.2,
+    "narrative": 50.0,
+    "volume_expansion": 100.0,
+    "risk_profile": 18.3,
+    "composite": 37.1
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -5.62,
+    "vs_ETH": -5.07,
+    "vs_SOL": -4.15,
+    "vs_sector": -6.38
+   },
+   "market": {
+    "price": 0.001427,
+    "change_24h_pct": 1.72,
+    "change_7d_pct": -14.36,
+    "change_30d_pct": -15.44,
+    "volume_24h_usd": 543361,
+    "volume_vs_7d_avg": 3.43,
+    "volatility_atr_1h_pct": 3.38,
+    "spread_pct": 0.21
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $543,361 24h volume",
+     "Abnormal selling: 73% of 24h volume on red bars"
+    ]
+   }
+  },
+  {
+   "rank": 63,
+   "ticker": "CHIP",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 37.0,
+   "entry": 0.04285,
+   "stop_loss": 0.0415029,
+   "target_1": 0.0455441,
+   "target_2": 0.0482383,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 3.14,
+   "scores": {
+    "trend": 25.0,
+    "relative_strength": 66.3,
+    "narrative": 50.0,
+    "volume_expansion": 0.0,
+    "risk_profile": 28.8,
+    "composite": 37.0
+   },
+   "relative_strength_pct": {
+    "vs_BTC": 1.97,
+    "vs_ETH": 2.53,
+    "vs_SOL": 3.45,
+    "vs_sector": 1.22
+   },
+   "market": {
+    "price": 0.04285,
+    "change_24h_pct": -2.79,
+    "change_7d_pct": 1.3,
+    "change_30d_pct": 0.71,
+    "volume_24h_usd": 414660,
+    "volume_vs_7d_avg": 0.3,
+    "volatility_atr_1h_pct": 1.57,
+    "spread_pct": 0.234
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $414,660 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 64,
+   "ticker": "CRO",
+   "narrative": "Other",
+   "signal": "REDUCE",
+   "confidence": 35.9,
+   "entry": 0.05139,
+   "stop_loss": 0.0502674,
+   "target_1": 0.0536352,
+   "target_2": 0.0558804,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.18,
+   "scores": {
+    "trend": 0.0,
+    "relative_strength": 34.7,
+    "narrative": 50.0,
+    "volume_expansion": 60.6,
+    "risk_profile": 81.2,
+    "composite": 35.9
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -1.8,
+    "vs_ETH": -1.24,
+    "vs_SOL": -0.32,
+    "vs_sector": -2.55
+   },
+   "market": {
+    "price": 0.05139,
+    "change_24h_pct": -0.87,
+    "change_7d_pct": -6.27,
+    "change_30d_pct": -25.18,
+    "volume_24h_usd": 406985,
+    "volume_vs_7d_avg": 1.25,
+    "volatility_atr_1h_pct": 0.83,
+    "spread_pct": 0.117
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $406,985 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 65,
+   "ticker": "HBAR",
+   "narrative": "Layer 1",
+   "signal": "REDUCE",
+   "confidence": 35.3,
+   "entry": 0.07221,
+   "stop_loss": 0.0703764,
+   "target_1": 0.0758773,
+   "target_2": 0.0795446,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.54,
+   "scores": {
+    "trend": 15.0,
+    "relative_strength": 43.9,
+    "narrative": 37.3,
+    "volume_expansion": 23.6,
+    "risk_profile": 88.7,
+    "composite": 35.3
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -1.23,
+    "vs_ETH": -0.68,
+    "vs_SOL": 0.25,
+    "vs_sector": -0.07
+   },
+   "market": {
+    "price": 0.07221,
+    "change_24h_pct": 0.25,
+    "change_7d_pct": -6.06,
+    "change_30d_pct": -29.59,
+    "volume_24h_usd": 3237839,
+    "volume_vs_7d_avg": 0.58,
+    "volatility_atr_1h_pct": 0.85,
+    "spread_pct": 0.028
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $3,237,839 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 66,
+   "ticker": "AERO",
+   "narrative": "DeFi",
+   "signal": "REDUCE",
+   "confidence": 34.6,
+   "entry": 0.62566,
+   "stop_loss": 0.602771,
+   "target_1": 0.671438,
+   "target_2": 0.717216,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 3.66,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 21.4,
+    "narrative": 33.0,
+    "volume_expansion": 40.6,
+    "risk_profile": 45.8,
+    "composite": 34.6
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -3.94,
+    "vs_ETH": -3.39,
+    "vs_SOL": -2.47,
+    "vs_sector": -3.81
+   },
+   "market": {
+    "price": 0.62566,
+    "change_24h_pct": 1.18,
+    "change_7d_pct": -11.2,
+    "change_30d_pct": -20.92,
+    "volume_24h_usd": 4332894,
+    "volume_vs_7d_avg": 0.82,
+    "volatility_atr_1h_pct": 1.41,
+    "spread_pct": 0.157
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $4,332,894 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 67,
+   "ticker": "TIA",
+   "narrative": "Layer 1",
+   "signal": "REDUCE",
+   "confidence": 33.9,
+   "entry": 0.4738,
+   "stop_loss": 0.444566,
+   "target_1": 0.532268,
+   "target_2": 0.590736,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 6.17,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 16.3,
+    "narrative": 37.3,
+    "volume_expansion": 33.7,
+    "risk_profile": 52.9,
+    "composite": 33.9
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -4.89,
+    "vs_ETH": -4.34,
+    "vs_SOL": -3.42,
+    "vs_sector": -3.73
+   },
+   "market": {
+    "price": 0.4738,
+    "change_24h_pct": 2.93,
+    "change_7d_pct": -13.96,
+    "change_30d_pct": 10.56,
+    "volume_24h_usd": 953743,
+    "volume_vs_7d_avg": 0.71,
+    "volatility_atr_1h_pct": 1.51,
+    "spread_pct": 0.042
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $953,743 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 68,
+   "ticker": "STRK",
+   "narrative": "Layer 2",
+   "signal": "REDUCE",
+   "confidence": 32.8,
+   "entry": 0.0438,
+   "stop_loss": 0.0425064,
+   "target_1": 0.0463872,
+   "target_2": 0.0489744,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.95,
+   "scores": {
+    "trend": 40.0,
+    "relative_strength": 27.6,
+    "narrative": 37.6,
+    "volume_expansion": 3.6,
+    "risk_profile": 58.0,
+    "composite": 32.8
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -3.12,
+    "vs_ETH": -2.57,
+    "vs_SOL": -1.65,
+    "vs_sector": -1.7
+   },
+   "market": {
+    "price": 0.0438,
+    "change_24h_pct": -1.37,
+    "change_7d_pct": -8.14,
+    "change_30d_pct": 5.05,
+    "volume_24h_usd": 852702,
+    "volume_vs_7d_avg": 0.38,
+    "volatility_atr_1h_pct": 1.34,
+    "spread_pct": 0.091
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $852,702 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 69,
+   "ticker": "TAO",
+   "narrative": "Artificial Intelligence",
+   "signal": "REDUCE",
+   "confidence": 32.6,
+   "entry": 235.04,
+   "stop_loss": 227.726,
+   "target_1": 249.669,
+   "target_2": 264.297,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 3.11,
+   "scores": {
+    "trend": 0.0,
+    "relative_strength": 53.1,
+    "narrative": 26.3,
+    "volume_expansion": 35.6,
+    "risk_profile": 87.3,
+    "composite": 32.6
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -0.89,
+    "vs_ETH": -0.33,
+    "vs_SOL": 0.59,
+    "vs_sector": 1.84
+   },
+   "market": {
+    "price": 235.04,
+    "change_24h_pct": 0.63,
+    "change_7d_pct": -5.74,
+    "change_30d_pct": -22.47,
+    "volume_24h_usd": 3989304,
+    "volume_vs_7d_avg": 0.74,
+    "volatility_atr_1h_pct": 0.93,
+    "spread_pct": 0.013
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $3,989,304 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 70,
    "ticker": "ADA",
    "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 34.9,
-   "entry": 0.19256,
+   "confidence": 31.9,
+   "entry": 0.19213,
    "stop_loss": 0.188423,
-   "target_1": 0.200834,
-   "target_2": 0.209107,
+   "target_1": 0.199544,
+   "target_2": 0.206957,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.15,
+   "stop_distance_pct": 1.93,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 37.8,
-    "narrative": 41.1,
-    "volume_expansion": 54.1,
-    "risk_profile": 91.3,
-    "composite": 34.9
+    "relative_strength": 31.6,
+    "narrative": 37.3,
+    "volume_expansion": 48.7,
+    "risk_profile": 92.7,
+    "composite": 31.9
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.98,
-    "vs_ETH": -1.87,
-    "vs_SOL": -0.83,
-    "vs_sector": -0.99
+    "vs_BTC": -2.58,
+    "vs_ETH": -2.02,
+    "vs_SOL": -1.1,
+    "vs_sector": -1.41
    },
    "market": {
-    "price": 0.19256,
-    "change_24h_pct": -0.19,
-    "change_7d_pct": -8.68,
-    "change_30d_pct": -21.76,
-    "volume_24h_usd": 7909829,
-    "volume_vs_7d_avg": 1.09,
-    "volatility_atr_1h_pct": 1.05,
+    "price": 0.19213,
+    "change_24h_pct": -0.5,
+    "change_7d_pct": -7.8,
+    "change_30d_pct": -21.98,
+    "volume_24h_usd": 7110084,
+    "volume_vs_7d_avg": 0.97,
+    "volatility_atr_1h_pct": 0.82,
     "spread_pct": 0.016
    },
    "risk_filter": {
@@ -2949,775 +3340,390 @@
    }
   },
   {
-   "rank": 62,
-   "ticker": "ICP",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 34.7,
-   "entry": 2.4876,
-   "stop_loss": 2.41268,
-   "target_1": 2.63745,
-   "target_2": 2.7873,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.01,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 43.9,
-    "narrative": 41.1,
-    "volume_expansion": 49.6,
-    "risk_profile": 80.8,
-    "composite": 34.7
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -1.09,
-    "vs_ETH": -0.98,
-    "vs_SOL": 0.06,
-    "vs_sector": -0.1
-   },
-   "market": {
-    "price": 2.4876,
-    "change_24h_pct": 1.31,
-    "change_7d_pct": -8.2,
-    "change_30d_pct": -24.29,
-    "volume_24h_usd": 1496390,
-    "volume_vs_7d_avg": 0.99,
-    "volatility_atr_1h_pct": 1.19,
-    "spread_pct": 0.084
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $1,496,390 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 63,
-   "ticker": "SUI",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 34.5,
-   "entry": 0.8942,
-   "stop_loss": 0.869928,
-   "target_1": 0.942743,
-   "target_2": 0.991286,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 2.71,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 52.0,
-    "narrative": 41.1,
-    "volume_expansion": 35.3,
-    "risk_profile": 79.8,
-    "composite": 34.5
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.38,
-    "vs_ETH": -0.26,
-    "vs_SOL": 0.77,
-    "vs_sector": 0.62
-   },
-   "market": {
-    "price": 0.8942,
-    "change_24h_pct": 0.66,
-    "change_7d_pct": -6.58,
-    "change_30d_pct": -24.02,
-    "volume_24h_usd": 11290641,
-    "volume_vs_7d_avg": 0.74,
-    "volatility_atr_1h_pct": 1.36,
-    "spread_pct": 0.045
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 64,
-   "ticker": "RLC",
-   "narrative": "Other",
-   "signal": "REDUCE",
-   "confidence": 34.3,
-   "entry": 0.4624,
-   "stop_loss": 0.441961,
-   "target_1": 0.503278,
-   "target_2": 0.544156,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 4.42,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 4.1,
-    "narrative": 50.0,
-    "volume_expansion": 81.7,
-    "risk_profile": 34.8,
-    "composite": 34.3
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -15.08,
-    "vs_ETH": -14.97,
-    "vs_SOL": -13.93,
-    "vs_sector": -14.65
-   },
-   "market": {
-    "price": 0.4624,
-    "change_24h_pct": -8.18,
-    "change_7d_pct": -25.19,
-    "change_30d_pct": 28.33,
-    "volume_24h_usd": 742885,
-    "volume_vs_7d_avg": 1.94,
-    "volatility_atr_1h_pct": 2.21,
-    "spread_pct": 0.152
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $742,885 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 65,
-   "ticker": "ATOM",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 33.9,
-   "entry": 1.5134,
-   "stop_loss": 1.47899,
-   "target_1": 1.58222,
-   "target_2": 1.65104,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 2.27,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 36.7,
-    "narrative": 41.1,
-    "volume_expansion": 55.0,
-    "risk_profile": 82.8,
-    "composite": 33.9
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -2.02,
-    "vs_ETH": -1.9,
-    "vs_SOL": -0.87,
-    "vs_sector": -1.02
-   },
-   "market": {
-    "price": 1.5134,
-    "change_24h_pct": -0.22,
-    "change_7d_pct": -8.72,
-    "change_30d_pct": -11.35,
-    "volume_24h_usd": 812912,
-    "volume_vs_7d_avg": 1.11,
-    "volatility_atr_1h_pct": 1.14,
-    "spread_pct": 0.079
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $812,912 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 66,
-   "ticker": "TAO",
-   "narrative": "Artificial Intelligence",
-   "signal": "REDUCE",
-   "confidence": 33.5,
-   "entry": 234.91,
-   "stop_loss": 227.726,
-   "target_1": 249.279,
-   "target_2": 263.647,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.06,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 46.9,
-    "narrative": 31.8,
-    "volume_expansion": 46.6,
-    "risk_profile": 84.2,
-    "composite": 33.5
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -1.11,
-    "vs_ETH": -1.0,
-    "vs_SOL": 0.04,
-    "vs_sector": 0.77
-   },
-   "market": {
-    "price": 234.91,
-    "change_24h_pct": -0.58,
-    "change_7d_pct": -6.97,
-    "change_30d_pct": -22.54,
-    "volume_24h_usd": 4850627,
-    "volume_vs_7d_avg": 0.93,
-    "volatility_atr_1h_pct": 1.23,
-    "spread_pct": 0.03
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $4,850,627 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 67,
+   "rank": 71,
    "ticker": "INJ",
    "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 33.4,
-   "entry": 7.064,
+   "confidence": 31.8,
+   "entry": 7.094,
    "stop_loss": 6.76202,
-   "target_1": 7.66796,
-   "target_2": 8.27192,
+   "target_1": 7.75796,
+   "target_2": 8.42192,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.27,
+   "stop_distance_pct": 4.68,
    "scores": {
     "trend": 25.0,
-    "relative_strength": 29.6,
-    "narrative": 41.1,
-    "volume_expansion": 37.4,
-    "risk_profile": 46.5,
-    "composite": 33.4
+    "relative_strength": 28.6,
+    "narrative": 37.3,
+    "volume_expansion": 25.7,
+    "risk_profile": 58.6,
+    "composite": 31.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -3.09,
-    "vs_ETH": -2.98,
-    "vs_SOL": -1.94,
-    "vs_sector": -2.1
+    "vs_BTC": -3.03,
+    "vs_ETH": -2.48,
+    "vs_SOL": -1.56,
+    "vs_sector": -1.87
    },
    "market": {
-    "price": 7.064,
-    "change_24h_pct": -3.63,
-    "change_7d_pct": -8.23,
-    "change_30d_pct": -4.13,
-    "volume_24h_usd": 2877485,
-    "volume_vs_7d_avg": 0.77,
-    "volatility_atr_1h_pct": 1.79,
-    "spread_pct": 0.099
+    "price": 7.094,
+    "change_24h_pct": -2.26,
+    "change_7d_pct": -7.39,
+    "change_30d_pct": -3.68,
+    "volume_24h_usd": 2310542,
+    "volume_vs_7d_avg": 0.6,
+    "volatility_atr_1h_pct": 1.37,
+    "spread_pct": 0.056
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $2,877,485 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 68,
-   "ticker": "ZAMA",
-   "narrative": "Other",
-   "signal": "REDUCE",
-   "confidence": 33.3,
-   "entry": 0.06372,
-   "stop_loss": 0.0604797,
-   "target_1": 0.0702007,
-   "target_2": 0.0766813,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 5.09,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 22.4,
-    "narrative": 50.0,
-    "volume_expansion": 59.4,
-    "risk_profile": 13.1,
-    "composite": 33.3
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -4.06,
-    "vs_ETH": -3.95,
-    "vs_SOL": -2.91,
-    "vs_sector": -3.64
-   },
-   "market": {
-    "price": 0.06372,
-    "change_24h_pct": -3.43,
-    "change_7d_pct": -9.99,
-    "change_30d_pct": -16.69,
-    "volume_24h_usd": 424707,
-    "volume_vs_7d_avg": 1.22,
-    "volatility_atr_1h_pct": 2.54,
-    "spread_pct": 0.297
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $424,707 24h volume",
-     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
-    ]
-   }
-  },
-  {
-   "rank": 69,
-   "ticker": "ALGO",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 33.2,
-   "entry": 0.09481,
-   "stop_loss": 0.0925649,
-   "target_1": 0.0993003,
-   "target_2": 0.103791,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 2.37,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 31.6,
-    "narrative": 41.1,
-    "volume_expansion": 61.1,
-    "risk_profile": 79.5,
-    "composite": 33.2
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -2.8,
-    "vs_ETH": -2.69,
-    "vs_SOL": -1.65,
-    "vs_sector": -1.81
-   },
-   "market": {
-    "price": 0.09481,
-    "change_24h_pct": -0.18,
-    "change_7d_pct": -10.06,
-    "change_30d_pct": -22.68,
-    "volume_24h_usd": 844296,
-    "volume_vs_7d_avg": 1.26,
-    "volatility_atr_1h_pct": 1.16,
-    "spread_pct": 0.105
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $844,296 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 70,
-   "ticker": "HBAR",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 33.2,
-   "entry": 0.07148,
-   "stop_loss": 0.0699307,
-   "target_1": 0.0745786,
-   "target_2": 0.0776772,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 2.17,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 44.9,
-    "narrative": 41.1,
-    "volume_expansion": 31.9,
-    "risk_profile": 89.3,
-    "composite": 33.2
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -1.03,
-    "vs_ETH": -0.92,
-    "vs_SOL": 0.12,
-    "vs_sector": -0.04
-   },
-   "market": {
-    "price": 0.07148,
-    "change_24h_pct": 0.31,
-    "change_7d_pct": -7.44,
-    "change_30d_pct": -30.36,
-    "volume_24h_usd": 3827780,
-    "volume_vs_7d_avg": 0.69,
-    "volatility_atr_1h_pct": 1.08,
-    "spread_pct": 0.028
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $3,827,780 24h volume"
-    ]
-   }
-  },
-  {
-   "rank": 71,
-   "ticker": "AMP",
-   "narrative": "Other",
-   "signal": "REDUCE",
-   "confidence": 33.1,
-   "entry": 0.0006537,
-   "stop_loss": 0.000602671,
-   "target_1": 0.000755757,
-   "target_2": 0.000857814,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 7.81,
-   "scores": {
-    "trend": 25.0,
-    "relative_strength": 10.2,
-    "narrative": 50.0,
-    "volume_expansion": 77.3,
-    "risk_profile": 15.0,
-    "composite": 33.1
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -6.76,
-    "vs_ETH": -6.65,
-    "vs_SOL": -5.61,
-    "vs_sector": -6.33
-   },
-   "market": {
-    "price": 0.0006537,
-    "change_24h_pct": 0.11,
-    "change_7d_pct": -16.85,
-    "change_30d_pct": 3.27,
-    "volume_24h_usd": 656022,
-    "volume_vs_7d_avg": 1.76,
-    "volatility_atr_1h_pct": 2.44,
-    "spread_pct": 0.659
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $656,022 24h volume",
-     "Wide spread: 0.66%"
+     "Low liquidity: $2,310,542 24h volume"
     ]
    }
   },
   {
    "rank": 72,
-   "ticker": "GRT",
-   "narrative": "Artificial Intelligence",
+   "ticker": "ICP",
+   "narrative": "Layer 1",
    "signal": "REDUCE",
-   "confidence": 33.1,
-   "entry": 0.020246,
-   "stop_loss": 0.0188224,
-   "target_1": 0.0230932,
-   "target_2": 0.0259403,
+   "confidence": 31.8,
+   "entry": 2.4854,
+   "stop_loss": 2.41268,
+   "target_1": 2.63085,
+   "target_2": 2.7763,
    "risk_reward": 3.0,
-   "stop_distance_pct": 7.03,
+   "stop_distance_pct": 2.93,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 39.8,
-    "narrative": 31.8,
-    "volume_expansion": 76.7,
-    "risk_profile": 52.9,
-    "composite": 33.1
+    "relative_strength": 38.8,
+    "narrative": 37.3,
+    "volume_expansion": 41.9,
+    "risk_profile": 83.5,
+    "composite": 31.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.78,
-    "vs_ETH": -1.67,
-    "vs_SOL": -0.63,
-    "vs_sector": 0.1
+    "vs_BTC": -1.84,
+    "vs_ETH": -1.28,
+    "vs_SOL": -0.36,
+    "vs_sector": -0.68
    },
    "market": {
-    "price": 0.020246,
-    "change_24h_pct": 7.03,
-    "change_7d_pct": -13.17,
-    "change_30d_pct": -27.94,
-    "volume_24h_usd": 628556,
-    "volume_vs_7d_avg": 1.74,
-    "volatility_atr_1h_pct": 1.67,
-    "spread_pct": 0.114
+    "price": 2.4854,
+    "change_24h_pct": -0.03,
+    "change_7d_pct": -6.89,
+    "change_30d_pct": -24.34,
+    "volume_24h_usd": 1270708,
+    "volume_vs_7d_avg": 0.84,
+    "volatility_atr_1h_pct": 0.86,
+    "spread_pct": 0.072
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $628,556 24h volume"
+     "Low liquidity: $1,270,708 24h volume"
     ]
    }
   },
   {
    "rank": 73,
-   "ticker": "SEI",
-   "narrative": "Layer 1",
+   "ticker": "CVX",
+   "narrative": "DeFi",
    "signal": "REDUCE",
-   "confidence": 33.0,
-   "entry": 0.04861,
-   "stop_loss": 0.046765,
-   "target_1": 0.0523,
-   "target_2": 0.05599,
+   "confidence": 31.1,
+   "entry": 1.994,
+   "stop_loss": 1.90045,
+   "target_1": 2.1811,
+   "target_2": 2.3682,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.8,
+   "stop_distance_pct": 4.69,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 26.5,
-    "narrative": 41.1,
-    "volume_expansion": 70.8,
-    "risk_profile": 75.3,
-    "composite": 33.0
+    "trend": 40.0,
+    "relative_strength": 9.2,
+    "narrative": 33.0,
+    "volume_expansion": 49.2,
+    "risk_profile": 28.6,
+    "composite": 31.1
    },
    "relative_strength_pct": {
-    "vs_BTC": -3.75,
-    "vs_ETH": -3.63,
-    "vs_SOL": -2.6,
-    "vs_sector": -2.75
+    "vs_BTC": -6.94,
+    "vs_ETH": -6.38,
+    "vs_SOL": -5.46,
+    "vs_sector": -6.81
    },
    "market": {
-    "price": 0.04861,
-    "change_24h_pct": 1.0,
-    "change_7d_pct": -12.41,
-    "change_30d_pct": -30.97,
-    "volume_24h_usd": 995923,
-    "volume_vs_7d_avg": 1.54,
-    "volatility_atr_1h_pct": 1.4,
-    "spread_pct": 0.062
+    "price": 1.994,
+    "change_24h_pct": 2.89,
+    "change_7d_pct": -17.34,
+    "change_30d_pct": -4.46,
+    "volume_24h_usd": 506506,
+    "volume_vs_7d_avg": 0.98,
+    "volatility_atr_1h_pct": 1.55,
+    "spread_pct": 0.25
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $995,923 24h volume"
+     "Low liquidity: $506,506 24h volume"
     ]
    }
   },
   {
    "rank": 74,
-   "ticker": "CFG",
-   "narrative": "Real World Assets",
+   "ticker": "GRT",
+   "narrative": "Artificial Intelligence",
    "signal": "REDUCE",
-   "confidence": 32.9,
-   "entry": 0.0954,
-   "stop_loss": 0.0882565,
-   "target_1": 0.109687,
-   "target_2": 0.123974,
+   "confidence": 31.0,
+   "entry": 0.020524,
+   "stop_loss": 0.0193945,
+   "target_1": 0.0227829,
+   "target_2": 0.0250418,
    "risk_reward": 3.0,
-   "stop_distance_pct": 7.49,
+   "stop_distance_pct": 5.5,
    "scores": {
     "trend": 15.0,
-    "relative_strength": 34.7,
-    "narrative": 38.3,
-    "volume_expansion": 58.9,
-    "risk_profile": 32.6,
-    "composite": 32.9
+    "relative_strength": 30.6,
+    "narrative": 26.3,
+    "volume_expansion": 55.0,
+    "risk_profile": 53.8,
+    "composite": 31.0
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.74,
-    "vs_ETH": -1.62,
-    "vs_SOL": -0.59,
-    "vs_sector": -3.47
+    "vs_BTC": -3.12,
+    "vs_ETH": -2.57,
+    "vs_SOL": -1.65,
+    "vs_sector": -0.4
    },
    "market": {
-    "price": 0.0954,
-    "change_24h_pct": 7.19,
-    "change_7d_pct": -13.19,
-    "change_30d_pct": -35.63,
-    "volume_24h_usd": 523374,
-    "volume_vs_7d_avg": 1.2,
-    "volatility_atr_1h_pct": 1.97,
-    "spread_pct": 0.209
+    "price": 0.020524,
+    "change_24h_pct": 2.99,
+    "change_7d_pct": -11.04,
+    "change_30d_pct": -26.94,
+    "volume_24h_usd": 428888,
+    "volume_vs_7d_avg": 1.11,
+    "volatility_atr_1h_pct": 1.37,
+    "spread_pct": 0.098
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $523,374 24h volume"
+     "Low liquidity: $428,888 24h volume"
     ]
    }
   },
   {
    "rank": 75,
-   "ticker": "BAT",
-   "narrative": "Other",
+   "ticker": "FARTCOIN",
+   "narrative": "Meme",
    "signal": "REDUCE",
-   "confidence": 32.7,
-   "entry": 0.12808,
-   "stop_loss": 0.124155,
-   "target_1": 0.13593,
-   "target_2": 0.143779,
+   "confidence": 30.8,
+   "entry": 0.12129,
+   "stop_loss": 0.116107,
+   "target_1": 0.131657,
+   "target_2": 0.142024,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.06,
+   "stop_distance_pct": 4.27,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 6.1,
-    "narrative": 50.0,
-    "volume_expansion": 46.3,
-    "risk_profile": 67.2,
-    "composite": 32.7
+    "trend": 15.0,
+    "relative_strength": 37.8,
+    "narrative": 41.2,
+    "volume_expansion": 15.8,
+    "risk_profile": 62.5,
+    "composite": 30.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -9.62,
-    "vs_ETH": -9.51,
-    "vs_SOL": -8.47,
-    "vs_sector": -9.19
+    "vs_BTC": -1.8,
+    "vs_ETH": -1.24,
+    "vs_SOL": -0.32,
+    "vs_sector": -0.81
    },
    "market": {
-    "price": 0.12808,
-    "change_24h_pct": -2.23,
-    "change_7d_pct": -20.06,
-    "change_30d_pct": 43.23,
-    "volume_24h_usd": 472709,
-    "volume_vs_7d_avg": 0.93,
-    "volatility_atr_1h_pct": 1.53,
-    "spread_pct": 0.078
+    "price": 0.12129,
+    "change_24h_pct": 2.24,
+    "change_7d_pct": -8.34,
+    "change_30d_pct": -31.1,
+    "volume_24h_usd": 660052,
+    "volume_vs_7d_avg": 0.49,
+    "volatility_atr_1h_pct": 1.2,
+    "spread_pct": 0.132
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $472,709 24h volume"
+     "Low liquidity: $660,052 24h volume"
     ]
    }
   },
   {
    "rank": 76,
-   "ticker": "AERO",
-   "narrative": "DeFi",
+   "ticker": "SYRUP",
+   "narrative": "Real World Assets",
    "signal": "REDUCE",
-   "confidence": 32.3,
-   "entry": 0.61997,
-   "stop_loss": 0.593259,
-   "target_1": 0.673392,
-   "target_2": 0.726815,
+   "confidence": 30.7,
+   "entry": 0.1587,
+   "stop_loss": 0.148155,
+   "target_1": 0.179789,
+   "target_2": 0.200878,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.31,
+   "stop_distance_pct": 6.64,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 20.4,
-    "narrative": 32.3,
-    "volume_expansion": 53.0,
-    "risk_profile": 53.0,
-    "composite": 32.3
+    "trend": 15.0,
+    "relative_strength": 24.5,
+    "narrative": 39.5,
+    "volume_expansion": 41.8,
+    "risk_profile": 58.7,
+    "composite": 30.7
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.19,
-    "vs_ETH": -4.08,
-    "vs_SOL": -3.04,
-    "vs_sector": -3.34
+    "vs_BTC": -2.7,
+    "vs_ETH": -2.14,
+    "vs_SOL": -1.22,
+    "vs_sector": -5.01
    },
    "market": {
-    "price": 0.61997,
-    "change_24h_pct": 3.77,
-    "change_7d_pct": -15.01,
-    "change_30d_pct": -21.74,
-    "volume_24h_usd": 5371363,
-    "volume_vs_7d_avg": 1.06,
-    "volatility_atr_1h_pct": 1.7,
-    "spread_pct": 0.098
-   },
-   "risk_filter": {
-    "passed": true,
-    "reasons": []
-   }
-  },
-  {
-   "rank": 77,
-   "ticker": "XCN",
-   "narrative": "Other",
-   "signal": "REDUCE",
-   "confidence": 31.0,
-   "entry": 0.003802,
-   "stop_loss": 0.00366459,
-   "target_1": 0.00407683,
-   "target_2": 0.00435166,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 3.61,
-   "scores": {
-    "trend": 0.0,
-    "relative_strength": 55.1,
-    "narrative": 50.0,
-    "volume_expansion": 10.8,
-    "risk_profile": 56.4,
-    "composite": 31.0
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -0.15,
-    "vs_ETH": -0.03,
-    "vs_SOL": 1.0,
-    "vs_sector": 0.28
-   },
-   "market": {
-    "price": 0.003802,
-    "change_24h_pct": -1.45,
-    "change_7d_pct": -4.78,
-    "change_30d_pct": -20.66,
-    "volume_24h_usd": 504599,
-    "volume_vs_7d_avg": 0.44,
-    "volatility_atr_1h_pct": 1.27,
-    "spread_pct": 0.369
+    "price": 0.1587,
+    "change_24h_pct": 4.2,
+    "change_7d_pct": -11.14,
+    "change_30d_pct": -33.74,
+    "volume_24h_usd": 775038,
+    "volume_vs_7d_avg": 0.84,
+    "volatility_atr_1h_pct": 1.35,
+    "spread_pct": 0.063
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $504,599 24h volume",
-     "Wide spread: 0.37%"
+     "Low liquidity: $775,038 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 77,
+   "ticker": "SEI",
+   "narrative": "Layer 1",
+   "signal": "REDUCE",
+   "confidence": 30.6,
+   "entry": 0.04794,
+   "stop_loss": 0.046765,
+   "target_1": 0.05029,
+   "target_2": 0.05264,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 2.45,
+   "scores": {
+    "trend": 0.0,
+    "relative_strength": 17.3,
+    "narrative": 37.3,
+    "volume_expansion": 75.0,
+    "risk_profile": 75.2,
+    "composite": 30.6
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -4.87,
+    "vs_ETH": -4.31,
+    "vs_SOL": -3.39,
+    "vs_sector": -3.71
+   },
+   "market": {
+    "price": 0.04794,
+    "change_24h_pct": -1.52,
+    "change_7d_pct": -10.95,
+    "change_30d_pct": -31.87,
+    "volume_24h_usd": 1030238,
+    "volume_vs_7d_avg": 1.68,
+    "volatility_atr_1h_pct": 1.07,
+    "spread_pct": 0.083
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $1,030,238 24h volume"
     ]
    }
   },
   {
    "rank": 78,
-   "ticker": "CVX",
-   "narrative": "DeFi",
+   "ticker": "BONK",
+   "narrative": "Meme",
    "signal": "REDUCE",
-   "confidence": 31.0,
-   "entry": 1.964,
-   "stop_loss": 1.80095,
-   "target_1": 2.2901,
-   "target_2": 2.6162,
+   "confidence": 30.4,
+   "entry": 2.92e-06,
+   "stop_loss": 2.84227e-06,
+   "target_1": 3.07547e-06,
+   "target_2": 3.23094e-06,
    "risk_reward": 3.0,
-   "stop_distance_pct": 8.3,
+   "stop_distance_pct": 2.66,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 21.4,
-    "narrative": 32.3,
-    "volume_expansion": 56.2,
-    "risk_profile": 32.5,
-    "composite": 31.0
+    "trend": 0.0,
+    "relative_strength": 49.0,
+    "narrative": 41.2,
+    "volume_expansion": 40.8,
+    "risk_profile": 37.9,
+    "composite": 30.4
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.18,
-    "vs_ETH": -4.07,
-    "vs_SOL": -3.03,
-    "vs_sector": -3.33
+    "vs_BTC": -0.78,
+    "vs_ETH": -0.22,
+    "vs_SOL": 0.7,
+    "vs_sector": 0.21
    },
    "market": {
-    "price": 1.964,
-    "change_24h_pct": 8.39,
-    "change_7d_pct": -18.06,
-    "change_30d_pct": -5.85,
-    "volume_24h_usd": 573416,
-    "volume_vs_7d_avg": 1.14,
-    "volatility_atr_1h_pct": 2.01,
-    "spread_pct": 0.204
+    "price": 2.92e-06,
+    "change_24h_pct": -1.35,
+    "change_7d_pct": -4.25,
+    "change_30d_pct": -22.34,
+    "volume_24h_usd": 1151613,
+    "volume_vs_7d_avg": 0.83,
+    "volatility_atr_1h_pct": 1.33,
+    "spread_pct": 0.342
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $573,416 24h volume"
+     "Low liquidity: $1,151,613 24h volume",
+     "Wide spread: 0.34%"
     ]
    }
   },
   {
    "rank": 79,
-   "ticker": "DOT",
-   "narrative": "Layer 1",
-   "signal": "REDUCE",
-   "confidence": 30.7,
-   "entry": 0.9528,
-   "stop_loss": 0.924156,
-   "target_1": 1.01009,
-   "target_2": 1.06738,
+   "ticker": "DRV",
+   "narrative": "Other",
+   "signal": "SELL",
+   "confidence": 29.5,
+   "entry": 0.32063,
+   "stop_loss": 0.315468,
+   "target_1": 0.330953,
+   "target_2": 0.341277,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.01,
+   "stop_distance_pct": 1.61,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 27.6,
-    "narrative": 41.1,
-    "volume_expansion": 50.5,
-    "risk_profile": 79.8,
-    "composite": 30.7
+    "trend": 25.0,
+    "relative_strength": 6.1,
+    "narrative": 50.0,
+    "volume_expansion": 21.5,
+    "risk_profile": 72.0,
+    "composite": 29.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -3.52,
-    "vs_ETH": -3.41,
-    "vs_SOL": -2.37,
-    "vs_sector": -2.53
+    "vs_BTC": -7.85,
+    "vs_ETH": -7.3,
+    "vs_SOL": -6.38,
+    "vs_sector": -8.61
    },
    "market": {
-    "price": 0.9528,
-    "change_24h_pct": 0.41,
-    "change_7d_pct": -11.65,
-    "change_30d_pct": -18.88,
-    "volume_24h_usd": 2098548,
-    "volume_vs_7d_avg": 1.01,
-    "volatility_atr_1h_pct": 1.34,
-    "spread_pct": 0.052
+    "price": 0.32063,
+    "change_24h_pct": -4.57,
+    "change_7d_pct": -13.89,
+    "change_30d_pct": -18.76,
+    "volume_24h_usd": 483234,
+    "volume_vs_7d_avg": 0.55,
+    "volatility_atr_1h_pct": 0.8,
+    "spread_pct": 0.237
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $2,098,548 24h volume"
+     "Low liquidity: $483,234 24h volume"
     ]
    }
   },
@@ -3726,863 +3732,861 @@
    "ticker": "RENDER",
    "narrative": "DePIN",
    "signal": "SELL",
-   "confidence": 29.8,
-   "entry": 1.5749,
+   "confidence": 29.4,
+   "entry": 1.5693,
    "stop_loss": 1.51797,
-   "target_1": 1.68876,
-   "target_2": 1.80261,
+   "target_1": 1.67196,
+   "target_2": 1.77461,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.61,
+   "stop_distance_pct": 3.27,
    "scores": {
     "trend": 0.0,
     "relative_strength": 40.8,
-    "narrative": 21.3,
-    "volume_expansion": 57.3,
-    "risk_profile": 66.9,
-    "composite": 29.8
+    "narrative": 35.1,
+    "volume_expansion": 38.7,
+    "risk_profile": 63.3,
+    "composite": 29.4
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.72,
-    "vs_ETH": -1.6,
-    "vs_SOL": -0.57,
-    "vs_sector": 0.25
+    "vs_BTC": -1.95,
+    "vs_ETH": -1.4,
+    "vs_SOL": -0.48,
+    "vs_sector": 0.36
    },
    "market": {
-    "price": 1.5749,
-    "change_24h_pct": 0.9,
-    "change_7d_pct": -8.97,
-    "change_30d_pct": -17.43,
-    "volume_24h_usd": 1840263,
-    "volume_vs_7d_avg": 1.17,
-    "volatility_atr_1h_pct": 1.59,
-    "spread_pct": 0.038
+    "price": 1.5693,
+    "change_24h_pct": 0.75,
+    "change_7d_pct": -7.6,
+    "change_30d_pct": -17.85,
+    "volume_24h_usd": 1306888,
+    "volume_vs_7d_avg": 0.79,
+    "volatility_atr_1h_pct": 1.23,
+    "spread_pct": 0.096
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,840,263 24h volume"
+     "Low liquidity: $1,306,888 24h volume"
     ]
    }
   },
   {
    "rank": 81,
-   "ticker": "TIA",
-   "narrative": "Layer 1",
+   "ticker": "IRYS",
+   "narrative": "Other",
    "signal": "SELL",
-   "confidence": 29.7,
-   "entry": 0.4638,
-   "stop_loss": 0.444566,
-   "target_1": 0.502268,
-   "target_2": 0.540736,
+   "confidence": 29.2,
+   "entry": 0.02391,
+   "stop_loss": 0.0210408,
+   "target_1": 0.0296484,
+   "target_2": 0.0353868,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.15,
+   "stop_distance_pct": 12.0,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 16.3,
-    "narrative": 41.1,
-    "volume_expansion": 29.8,
-    "risk_profile": 54.3,
-    "composite": 29.7
+    "trend": 60.0,
+    "relative_strength": 0.0,
+    "narrative": 50.0,
+    "volume_expansion": 0.0,
+    "risk_profile": 12.2,
+    "composite": 29.2
    },
    "relative_strength_pct": {
-    "vs_BTC": -5.07,
-    "vs_ETH": -4.96,
-    "vs_SOL": -3.92,
-    "vs_sector": -4.07
+    "vs_BTC": -30.19,
+    "vs_ETH": -29.64,
+    "vs_SOL": -28.72,
+    "vs_sector": -30.95
    },
    "market": {
-    "price": 0.4638,
-    "change_24h_pct": 1.93,
-    "change_7d_pct": -15.24,
-    "change_30d_pct": 8.2,
-    "volume_24h_usd": 883956,
-    "volume_vs_7d_avg": 0.66,
-    "volatility_atr_1h_pct": 1.78,
-    "spread_pct": 0.043
+    "price": 0.02391,
+    "change_24h_pct": 11.09,
+    "change_7d_pct": -61.56,
+    "change_30d_pct": 48.48,
+    "volume_24h_usd": 1491710,
+    "volume_vs_7d_avg": 0.14,
+    "volatility_atr_1h_pct": 3.13,
+    "spread_pct": 0.293
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $883,956 24h volume"
+     "Low liquidity: $1,491,710 24h volume"
     ]
    }
   },
   {
    "rank": 82,
-   "ticker": "DASH",
+   "ticker": "XCN",
    "narrative": "Other",
    "signal": "SELL",
-   "confidence": 29.1,
-   "entry": 47.99,
-   "stop_loss": 46.6455,
-   "target_1": 50.6789,
-   "target_2": 53.3678,
+   "confidence": 29.0,
+   "entry": 0.003811,
+   "stop_loss": 0.00366459,
+   "target_1": 0.00410383,
+   "target_2": 0.00439666,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.8,
+   "stop_distance_pct": 3.84,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 49.0,
+    "relative_strength": 51.0,
     "narrative": 50.0,
-    "volume_expansion": 0.0,
-    "risk_profile": 68.2,
-    "composite": 29.1
+    "volume_expansion": 1.6,
+    "risk_profile": 60.5,
+    "composite": 29.0
    },
    "relative_strength_pct": {
-    "vs_BTC": -0.5,
-    "vs_ETH": -0.39,
-    "vs_SOL": 0.65,
-    "vs_sector": -0.07
+    "vs_BTC": -0.2,
+    "vs_ETH": 0.36,
+    "vs_SOL": 1.28,
+    "vs_sector": -0.95
    },
    "market": {
-    "price": 47.99,
-    "change_24h_pct": -0.31,
-    "change_7d_pct": -6.14,
-    "change_30d_pct": -17.45,
-    "volume_24h_usd": 450012,
-    "volume_vs_7d_avg": 0.27,
-    "volatility_atr_1h_pct": 1.4,
-    "spread_pct": 0.125
+    "price": 0.003811,
+    "change_24h_pct": -1.32,
+    "change_7d_pct": -3.3,
+    "change_30d_pct": -20.37,
+    "volume_24h_usd": 423730,
+    "volume_vs_7d_avg": 0.36,
+    "volatility_atr_1h_pct": 1.1,
+    "spread_pct": 0.21
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $450,012 24h volume",
-     "Abnormal selling: 78% of 24h volume on red bars"
+     "Low liquidity: $423,730 24h volume"
     ]
    }
   },
   {
    "rank": 83,
-   "ticker": "STRK",
-   "narrative": "Layer 2",
+   "ticker": "DOT",
+   "narrative": "Layer 1",
    "signal": "SELL",
-   "confidence": 28.7,
-   "entry": 0.04305,
-   "stop_loss": 0.0416154,
-   "target_1": 0.0459191,
-   "target_2": 0.0487882,
+   "confidence": 28.9,
+   "entry": 0.9535,
+   "stop_loss": 0.928932,
+   "target_1": 1.00264,
+   "target_2": 1.05177,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.33,
+   "stop_distance_pct": 2.58,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 15.3,
-    "narrative": 42.0,
-    "volume_expansion": 20.9,
-    "risk_profile": 58.0,
-    "composite": 28.7
+    "trend": 0.0,
+    "relative_strength": 23.5,
+    "narrative": 37.3,
+    "volume_expansion": 50.0,
+    "risk_profile": 81.2,
+    "composite": 28.9
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.93,
-    "vs_ETH": -4.81,
-    "vs_SOL": -3.78,
-    "vs_sector": -6.23
+    "vs_BTC": -3.81,
+    "vs_ETH": -3.26,
+    "vs_SOL": -2.34,
+    "vs_sector": -2.65
    },
    "market": {
-    "price": 0.04305,
-    "change_24h_pct": -1.82,
-    "change_7d_pct": -12.5,
-    "change_30d_pct": 2.94,
-    "volume_24h_usd": 1220775,
-    "volume_vs_7d_avg": 0.55,
-    "volatility_atr_1h_pct": 1.67,
-    "spread_pct": 0.07
+    "price": 0.9535,
+    "change_24h_pct": 0.42,
+    "change_7d_pct": -10.48,
+    "change_30d_pct": -18.78,
+    "volume_24h_usd": 1882052,
+    "volume_vs_7d_avg": 1.0,
+    "volatility_atr_1h_pct": 1.0,
+    "spread_pct": 0.052
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,220,775 24h volume"
+     "Low liquidity: $1,882,052 24h volume"
     ]
    }
   },
   {
    "rank": 84,
-   "ticker": "JASMY",
-   "narrative": "Other",
+   "ticker": "VET",
+   "narrative": "Layer 1",
    "signal": "SELL",
-   "confidence": 28.6,
-   "entry": 0.00383,
-   "stop_loss": 0.00353225,
-   "target_1": 0.0044255,
-   "target_2": 0.005021,
+   "confidence": 28.9,
+   "entry": 0.005945,
+   "stop_loss": 0.00569638,
+   "target_1": 0.00644225,
+   "target_2": 0.0069395,
    "risk_reward": 3.0,
-   "stop_distance_pct": 7.77,
+   "stop_distance_pct": 4.18,
    "scores": {
     "trend": 15.0,
-    "relative_strength": 19.4,
-    "narrative": 50.0,
-    "volume_expansion": 38.7,
-    "risk_profile": 34.6,
-    "composite": 28.6
+    "relative_strength": 12.2,
+    "narrative": 37.3,
+    "volume_expansion": 48.8,
+    "risk_profile": 65.8,
+    "composite": 28.9
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.56,
-    "vs_ETH": -4.45,
-    "vs_SOL": -3.41,
-    "vs_sector": -4.13
+    "vs_BTC": -5.75,
+    "vs_ETH": -5.2,
+    "vs_SOL": -4.28,
+    "vs_sector": -4.59
    },
    "market": {
-    "price": 0.00383,
-    "change_24h_pct": 3.23,
-    "change_7d_pct": -15.27,
-    "change_30d_pct": -33.16,
-    "volume_24h_usd": 798169,
-    "volume_vs_7d_avg": 0.79,
-    "volatility_atr_1h_pct": 1.73,
-    "spread_pct": 0.261
+    "price": 0.005945,
+    "change_24h_pct": 2.01,
+    "change_7d_pct": -14.77,
+    "change_30d_pct": -32.39,
+    "volume_24h_usd": 383999,
+    "volume_vs_7d_avg": 0.98,
+    "volatility_atr_1h_pct": 1.06,
+    "spread_pct": 0.185
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $798,169 24h volume"
+     "Low liquidity: $383,999 24h volume"
     ]
    }
   },
   {
    "rank": 85,
-   "ticker": "FET",
-   "narrative": "Artificial Intelligence",
+   "ticker": "ALGO",
+   "narrative": "Layer 1",
    "signal": "SELL",
-   "confidence": 28.4,
-   "entry": 0.16249,
-   "stop_loss": 0.157082,
-   "target_1": 0.173305,
-   "target_2": 0.18412,
+   "confidence": 28.6,
+   "entry": 0.09473,
+   "stop_loss": 0.0925649,
+   "target_1": 0.0990603,
+   "target_2": 0.103391,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.33,
+   "stop_distance_pct": 2.29,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 38.8,
-    "narrative": 31.8,
-    "volume_expansion": 42.7,
-    "risk_profile": 58.9,
-    "composite": 28.4
+    "relative_strength": 22.4,
+    "narrative": 37.3,
+    "volume_expansion": 45.9,
+    "risk_profile": 86.9,
+    "composite": 28.6
    },
    "relative_strength_pct": {
-    "vs_BTC": -1.88,
-    "vs_ETH": -1.77,
-    "vs_SOL": -0.73,
-    "vs_sector": 0.0
+    "vs_BTC": -3.83,
+    "vs_ETH": -3.27,
+    "vs_SOL": -2.35,
+    "vs_sector": -2.66
    },
    "market": {
-    "price": 0.16249,
-    "change_24h_pct": 0.63,
-    "change_7d_pct": -9.06,
-    "change_30d_pct": -29.53,
-    "volume_24h_usd": 2114664,
-    "volume_vs_7d_avg": 0.86,
-    "volatility_atr_1h_pct": 1.66,
-    "spread_pct": 0.068
+    "price": 0.09473,
+    "change_24h_pct": -0.96,
+    "change_7d_pct": -9.58,
+    "change_30d_pct": -22.65,
+    "volume_24h_usd": 639392,
+    "volume_vs_7d_avg": 0.92,
+    "volatility_atr_1h_pct": 0.83,
+    "spread_pct": 0.053
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $2,114,664 24h volume"
+     "Low liquidity: $639,392 24h volume"
     ]
    }
   },
   {
    "rank": 86,
-   "ticker": "APT",
-   "narrative": "Layer 1",
+   "ticker": "FIL",
+   "narrative": "DePIN",
    "signal": "SELL",
-   "confidence": 27.7,
-   "entry": 0.6315,
-   "stop_loss": 0.609039,
-   "target_1": 0.676421,
-   "target_2": 0.721342,
+   "confidence": 28.3,
+   "entry": 0.8598,
+   "stop_loss": 0.838884,
+   "target_1": 0.901631,
+   "target_2": 0.943462,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.56,
+   "stop_distance_pct": 2.43,
    "scores": {
-    "trend": 0.0,
-    "relative_strength": 24.5,
-    "narrative": 41.1,
-    "volume_expansion": 42.6,
-    "risk_profile": 69.4,
-    "composite": 27.7
+    "trend": 15.0,
+    "relative_strength": 33.7,
+    "narrative": 35.1,
+    "volume_expansion": 6.7,
+    "risk_profile": 74.0,
+    "composite": 28.3
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.09,
-    "vs_ETH": -3.98,
-    "vs_SOL": -2.94,
-    "vs_sector": -3.1
+    "vs_BTC": -2.67,
+    "vs_ETH": -2.12,
+    "vs_SOL": -1.2,
+    "vs_sector": -0.36
    },
    "market": {
-    "price": 0.6315,
-    "change_24h_pct": 2.1,
-    "change_7d_pct": -13.73,
-    "change_30d_pct": -18.65,
-    "volume_24h_usd": 769369,
-    "volume_vs_7d_avg": 0.86,
-    "volatility_atr_1h_pct": 1.5,
-    "spread_pct": 0.063
+    "price": 0.8598,
+    "change_24h_pct": 0.47,
+    "change_7d_pct": -8.61,
+    "change_30d_pct": -15.7,
+    "volume_24h_usd": 582147,
+    "volume_vs_7d_avg": 0.41,
+    "volatility_atr_1h_pct": 1.1,
+    "spread_pct": 0.081
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $769,369 24h volume"
+     "Low liquidity: $582,147 24h volume"
     ]
    }
   },
   {
    "rank": 87,
-   "ticker": "MON",
-   "narrative": "Other",
+   "ticker": "ATOM",
+   "narrative": "Layer 1",
    "signal": "SELL",
-   "confidence": 27.4,
-   "entry": 0.019337,
-   "stop_loss": 0.0187625,
-   "target_1": 0.020486,
-   "target_2": 0.0216349,
+   "confidence": 27.8,
+   "entry": 1.5091,
+   "stop_loss": 1.48265,
+   "target_1": 1.562,
+   "target_2": 1.6149,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.97,
+   "stop_distance_pct": 1.75,
    "scores": {
     "trend": 0.0,
     "relative_strength": 25.5,
-    "narrative": 50.0,
-    "volume_expansion": 25.2,
-    "risk_profile": 72.2,
-    "composite": 27.4
+    "narrative": 37.3,
+    "volume_expansion": 37.1,
+    "risk_profile": 84.0,
+    "composite": 27.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -3.63,
-    "vs_ETH": -3.52,
-    "vs_SOL": -2.48,
-    "vs_sector": -3.2
+    "vs_BTC": -3.55,
+    "vs_ETH": -2.99,
+    "vs_SOL": -2.07,
+    "vs_sector": -2.38
    },
    "market": {
-    "price": 0.019337,
-    "change_24h_pct": -2.19,
-    "change_7d_pct": -10.1,
-    "change_30d_pct": -42.57,
-    "volume_24h_usd": 733304,
-    "volume_vs_7d_avg": 0.6,
-    "volatility_atr_1h_pct": 1.49,
-    "spread_pct": 0.057
+    "price": 1.5091,
+    "change_24h_pct": -1.12,
+    "change_7d_pct": -9.01,
+    "change_30d_pct": -11.63,
+    "volume_24h_usd": 506821,
+    "volume_vs_7d_avg": 0.76,
+    "volatility_atr_1h_pct": 0.88,
+    "spread_pct": 0.053
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $733,304 24h volume"
+     "Low liquidity: $506,821 24h volume"
     ]
    }
   },
   {
    "rank": 88,
-   "ticker": "VET",
-   "narrative": "Layer 1",
+   "ticker": "PENGU",
+   "narrative": "Meme",
    "signal": "SELL",
-   "confidence": 26.2,
-   "entry": 0.00583,
-   "stop_loss": 0.00568029,
-   "target_1": 0.00612942,
-   "target_2": 0.00642884,
+   "confidence": 27.4,
+   "entry": 0.007239,
+   "stop_loss": 0.00706145,
+   "target_1": 0.0075941,
+   "target_2": 0.0079492,
    "risk_reward": 3.0,
-   "stop_distance_pct": 2.57,
+   "stop_distance_pct": 2.45,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 8.2,
-    "narrative": 41.1,
-    "volume_expansion": 57.2,
-    "risk_profile": 73.7,
-    "composite": 26.2
+    "relative_strength": 42.9,
+    "narrative": 41.2,
+    "volume_expansion": 12.5,
+    "risk_profile": 66.0,
+    "composite": 27.4
    },
    "relative_strength_pct": {
-    "vs_BTC": -7.22,
-    "vs_ETH": -7.11,
-    "vs_SOL": -6.07,
-    "vs_sector": -6.23
+    "vs_BTC": -1.22,
+    "vs_ETH": -0.66,
+    "vs_SOL": 0.26,
+    "vs_sector": -0.23
    },
    "market": {
-    "price": 0.00583,
-    "change_24h_pct": 0.48,
-    "change_7d_pct": -17.86,
-    "change_30d_pct": -33.74,
-    "volume_24h_usd": 444781,
-    "volume_vs_7d_avg": 1.16,
-    "volatility_atr_1h_pct": 1.28,
-    "spread_pct": 0.12
+    "price": 0.007239,
+    "change_24h_pct": -0.71,
+    "change_7d_pct": -5.4,
+    "change_30d_pct": -23.24,
+    "volume_24h_usd": 763994,
+    "volume_vs_7d_avg": 0.46,
+    "volatility_atr_1h_pct": 1.23,
+    "spread_pct": 0.083
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $444,781 24h volume"
+     "Low liquidity: $763,994 24h volume"
     ]
    }
   },
   {
    "rank": 89,
-   "ticker": "FARTCOIN",
-   "narrative": "Meme",
+   "ticker": "APT",
+   "narrative": "Layer 1",
    "signal": "SELL",
-   "confidence": 26.1,
-   "entry": 0.12,
-   "stop_loss": 0.11549,
-   "target_1": 0.129021,
-   "target_2": 0.138041,
+   "confidence": 25.6,
+   "entry": 0.633,
+   "stop_loss": 0.613815,
+   "target_1": 0.671369,
+   "target_2": 0.709738,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.76,
+   "stop_distance_pct": 3.03,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 28.6,
-    "narrative": 45.4,
-    "volume_expansion": 23.9,
-    "risk_profile": 62.6,
-    "composite": 26.1
+    "relative_strength": 19.4,
+    "narrative": 37.3,
+    "volume_expansion": 40.3,
+    "risk_profile": 72.4,
+    "composite": 25.6
    },
    "relative_strength_pct": {
-    "vs_BTC": -2.9,
-    "vs_ETH": -2.79,
-    "vs_SOL": -1.75,
-    "vs_sector": -3.68
+    "vs_BTC": -4.55,
+    "vs_ETH": -3.99,
+    "vs_SOL": -3.07,
+    "vs_sector": -3.39
    },
    "market": {
-    "price": 0.12,
-    "change_24h_pct": 1.58,
-    "change_7d_pct": -11.4,
-    "change_30d_pct": -31.97,
-    "volume_24h_usd": 776869,
-    "volume_vs_7d_avg": 0.58,
-    "volatility_atr_1h_pct": 1.54,
-    "spread_pct": 0.117
+    "price": 0.633,
+    "change_24h_pct": 0.88,
+    "change_7d_pct": -12.01,
+    "change_30d_pct": -18.53,
+    "volume_24h_usd": 734402,
+    "volume_vs_7d_avg": 0.82,
+    "volatility_atr_1h_pct": 1.15,
+    "spread_pct": 0.047
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $776,869 24h volume"
+     "Low liquidity: $734,402 24h volume"
     ]
    }
   },
   {
    "rank": 90,
-   "ticker": "SYRUP",
-   "narrative": "Real World Assets",
+   "ticker": "ZORA",
+   "narrative": "Layer 2",
    "signal": "SELL",
-   "confidence": 25.1,
-   "entry": 0.153,
-   "stop_loss": 0.146663,
-   "target_1": 0.165674,
-   "target_2": 0.178348,
+   "confidence": 25.3,
+   "entry": 0.006067,
+   "stop_loss": 0.00585856,
+   "target_1": 0.00648388,
+   "target_2": 0.00690076,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.14,
+   "stop_distance_pct": 3.44,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 17.3,
-    "narrative": 38.3,
-    "volume_expansion": 45.8,
-    "risk_profile": 62.8,
-    "composite": 25.1
+    "relative_strength": 15.3,
+    "narrative": 37.6,
+    "volume_expansion": 68.2,
+    "risk_profile": 37.6,
+    "composite": 25.3
    },
    "relative_strength_pct": {
-    "vs_BTC": -4.23,
-    "vs_ETH": -4.11,
-    "vs_SOL": -3.08,
-    "vs_sector": -5.96
+    "vs_BTC": -5.3,
+    "vs_ETH": -4.74,
+    "vs_SOL": -3.82,
+    "vs_sector": -3.88
    },
    "market": {
-    "price": 0.153,
-    "change_24h_pct": 3.24,
-    "change_7d_pct": -14.71,
-    "change_30d_pct": -36.12,
-    "volume_24h_usd": 824843,
-    "volume_vs_7d_avg": 0.92,
-    "volatility_atr_1h_pct": 1.6,
-    "spread_pct": 0.065
+    "price": 0.006067,
+    "change_24h_pct": -0.64,
+    "change_7d_pct": -12.25,
+    "change_30d_pct": -23.24,
+    "volume_24h_usd": 1144446,
+    "volume_vs_7d_avg": 1.46,
+    "volatility_atr_1h_pct": 1.54,
+    "spread_pct": 0.181
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $824,843 24h volume"
+     "Low liquidity: $1,144,446 24h volume"
     ]
    }
   },
   {
    "rank": 91,
-   "ticker": "LIGHTER",
+   "ticker": "DASH",
    "narrative": "Other",
    "signal": "SELL",
-   "confidence": 24.7,
-   "entry": 2.729,
-   "stop_loss": 2.60079,
-   "target_1": 2.98543,
-   "target_2": 3.24186,
+   "confidence": 24.6,
+   "entry": 47.99,
+   "stop_loss": 46.9761,
+   "target_1": 50.0178,
+   "target_2": 52.0456,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.7,
+   "stop_distance_pct": 2.11,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 12.2,
+    "relative_strength": 29.6,
     "narrative": 50.0,
-    "volume_expansion": 56.2,
-    "risk_profile": 32.5,
-    "composite": 24.7
+    "volume_expansion": 0.0,
+    "risk_profile": 72.5,
+    "composite": 24.6
    },
    "relative_strength_pct": {
-    "vs_BTC": -6.45,
-    "vs_ETH": -6.34,
-    "vs_SOL": -5.3,
-    "vs_sector": -6.02
+    "vs_BTC": -2.38,
+    "vs_ETH": -1.82,
+    "vs_SOL": -0.9,
+    "vs_sector": -3.13
    },
    "market": {
-    "price": 2.729,
-    "change_24h_pct": -6.09,
-    "change_7d_pct": -12.19,
-    "change_30d_pct": -28.3,
-    "volume_24h_usd": 4844749,
-    "volume_vs_7d_avg": 1.14,
-    "volatility_atr_1h_pct": 2.35,
-    "spread_pct": 0.147
+    "price": 47.99,
+    "change_24h_pct": -2.58,
+    "change_7d_pct": -6.09,
+    "change_30d_pct": -17.33,
+    "volume_24h_usd": 387171,
+    "volume_vs_7d_avg": 0.24,
+    "volatility_atr_1h_pct": 1.06,
+    "spread_pct": 0.125
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $4,844,749 24h volume",
-     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $387,171 24h volume",
+     "Abnormal selling: 77% of 24h volume on red bars"
     ]
    }
   },
   {
    "rank": 92,
-   "ticker": "NEON",
-   "narrative": "Other",
+   "ticker": "FET",
+   "narrative": "Artificial Intelligence",
    "signal": "SELL",
-   "confidence": 24.3,
-   "entry": 0.00359,
-   "stop_loss": 0.0031592,
-   "target_1": 0.0044516,
-   "target_2": 0.0053132,
+   "confidence": 24.6,
+   "entry": 0.16046,
+   "stop_loss": 0.156295,
+   "target_1": 0.16879,
+   "target_2": 0.17712,
    "risk_reward": 3.0,
-   "stop_distance_pct": 12.0,
+   "stop_distance_pct": 2.6,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 1.0,
-    "narrative": 50.0,
-    "volume_expansion": 92.9,
-    "risk_profile": 0.7,
-    "composite": 24.3
+    "relative_strength": 26.5,
+    "narrative": 26.3,
+    "volume_expansion": 42.0,
+    "risk_profile": 64.5,
+    "composite": 24.6
    },
    "relative_strength_pct": {
-    "vs_BTC": -20.78,
-    "vs_ETH": -20.67,
-    "vs_SOL": -19.63,
-    "vs_sector": -20.35
+    "vs_BTC": -3.89,
+    "vs_ETH": -3.34,
+    "vs_SOL": -2.42,
+    "vs_sector": -1.17
    },
    "market": {
-    "price": 0.00359,
-    "change_24h_pct": -25.52,
-    "change_7d_pct": -23.13,
-    "change_30d_pct": -86.55,
-    "volume_24h_usd": 435214,
-    "volume_vs_7d_avg": 2.44,
-    "volatility_atr_1h_pct": 8.3,
-    "spread_pct": 0.834
+    "price": 0.16046,
+    "change_24h_pct": -2.29,
+    "change_7d_pct": -8.8,
+    "change_30d_pct": -30.5,
+    "volume_24h_usd": 2045813,
+    "volume_vs_7d_avg": 0.85,
+    "volatility_atr_1h_pct": 1.3,
+    "spread_pct": 0.062
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $435,214 24h volume",
-     "Wide spread: 0.83%",
-     "Abnormal selling: 8 heavy-volume dump bar(s) in 24h"
+     "Low liquidity: $2,045,813 24h volume"
     ]
    }
   },
   {
    "rank": 93,
-   "ticker": "GRASS",
-   "narrative": "DePIN",
+   "ticker": "MON",
+   "narrative": "Other",
    "signal": "SELL",
-   "confidence": 24.2,
-   "entry": 0.5789,
-   "stop_loss": 0.558949,
-   "target_1": 0.618801,
-   "target_2": 0.658702,
+   "confidence": 23.6,
+   "entry": 0.019231,
+   "stop_loss": 0.0187751,
+   "target_1": 0.0201427,
+   "target_2": 0.0210544,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.45,
+   "stop_distance_pct": 2.37,
    "scores": {
-    "trend": 25.0,
-    "relative_strength": 32.7,
-    "narrative": 21.3,
-    "volume_expansion": 4.6,
-    "risk_profile": 36.2,
-    "composite": 24.2
+    "trend": 0.0,
+    "relative_strength": 18.4,
+    "narrative": 50.0,
+    "volume_expansion": 13.7,
+    "risk_profile": 69.7,
+    "composite": 23.6
    },
    "relative_strength_pct": {
-    "vs_BTC": -2.83,
-    "vs_ETH": -2.72,
-    "vs_SOL": -1.68,
-    "vs_sector": -0.87
+    "vs_BTC": -4.11,
+    "vs_ETH": -3.55,
+    "vs_SOL": -2.63,
+    "vs_sector": -4.86
    },
    "market": {
-    "price": 0.5789,
-    "change_24h_pct": -1.28,
-    "change_7d_pct": -9.38,
-    "change_30d_pct": -17.15,
-    "volume_24h_usd": 416836,
-    "volume_vs_7d_avg": 0.39,
-    "volatility_atr_1h_pct": 1.72,
-    "spread_pct": 0.26
+    "price": 0.019231,
+    "change_24h_pct": -2.48,
+    "change_7d_pct": -9.04,
+    "change_30d_pct": -42.85,
+    "volume_24h_usd": 577401,
+    "volume_vs_7d_avg": 0.47,
+    "volatility_atr_1h_pct": 1.19,
+    "spread_pct": 0.068
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $416,836 24h volume"
+     "Low liquidity: $577,401 24h volume"
     ]
    }
   },
   {
    "rank": 94,
-   "ticker": "CRV",
-   "narrative": "DeFi",
+   "ticker": "LIGHTER",
+   "narrative": "Other",
    "signal": "SELL",
-   "confidence": 23.6,
-   "entry": 0.2839,
-   "stop_loss": 0.266163,
-   "target_1": 0.319375,
-   "target_2": 0.35485,
+   "confidence": 22.8,
+   "entry": 2.724,
+   "stop_loss": 2.62275,
+   "target_1": 2.9265,
+   "target_2": 3.129,
    "risk_reward": 3.0,
-   "stop_distance_pct": 6.25,
+   "stop_distance_pct": 3.72,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 11.2,
-    "narrative": 32.3,
-    "volume_expansion": 60.0,
-    "risk_profile": 53.0,
-    "composite": 23.6
+    "relative_strength": 13.3,
+    "narrative": 50.0,
+    "volume_expansion": 37.4,
+    "risk_profile": 39.0,
+    "composite": 22.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -6.79,
-    "vs_ETH": -6.68,
-    "vs_SOL": -5.64,
-    "vs_sector": -5.93
+    "vs_BTC": -5.1,
+    "vs_ETH": -4.54,
+    "vs_SOL": -3.62,
+    "vs_sector": -5.85
    },
    "market": {
-    "price": 0.2839,
-    "change_24h_pct": 5.15,
-    "change_7d_pct": -20.25,
-    "change_30d_pct": -24.09,
-    "volume_24h_usd": 1592726,
-    "volume_vs_7d_avg": 1.23,
-    "volatility_atr_1h_pct": 1.69,
-    "spread_pct": 0.106
+    "price": 2.724,
+    "change_24h_pct": -1.66,
+    "change_7d_pct": -11.24,
+    "change_30d_pct": -28.43,
+    "volume_24h_usd": 3450894,
+    "volume_vs_7d_avg": 0.77,
+    "volatility_atr_1h_pct": 1.86,
+    "spread_pct": 0.11
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $1,592,726 24h volume"
+     "Low liquidity: $3,450,894 24h volume"
     ]
    }
   },
   {
    "rank": 95,
-   "ticker": "IRYS",
-   "narrative": "Other",
-   "signal": "SELL",
-   "confidence": 22.8,
-   "entry": 0.02277,
-   "stop_loss": 0.0206662,
-   "target_1": 0.0269777,
-   "target_2": 0.0311854,
-   "risk_reward": 3.0,
-   "stop_distance_pct": 9.24,
-   "scores": {
-    "trend": 40.0,
-    "relative_strength": 0.0,
-    "narrative": 50.0,
-    "volume_expansion": 0.0,
-    "risk_profile": 7.9,
-    "composite": 22.8
-   },
-   "relative_strength_pct": {
-    "vs_BTC": -38.12,
-    "vs_ETH": -38.0,
-    "vs_SOL": -36.97,
-    "vs_sector": -37.69
-   },
-   "market": {
-    "price": 0.02277,
-    "change_24h_pct": 6.5,
-    "change_7d_pct": -73.37,
-    "change_30d_pct": 41.07,
-    "volume_24h_usd": 1390004,
-    "volume_vs_7d_avg": 0.13,
-    "volatility_atr_1h_pct": 3.5,
-    "spread_pct": 0.396
-   },
-   "risk_filter": {
-    "passed": false,
-    "reasons": [
-     "Low liquidity: $1,390,004 24h volume",
-     "Wide spread: 0.40%"
-    ]
-   }
-  },
-  {
-   "rank": 96,
    "ticker": "WLD",
    "narrative": "Other",
    "signal": "SELL",
-   "confidence": 22.1,
-   "entry": 0.395,
-   "stop_loss": 0.378973,
-   "target_1": 0.427055,
-   "target_2": 0.45911,
+   "confidence": 20.4,
+   "entry": 0.3952,
+   "stop_loss": 0.383578,
+   "target_1": 0.418444,
+   "target_2": 0.441687,
    "risk_reward": 3.0,
-   "stop_distance_pct": 4.06,
+   "stop_distance_pct": 2.94,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 9.2,
+    "relative_strength": 5.1,
     "narrative": 50.0,
-    "volume_expansion": 37.6,
-    "risk_profile": 42.0,
-    "composite": 22.1
+    "volume_expansion": 28.1,
+    "risk_profile": 49.2,
+    "composite": 20.4
    },
    "relative_strength_pct": {
-    "vs_BTC": -7.07,
-    "vs_ETH": -6.96,
-    "vs_SOL": -5.92,
-    "vs_sector": -6.64
+    "vs_BTC": -8.26,
+    "vs_ETH": -7.71,
+    "vs_SOL": -6.78,
+    "vs_sector": -9.01
    },
    "market": {
-    "price": 0.395,
-    "change_24h_pct": -0.13,
-    "change_7d_pct": -17.21,
-    "change_30d_pct": -22.08,
-    "volume_24h_usd": 2564577,
-    "volume_vs_7d_avg": 0.77,
-    "volatility_atr_1h_pct": 2.03,
+    "price": 0.3952,
+    "change_24h_pct": -2.37,
+    "change_7d_pct": -16.03,
+    "change_30d_pct": -21.88,
+    "volume_24h_usd": 2076382,
+    "volume_vs_7d_avg": 0.63,
+    "volatility_atr_1h_pct": 1.47,
     "spread_pct": 0.101
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $2,564,577 24h volume"
+     "Low liquidity: $2,076,382 24h volume"
+    ]
+   }
+  },
+  {
+   "rank": 96,
+   "ticker": "USELESS",
+   "narrative": "Other",
+   "signal": "SELL",
+   "confidence": 18.1,
+   "entry": 0.12612,
+   "stop_loss": 0.120372,
+   "target_1": 0.137617,
+   "target_2": 0.149113,
+   "risk_reward": 3.0,
+   "stop_distance_pct": 4.56,
+   "scores": {
+    "trend": 0.0,
+    "relative_strength": 1.0,
+    "narrative": 50.0,
+    "volume_expansion": 33.8,
+    "risk_profile": 27.4,
+    "composite": 18.1
+   },
+   "relative_strength_pct": {
+    "vs_BTC": -11.36,
+    "vs_ETH": -10.81,
+    "vs_SOL": -9.89,
+    "vs_sector": -12.12
+   },
+   "market": {
+    "price": 0.12612,
+    "change_24h_pct": -4.97,
+    "change_7d_pct": -19.47,
+    "change_30d_pct": -46.47,
+    "volume_24h_usd": 2353616,
+    "volume_vs_7d_avg": 0.71,
+    "volatility_atr_1h_pct": 2.28,
+    "spread_pct": 0.191
+   },
+   "risk_filter": {
+    "passed": false,
+    "reasons": [
+     "Low liquidity: $2,353,616 24h volume",
+     "Abnormal selling: 71% of 24h volume on red bars"
     ]
    }
   },
   {
    "rank": 97,
-   "ticker": "FIL",
-   "narrative": "DePIN",
+   "ticker": "CRV",
+   "narrative": "DeFi",
    "signal": "SELL",
-   "confidence": 20.8,
-   "entry": 0.8517,
-   "stop_loss": 0.820775,
-   "target_1": 0.913549,
-   "target_2": 0.975398,
+   "confidence": 17.5,
+   "entry": 0.2827,
+   "stop_loss": 0.275309,
+   "target_1": 0.297482,
+   "target_2": 0.312264,
    "risk_reward": 3.0,
-   "stop_distance_pct": 3.63,
+   "stop_distance_pct": 2.61,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 35.7,
-    "narrative": 21.3,
-    "volume_expansion": 0.0,
-    "risk_profile": 75.8,
-    "composite": 20.8
+    "relative_strength": 3.1,
+    "narrative": 33.0,
+    "volume_expansion": 32.9,
+    "risk_profile": 51.6,
+    "composite": 17.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -2.33,
-    "vs_ETH": -2.21,
-    "vs_SOL": -1.18,
-    "vs_sector": -0.36
+    "vs_BTC": -9.86,
+    "vs_ETH": -9.3,
+    "vs_SOL": -8.38,
+    "vs_sector": -9.73
    },
    "market": {
-    "price": 0.8517,
-    "change_24h_pct": 1.72,
-    "change_7d_pct": -10.53,
-    "change_30d_pct": -16.63,
-    "volume_24h_usd": 447288,
-    "volume_vs_7d_avg": 0.31,
-    "volatility_atr_1h_pct": 1.37,
-    "spread_pct": 0.07
+    "price": 0.2827,
+    "change_24h_pct": -0.91,
+    "change_7d_pct": -19.67,
+    "change_30d_pct": -24.22,
+    "volume_24h_usd": 949425,
+    "volume_vs_7d_avg": 0.7,
+    "volatility_atr_1h_pct": 1.31,
+    "spread_pct": 0.177
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $447,288 24h volume"
+     "Low liquidity: $949,425 24h volume"
     ]
    }
   },
   {
    "rank": 98,
-   "ticker": "UP",
+   "ticker": "JASMY",
    "narrative": "Other",
    "signal": "SELL",
-   "confidence": 20.3,
-   "entry": 0.05955,
-   "stop_loss": 0.0548245,
-   "target_1": 0.069001,
-   "target_2": 0.078452,
+   "confidence": 14.8,
+   "entry": 0.00371,
+   "stop_loss": 0.00359401,
+   "target_1": 0.00394197,
+   "target_2": 0.00417395,
    "risk_reward": 3.0,
-   "stop_distance_pct": 7.94,
+   "stop_distance_pct": 3.13,
    "scores": {
-    "trend": 15.0,
-    "relative_strength": 3.1,
+    "trend": 0.0,
+    "relative_strength": 4.1,
     "narrative": 50.0,
-    "volume_expansion": 8.0,
-    "risk_profile": 38.3,
-    "composite": 20.3
+    "volume_expansion": 8.3,
+    "risk_profile": 25.9,
+    "composite": 14.8
    },
    "relative_strength_pct": {
-    "vs_BTC": -18.31,
-    "vs_ETH": -18.2,
-    "vs_SOL": -17.16,
-    "vs_sector": -17.88
+    "vs_BTC": -8.77,
+    "vs_ETH": -8.21,
+    "vs_SOL": -7.29,
+    "vs_sector": -9.52
    },
    "market": {
-    "price": 0.05955,
-    "change_24h_pct": 6.11,
-    "change_7d_pct": -40.1,
-    "change_30d_pct": -12.57,
-    "volume_24h_usd": 488897,
+    "price": 0.00371,
+    "change_24h_pct": -0.27,
+    "change_7d_pct": -18.28,
+    "change_30d_pct": -35.08,
+    "volume_24h_usd": 430153,
     "volume_vs_7d_avg": 0.42,
-    "volatility_atr_1h_pct": 3.37,
-    "spread_pct": 0.017
+    "volatility_atr_1h_pct": 1.56,
+    "spread_pct": 0.27
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $488,897 24h volume"
+     "Low liquidity: $430,153 24h volume"
     ]
    }
   },
   {
    "rank": 99,
-   "ticker": "USELESS",
+   "ticker": "UP",
    "narrative": "Other",
    "signal": "SELL",
-   "confidence": 18.5,
-   "entry": 0.12961,
-   "stop_loss": 0.122824,
-   "target_1": 0.143182,
-   "target_2": 0.156754,
+   "confidence": 12.5,
+   "entry": 0.0575,
+   "stop_loss": 0.0539592,
+   "target_1": 0.0645816,
+   "target_2": 0.0716631,
    "risk_reward": 3.0,
-   "stop_distance_pct": 5.24,
+   "stop_distance_pct": 6.16,
    "scores": {
     "trend": 0.0,
-    "relative_strength": 5.1,
+    "relative_strength": 2.0,
     "narrative": 50.0,
-    "volume_expansion": 30.7,
-    "risk_profile": 26.7,
-    "composite": 18.5
+    "volume_expansion": 5.5,
+    "risk_profile": 12.1,
+    "composite": 12.5
    },
    "relative_strength_pct": {
-    "vs_BTC": -9.65,
-    "vs_ETH": -9.54,
-    "vs_SOL": -8.5,
-    "vs_sector": -9.22
+    "vs_BTC": -9.72,
+    "vs_ETH": -9.17,
+    "vs_SOL": -8.25,
+    "vs_sector": -10.47
    },
    "market": {
-    "price": 0.12961,
-    "change_24h_pct": -2.43,
-    "change_7d_pct": -19.97,
-    "change_30d_pct": -44.98,
-    "volume_24h_usd": 2270386,
-    "volume_vs_7d_avg": 0.67,
-    "volatility_atr_1h_pct": 2.62,
-    "spread_pct": 0.154
+    "price": 0.0575,
+    "change_24h_pct": 3.73,
+    "change_7d_pct": -22.54,
+    "change_30d_pct": -15.58,
+    "volume_24h_usd": 418534,
+    "volume_vs_7d_avg": 0.4,
+    "volatility_atr_1h_pct": 3.08,
+    "spread_pct": 0.765
    },
    "risk_filter": {
     "passed": false,
     "reasons": [
-     "Low liquidity: $2,270,386 24h volume"
+     "Low liquidity: $418,534 24h volume",
+     "Wide spread: 0.77%"
     ]
    }
   }
@@ -4591,518 +4595,534 @@
   {
    "ticker": "BEAM",
    "reasons": [
-    "Low liquidity: $4,401,839 24h volume",
-    "Wide spread: 0.48%",
-    "Abnormal selling: 5 heavy-volume dump bar(s) in 24h"
+    "Low liquidity: $3,577,370 24h volume",
+    "Wide spread: 0.52%",
+    "Abnormal selling: 7 heavy-volume dump bar(s) in 24h"
+   ]
+  },
+  {
+   "ticker": "DIMO",
+   "reasons": [
+    "Low liquidity: $458,819 24h volume",
+    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "BCH",
    "reasons": [
-    "Low liquidity: $3,999,004 24h volume"
+    "Low liquidity: $3,697,672 24h volume"
    ]
   },
   {
-   "ticker": "SPK",
+   "ticker": "GWEI",
    "reasons": [
-    "Low liquidity: $758,324 24h volume"
-   ]
-  },
-  {
-   "ticker": "XPL",
-   "reasons": [
-    "Low liquidity: $1,119,297 24h volume"
+    "Low liquidity: $547,172 24h volume",
+    "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "WET",
    "reasons": [
-    "Low liquidity: $555,248 24h volume",
-    "Wide spread: 0.49%",
+    "Low liquidity: $684,363 24h volume",
+    "Wide spread: 0.47%",
+    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+   ]
+  },
+  {
+   "ticker": "RAD",
+   "reasons": [
+    "Low liquidity: $565,067 24h volume",
+    "Wide spread: 0.74%",
     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "HFT",
    "reasons": [
-    "Low liquidity: $432,451 24h volume",
-    "Wide spread: 1.23%",
-    "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
-   ]
-  },
-  {
-   "ticker": "GWEI",
-   "reasons": [
-    "Low liquidity: $491,835 24h volume",
-    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
-   ]
-  },
-  {
-   "ticker": "CAP",
-   "reasons": [
-    "Low liquidity: $957,732 24h volume"
+    "Low liquidity: $650,486 24h volume",
+    "Wide spread: 1.93%",
+    "Abnormal selling: 4 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "MEZO",
    "reasons": [
-    "Low liquidity: $1,706,974 24h volume",
-    "Wide spread: 0.59%",
-    "Abnormal selling: 4 heavy-volume dump bar(s) in 24h"
+    "Low liquidity: $2,761,142 24h volume",
+    "Wide spread: 1.04%",
+    "Abnormal selling: 6 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
-   "ticker": "OP",
+   "ticker": "XPL",
    "reasons": [
-    "Low liquidity: $4,309,394 24h volume"
+    "Low liquidity: $964,932 24h volume"
+   ]
+  },
+  {
+   "ticker": "STX",
+   "reasons": [
+    "Low liquidity: $641,008 24h volume"
    ]
   },
   {
    "ticker": "ZRO",
    "reasons": [
-    "Low liquidity: $4,039,879 24h volume"
+    "Low liquidity: $3,759,616 24h volume"
    ]
   },
   {
    "ticker": "DOOD",
    "reasons": [
-    "Low liquidity: $779,069 24h volume"
+    "Low liquidity: $700,289 24h volume"
+   ]
+  },
+  {
+   "ticker": "CAP",
+   "reasons": [
+    "Low liquidity: $850,365 24h volume"
+   ]
+  },
+  {
+   "ticker": "AMP",
+   "reasons": [
+    "Low liquidity: $901,263 24h volume",
+    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+   ]
+  },
+  {
+   "ticker": "OP",
+   "reasons": [
+    "Low liquidity: $4,225,960 24h volume"
+   ]
+  },
+  {
+   "ticker": "SPK",
+   "reasons": [
+    "Low liquidity: $973,339 24h volume",
+    "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "POL",
    "reasons": [
-    "Low liquidity: $846,658 24h volume"
-   ]
-  },
-  {
-   "ticker": "BLUR",
-   "reasons": [
-    "Low liquidity: $430,662 24h volume",
-    "Wide spread: 0.72%",
-    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
-   ]
-  },
-  {
-   "ticker": "FLR",
-   "reasons": [
-    "Low liquidity: $613,652 24h volume"
-   ]
-  },
-  {
-   "ticker": "BNKR",
-   "reasons": [
-    "Low liquidity: $562,816 24h volume",
-    "Wide spread: 0.31%"
+    "Low liquidity: $720,116 24h volume"
    ]
   },
   {
    "ticker": "MDT",
    "reasons": [
-    "Low liquidity: $440,158 24h volume",
-    "Wide spread: 0.99%",
-    "Abnormal selling: 3 heavy-volume dump bar(s) in 24h"
+    "Low liquidity: $482,417 24h volume",
+    "Abnormal selling: 4 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "ONDO",
    "reasons": [
-    "Low liquidity: $4,712,443 24h volume"
+    "Low liquidity: $4,388,676 24h volume"
    ]
   },
   {
-   "ticker": "PAXG",
+   "ticker": "FLR",
    "reasons": [
-    "Low liquidity: $4,765,237 24h volume",
-    "Abnormal selling: 81% of 24h volume on red bars"
+    "Low liquidity: $601,761 24h volume"
    ]
   },
   {
-   "ticker": "PYTH",
+   "ticker": "AAVE",
    "reasons": [
-    "Low liquidity: $927,131 24h volume",
-    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+    "Low liquidity: $3,281,532 24h volume"
+   ]
+  },
+  {
+   "ticker": "BLUR",
+   "reasons": [
+    "Low liquidity: $428,481 24h volume",
+    "Wide spread: 0.34%",
+    "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
+   ]
+  },
+  {
+   "ticker": "BNKR",
+   "reasons": [
+    "Low liquidity: $469,191 24h volume",
+    "Wide spread: 1.53%"
    ]
   },
   {
    "ticker": "ASTER",
    "reasons": [
-    "Low liquidity: $595,281 24h volume"
-   ]
-  },
-  {
-   "ticker": "PLUME",
-   "reasons": [
-    "Low liquidity: $646,039 24h volume"
-   ]
-  },
-  {
-   "ticker": "TON",
-   "reasons": [
-    "Low liquidity: $612,762 24h volume"
+    "Low liquidity: $369,329 24h volume"
    ]
   },
   {
    "ticker": "APR",
    "reasons": [
-    "Low liquidity: $750,150 24h volume",
-    "Wide spread: 0.58%"
-   ]
-  },
-  {
-   "ticker": "MEGA",
-   "reasons": [
-    "Low liquidity: $523,426 24h volume"
-   ]
-  },
-  {
-   "ticker": "GTC",
-   "reasons": [
-    "Low liquidity: $876,036 24h volume"
-   ]
-  },
-  {
-   "ticker": "ARB",
-   "reasons": [
-    "Low liquidity: $1,670,326 24h volume"
-   ]
-  },
-  {
-   "ticker": "CHIP",
-   "reasons": [
-    "Low liquidity: $564,711 24h volume"
-   ]
-  },
-  {
-   "ticker": "CRO",
-   "reasons": [
-    "Low liquidity: $537,065 24h volume"
-   ]
-  },
-  {
-   "ticker": "RAY",
-   "reasons": [
-    "Low liquidity: $735,093 24h volume"
+    "Low liquidity: $577,456 24h volume"
    ]
   },
   {
    "ticker": "PENDLE",
    "reasons": [
-    "Low liquidity: $632,702 24h volume"
+    "Low liquidity: $547,326 24h volume"
    ]
   },
   {
-   "ticker": "GROVE",
+   "ticker": "PAXG",
    "reasons": [
-    "Low liquidity: $781,383 24h volume",
-    "Wide spread: 0.55%",
-    "Abnormal selling: 73% of 24h volume on red bars"
-   ]
-  },
-  {
-   "ticker": "RSR",
-   "reasons": [
-    "Low liquidity: $524,894 24h volume"
-   ]
-  },
-  {
-   "ticker": "MORPHO",
-   "reasons": [
-    "Low liquidity: $620,110 24h volume"
+    "Low liquidity: $3,171,790 24h volume",
+    "Abnormal selling: 82% of 24h volume on red bars"
    ]
   },
   {
    "ticker": "WIF",
    "reasons": [
-    "Low liquidity: $646,520 24h volume"
+    "Low liquidity: $597,215 24h volume"
+   ]
+  },
+  {
+   "ticker": "VVV",
+   "reasons": [
+    "Low liquidity: $3,465,793 24h volume"
+   ]
+  },
+  {
+   "ticker": "GTC",
+   "reasons": [
+    "Low liquidity: $692,858 24h volume"
+   ]
+  },
+  {
+   "ticker": "ZAMA",
+   "reasons": [
+    "Low liquidity: $870,786 24h volume",
+    "Abnormal selling: 2 heavy-volume dump bar(s) in 24h"
+   ]
+  },
+  {
+   "ticker": "GROVE",
+   "reasons": [
+    "Low liquidity: $924,366 24h volume"
+   ]
+  },
+  {
+   "ticker": "PLUME",
+   "reasons": [
+    "Low liquidity: $518,087 24h volume"
+   ]
+  },
+  {
+   "ticker": "TON",
+   "reasons": [
+    "Low liquidity: $512,499 24h volume"
+   ]
+  },
+  {
+   "ticker": "RAY",
+   "reasons": [
+    "Low liquidity: $396,194 24h volume"
+   ]
+  },
+  {
+   "ticker": "AVAX",
+   "reasons": [
+    "Low liquidity: $4,968,358 24h volume"
+   ]
+  },
+  {
+   "ticker": "TRUMP",
+   "reasons": [
+    "Low liquidity: $1,323,436 24h volume"
    ]
   },
   {
    "ticker": "SENT",
    "reasons": [
-    "Low liquidity: $1,141,813 24h volume",
+    "Low liquidity: $904,300 24h volume"
+   ]
+  },
+  {
+   "ticker": "MORPHO",
+   "reasons": [
+    "Low liquidity: $412,734 24h volume"
+   ]
+  },
+  {
+   "ticker": "BIRB",
+   "reasons": [
+    "Low liquidity: $1,381,471 24h volume",
+    "Wide spread: 0.44%",
     "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
    ]
   },
   {
    "ticker": "ORCA",
    "reasons": [
-    "Low liquidity: $837,896 24h volume"
-   ]
-  },
-  {
-   "ticker": "TRUMP",
-   "reasons": [
-    "Low liquidity: $1,322,989 24h volume"
-   ]
-  },
-  {
-   "ticker": "BIRB",
-   "reasons": [
-    "Low liquidity: $1,453,164 24h volume",
-    "Wide spread: 0.60%",
-    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
-   ]
-  },
-  {
-   "ticker": "BONK",
-   "reasons": [
-    "Low liquidity: $1,486,115 24h volume",
-    "Wide spread: 0.34%"
-   ]
-  },
-  {
-   "ticker": "VVV",
-   "reasons": [
-    "Low liquidity: $4,175,530 24h volume"
-   ]
-  },
-  {
-   "ticker": "ZORA",
-   "reasons": [
-    "Low liquidity: $1,265,616 24h volume"
-   ]
-  },
-  {
-   "ticker": "AAVE",
-   "reasons": [
-    "Low liquidity: $3,680,362 24h volume"
-   ]
-  },
-  {
-   "ticker": "PENGU",
-   "reasons": [
-    "Low liquidity: $1,342,976 24h volume"
-   ]
-  },
-  {
-   "ticker": "DRV",
-   "reasons": [
-    "Low liquidity: $653,150 24h volume"
-   ]
-  },
-  {
-   "ticker": "ICP",
-   "reasons": [
-    "Low liquidity: $1,496,390 24h volume"
-   ]
-  },
-  {
-   "ticker": "RLC",
-   "reasons": [
-    "Low liquidity: $742,885 24h volume"
-   ]
-  },
-  {
-   "ticker": "ATOM",
-   "reasons": [
-    "Low liquidity: $812,912 24h volume"
-   ]
-  },
-  {
-   "ticker": "TAO",
-   "reasons": [
-    "Low liquidity: $4,850,627 24h volume"
-   ]
-  },
-  {
-   "ticker": "INJ",
-   "reasons": [
-    "Low liquidity: $2,877,485 24h volume"
-   ]
-  },
-  {
-   "ticker": "ZAMA",
-   "reasons": [
-    "Low liquidity: $424,707 24h volume",
-    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
-   ]
-  },
-  {
-   "ticker": "ALGO",
-   "reasons": [
-    "Low liquidity: $844,296 24h volume"
-   ]
-  },
-  {
-   "ticker": "HBAR",
-   "reasons": [
-    "Low liquidity: $3,827,780 24h volume"
-   ]
-  },
-  {
-   "ticker": "AMP",
-   "reasons": [
-    "Low liquidity: $656,022 24h volume",
-    "Wide spread: 0.66%"
-   ]
-  },
-  {
-   "ticker": "GRT",
-   "reasons": [
-    "Low liquidity: $628,556 24h volume"
-   ]
-  },
-  {
-   "ticker": "SEI",
-   "reasons": [
-    "Low liquidity: $995,923 24h volume"
-   ]
-  },
-  {
-   "ticker": "CFG",
-   "reasons": [
-    "Low liquidity: $523,374 24h volume"
+    "Low liquidity: $990,953 24h volume"
    ]
   },
   {
    "ticker": "BAT",
    "reasons": [
-    "Low liquidity: $472,709 24h volume"
+    "Low liquidity: $571,173 24h volume"
    ]
   },
   {
-   "ticker": "XCN",
+   "ticker": "MEGA",
    "reasons": [
-    "Low liquidity: $504,599 24h volume",
-    "Wide spread: 0.37%"
+    "Low liquidity: $472,425 24h volume"
    ]
   },
   {
-   "ticker": "CVX",
+   "ticker": "PUMP",
    "reasons": [
-    "Low liquidity: $573,416 24h volume"
+    "Low liquidity: $4,294,006 24h volume"
    ]
   },
   {
-   "ticker": "DOT",
+   "ticker": "ARB",
    "reasons": [
-    "Low liquidity: $2,098,548 24h volume"
+    "Low liquidity: $1,210,078 24h volume",
+    "Abnormal selling: 73% of 24h volume on red bars"
    ]
   },
   {
-   "ticker": "RENDER",
+   "ticker": "RE",
    "reasons": [
-    "Low liquidity: $1,840,263 24h volume"
+    "Low liquidity: $721,377 24h volume",
+    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+   ]
+  },
+  {
+   "ticker": "PYTH",
+   "reasons": [
+    "Low liquidity: $572,516 24h volume"
+   ]
+  },
+  {
+   "ticker": "RSR",
+   "reasons": [
+    "Low liquidity: $543,361 24h volume",
+    "Abnormal selling: 73% of 24h volume on red bars"
+   ]
+  },
+  {
+   "ticker": "CHIP",
+   "reasons": [
+    "Low liquidity: $414,660 24h volume"
+   ]
+  },
+  {
+   "ticker": "CRO",
+   "reasons": [
+    "Low liquidity: $406,985 24h volume"
+   ]
+  },
+  {
+   "ticker": "HBAR",
+   "reasons": [
+    "Low liquidity: $3,237,839 24h volume"
+   ]
+  },
+  {
+   "ticker": "AERO",
+   "reasons": [
+    "Low liquidity: $4,332,894 24h volume"
    ]
   },
   {
    "ticker": "TIA",
    "reasons": [
-    "Low liquidity: $883,956 24h volume"
-   ]
-  },
-  {
-   "ticker": "DASH",
-   "reasons": [
-    "Low liquidity: $450,012 24h volume",
-    "Abnormal selling: 78% of 24h volume on red bars"
+    "Low liquidity: $953,743 24h volume"
    ]
   },
   {
    "ticker": "STRK",
    "reasons": [
-    "Low liquidity: $1,220,775 24h volume"
+    "Low liquidity: $852,702 24h volume"
    ]
   },
   {
-   "ticker": "JASMY",
+   "ticker": "TAO",
    "reasons": [
-    "Low liquidity: $798,169 24h volume"
+    "Low liquidity: $3,989,304 24h volume"
    ]
   },
   {
-   "ticker": "FET",
+   "ticker": "INJ",
    "reasons": [
-    "Low liquidity: $2,114,664 24h volume"
+    "Low liquidity: $2,310,542 24h volume"
    ]
   },
   {
-   "ticker": "APT",
+   "ticker": "ICP",
    "reasons": [
-    "Low liquidity: $769,369 24h volume"
+    "Low liquidity: $1,270,708 24h volume"
    ]
   },
   {
-   "ticker": "MON",
+   "ticker": "CVX",
    "reasons": [
-    "Low liquidity: $733,304 24h volume"
+    "Low liquidity: $506,506 24h volume"
    ]
   },
   {
-   "ticker": "VET",
+   "ticker": "GRT",
    "reasons": [
-    "Low liquidity: $444,781 24h volume"
+    "Low liquidity: $428,888 24h volume"
    ]
   },
   {
    "ticker": "FARTCOIN",
    "reasons": [
-    "Low liquidity: $776,869 24h volume"
+    "Low liquidity: $660,052 24h volume"
    ]
   },
   {
    "ticker": "SYRUP",
    "reasons": [
-    "Low liquidity: $824,843 24h volume"
+    "Low liquidity: $775,038 24h volume"
    ]
   },
   {
-   "ticker": "LIGHTER",
+   "ticker": "SEI",
    "reasons": [
-    "Low liquidity: $4,844,749 24h volume",
-    "Abnormal selling: 1 heavy-volume dump bar(s) in 24h"
+    "Low liquidity: $1,030,238 24h volume"
    ]
   },
   {
-   "ticker": "NEON",
+   "ticker": "BONK",
    "reasons": [
-    "Low liquidity: $435,214 24h volume",
-    "Wide spread: 0.83%",
-    "Abnormal selling: 8 heavy-volume dump bar(s) in 24h"
+    "Low liquidity: $1,151,613 24h volume",
+    "Wide spread: 0.34%"
    ]
   },
   {
-   "ticker": "GRASS",
+   "ticker": "DRV",
    "reasons": [
-    "Low liquidity: $416,836 24h volume"
+    "Low liquidity: $483,234 24h volume"
    ]
   },
   {
-   "ticker": "CRV",
+   "ticker": "RENDER",
    "reasons": [
-    "Low liquidity: $1,592,726 24h volume"
+    "Low liquidity: $1,306,888 24h volume"
    ]
   },
   {
    "ticker": "IRYS",
    "reasons": [
-    "Low liquidity: $1,390,004 24h volume",
-    "Wide spread: 0.40%"
+    "Low liquidity: $1,491,710 24h volume"
    ]
   },
   {
-   "ticker": "WLD",
+   "ticker": "XCN",
    "reasons": [
-    "Low liquidity: $2,564,577 24h volume"
+    "Low liquidity: $423,730 24h volume"
+   ]
+  },
+  {
+   "ticker": "DOT",
+   "reasons": [
+    "Low liquidity: $1,882,052 24h volume"
+   ]
+  },
+  {
+   "ticker": "VET",
+   "reasons": [
+    "Low liquidity: $383,999 24h volume"
+   ]
+  },
+  {
+   "ticker": "ALGO",
+   "reasons": [
+    "Low liquidity: $639,392 24h volume"
    ]
   },
   {
    "ticker": "FIL",
    "reasons": [
-    "Low liquidity: $447,288 24h volume"
+    "Low liquidity: $582,147 24h volume"
    ]
   },
   {
-   "ticker": "UP",
+   "ticker": "ATOM",
    "reasons": [
-    "Low liquidity: $488,897 24h volume"
+    "Low liquidity: $506,821 24h volume"
+   ]
+  },
+  {
+   "ticker": "PENGU",
+   "reasons": [
+    "Low liquidity: $763,994 24h volume"
+   ]
+  },
+  {
+   "ticker": "APT",
+   "reasons": [
+    "Low liquidity: $734,402 24h volume"
+   ]
+  },
+  {
+   "ticker": "ZORA",
+   "reasons": [
+    "Low liquidity: $1,144,446 24h volume"
+   ]
+  },
+  {
+   "ticker": "DASH",
+   "reasons": [
+    "Low liquidity: $387,171 24h volume",
+    "Abnormal selling: 77% of 24h volume on red bars"
+   ]
+  },
+  {
+   "ticker": "FET",
+   "reasons": [
+    "Low liquidity: $2,045,813 24h volume"
+   ]
+  },
+  {
+   "ticker": "MON",
+   "reasons": [
+    "Low liquidity: $577,401 24h volume"
+   ]
+  },
+  {
+   "ticker": "LIGHTER",
+   "reasons": [
+    "Low liquidity: $3,450,894 24h volume"
+   ]
+  },
+  {
+   "ticker": "WLD",
+   "reasons": [
+    "Low liquidity: $2,076,382 24h volume"
    ]
   },
   {
    "ticker": "USELESS",
    "reasons": [
-    "Low liquidity: $2,270,386 24h volume"
+    "Low liquidity: $2,353,616 24h volume",
+    "Abnormal selling: 71% of 24h volume on red bars"
+   ]
+  },
+  {
+   "ticker": "CRV",
+   "reasons": [
+    "Low liquidity: $949,425 24h volume"
+   ]
+  },
+  {
+   "ticker": "JASMY",
+   "reasons": [
+    "Low liquidity: $430,153 24h volume"
+   ]
+  },
+  {
+   "ticker": "UP",
+   "reasons": [
+    "Low liquidity: $418,534 24h volume",
+    "Wide spread: 0.77%"
    ]
   }
  ],
@@ -5122,27 +5142,27 @@
   "strong_buys_not_taken": []
  },
  "portfolio": {
-  "portfolio_value": 9754.55,
+  "portfolio_value": 9749.29,
   "cash": 8965.86,
-  "invested": 788.7,
-  "exposure_pct": 8.09,
+  "invested": 783.43,
+  "exposure_pct": 8.04,
   "starting_capital": 10000.0,
   "pnl": {
    "daily": {
-    "usd": -19.55,
-    "pct": -0.2
+    "usd": -50.43,
+    "pct": -0.51
    },
    "weekly": {
-    "usd": -37.9,
-    "pct": -0.39
+    "usd": -43.16,
+    "pct": -0.44
    },
    "monthly": {
-    "usd": -245.45,
-    "pct": -2.45
+    "usd": -250.71,
+    "pct": -2.51
    },
    "all_time": {
-    "usd": -245.45,
-    "pct": -2.45
+    "usd": -250.71,
+    "pct": -2.51
    }
   },
   "win_rate_pct": 0.0,
@@ -5154,10 +5174,10 @@
     "narrative": "Layer 1",
     "opened_at": "2026-10-30T00:48:46Z",
     "entry": 90.6405,
-    "current_price": 88.36,
+    "current_price": 87.77,
     "qty": 8.92595264073561,
-    "value_usd": 788.7,
-    "weight_pct": 8.09,
+    "value_usd": 783.43,
+    "weight_pct": 8.04,
     "stop_loss": 79.684,
     "initial_stop": 79.684,
     "target_1": 112.282,
@@ -5165,18 +5185,18 @@
     "stop_at_breakeven": false,
     "target_1_hit": false,
     "trailing": false,
-    "unrealized_pnl_usd": -25.21,
+    "unrealized_pnl_usd": -30.48,
     "realized_pnl_usd": 0.0,
-    "total_pnl_usd": -25.21,
-    "r_multiple": -0.26,
+    "total_pnl_usd": -30.48,
+    "r_multiple": -0.31,
     "current_signal": "BUY"
    }
   ],
   "exposure_by_narrative": [
    {
     "narrative": "Layer 1",
-    "value_usd": 788.7,
-    "pct_of_portfolio": 8.09
+    "value_usd": 783.43,
+    "pct_of_portfolio": 8.04
    }
   ],
   "largest_winners": [],
@@ -5198,9 +5218,9 @@
    {
     "ticker": "HYPE",
     "status": "open",
-    "pnl_usd": -25.21,
-    "pnl_pct": -3.12,
-    "r_multiple": -0.26
+    "pnl_usd": -30.48,
+    "pnl_pct": -3.77,
+    "r_multiple": -0.31
    },
    {
     "ticker": "PEPE",
@@ -5520,6 +5540,10 @@
   {
    "t": "2026-10-31T05:22:52Z",
    "equity": 9754.55
+  },
+  {
+   "t": "2026-10-31T12:12:02Z",
+   "equity": 9749.29
   }
  ]
 }
