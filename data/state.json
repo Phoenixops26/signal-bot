@@ -19,9 +19,9 @@
    "highest": 93.94,
    "realized_pnl": 0.0,
    "exits": [],
-   "last_bar_t": 1793710800,
-   "last_price": 86.6,
-   "atr": 1.0210808394791309,
+   "last_bar_t": 1793732400,
+   "last_price": 85.6,
+   "atr": 1.0723975849842156,
    "confidence_at_entry": 84.8
   }
  },
@@ -379,8 +379,12 @@
   {
    "t": 1793717963,
    "equity": 9738.84
+  },
+  {
+   "t": 1793739238,
+   "equity": 9729.92
   }
  ],
  "created_at": 1792358441,
- "last_run": 1793717963
+ "last_run": 1793739238
 }
