@@ -1,15 +1,15 @@
 {
- "cash": 8965.857064415157,
+ "cash": 9329.350205307055,
  "positions": {
   "HYPE": {
    "ticker": "HYPE",
    "narrative": "Layer 1",
    "opened_at": 1793321326,
    "entry": 90.64054999999999,
-   "qty": 8.92595264073561,
+   "qty": 4.462976320367805,
    "initial_qty": 8.92595264073561,
    "entry_fee": 4.854319539781367,
-   "stop": 79.684,
+   "stop": 90.64054999999999,
    "initial_stop": 79.684,
    "r": 10.956549999999993,
    "t1": 112.282,
@@ -17,12 +17,21 @@
    "be_moved": false,
    "t1_hit": false,
    "highest": 93.94,
-   "realized_pnl": 0.0,
-   "exits": [],
-   "last_bar_t": 1793844000,
-   "last_price": 84.2,
-   "atr": 1.1805048561487943,
-   "confidence_at_entry": 84.8
+   "realized_pnl": -43.46064719310653,
+   "exits": [
+    {
+     "t": 1793880604,
+     "qty": 4.462976320367805,
+     "price": 81.93798,
+     "reason": "REDUCE signal (half)",
+     "pnl": -43.46
+    }
+   ],
+   "last_bar_t": 1793876400,
+   "last_price": 82.02,
+   "atr": 0.965218546865802,
+   "confidence_at_entry": 84.8,
+   "reduced": true
   }
  },
  "closed": [
@@ -403,8 +412,12 @@
   {
    "t": 1793849160,
    "equity": 9717.42
+  },
+  {
+   "t": 1793880604,
+   "equity": 9695.4
   }
  ],
  "created_at": 1792358441,
- "last_run": 1793849160
+ "last_run": 1793880604
 }
